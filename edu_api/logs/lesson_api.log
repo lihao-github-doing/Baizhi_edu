@@ -272,7 +272,7 @@ Traceback (most recent call last):
     response = view_func(request, *args, **kwargs)
   File "D:\envs\drf_env\lib\site-packages\django\utils\decorators.py", line 58, in bound_func
     return func.__get__(self, type(self))(*args2, **kwargs2)
-  File "c:\users\504��ʦ��\appdata\local\programs\python\python36\lib\contextlib.py", line 52, in inner
+  File "c:\users\504��ʦ��\appdata\local\programs\python\python36\lib\contextlib.py", line 52, in inner
     return func(*args, **kwds)
   File "D:\envs\drf_env\lib\site-packages\xadmin\views\base.py", line 80, in method
     return filter_chain(filters, len(filters) - 1, _inner_method, *args, **kwargs)
@@ -366,7 +366,7 @@ Traceback (most recent call last):
     response = view_func(request, *args, **kwargs)
   File "D:\envs\drf_env\lib\site-packages\django\utils\decorators.py", line 58, in bound_func
     return func.__get__(self, type(self))(*args2, **kwargs2)
-  File "c:\users\504��ʦ��\appdata\local\programs\python\python36\lib\contextlib.py", line 52, in inner
+  File "c:\users\504��ʦ��\appdata\local\programs\python\python36\lib\contextlib.py", line 52, in inner
     return func(*args, **kwds)
   File "D:\envs\drf_env\lib\site-packages\xadmin\views\base.py", line 80, in method
     return filter_chain(filters, len(filters) - 1, _inner_method, *args, **kwargs)
@@ -510,610 +510,561 @@ INFO 2020-12-03 16:36:03,037 basehttp 124 "GET /home/banners/ HTTP/1.1" 200 276
 INFO 2020-12-03 16:36:21,737 basehttp 124 "GET /media/banner/03.png HTTP/1.1" 200 745382
 INFO 2020-12-03 16:36:21,747 basehttp 124 "GET /media/banner/02.png HTTP/1.1" 200 364808
 INFO 2020-12-03 16:36:21,749 basehttp 124 "GET /media/banner/01.png HTTP/1.1" 200 737783
-INFO 2020-12-03 12:49:06,869 autoreload 578 Watching for file changes with StatReloader
-ERROR 2020-12-03 12:50:40,264 exception 75 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
-WARNING 2020-12-03 12:50:40,308 log 222 Bad Request: /
-WARNING 2020-12-03 12:50:40,308 basehttp 154 "GET / HTTP/1.1" 400 63226
-ERROR 2020-12-03 12:50:40,466 exception 75 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
-WARNING 2020-12-03 12:50:40,498 log 222 Bad Request: /favicon.ico
-WARNING 2020-12-03 12:50:40,498 basehttp 154 "GET /favicon.ico HTTP/1.1" 400 63139
-WARNING 2020-12-03 12:51:46,432 log 222 Not Found: /
-WARNING 2020-12-03 12:51:46,432 basehttp 154 "GET / HTTP/1.1" 404 2160
-WARNING 2020-12-03 12:51:46,524 log 222 Not Found: /favicon.ico
-WARNING 2020-12-03 12:51:46,525 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2211
-INFO 2020-12-03 12:52:00,202 basehttp 154 "GET /admin/ HTTP/1.1" 200 4354
-INFO 2020-12-03 12:52:00,221 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
-INFO 2020-12-03 12:52:00,226 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 1888
-INFO 2020-12-03 12:52:00,228 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
-INFO 2020-12-03 12:52:00,235 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8376
-INFO 2020-12-03 12:52:00,237 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
-INFO 2020-12-03 12:52:00,238 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
-INFO 2020-12-03 12:52:00,243 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
-INFO 2020-12-03 12:52:00,250 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
-INFO 2020-12-03 12:52:00,253 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
-INFO 2020-12-03 12:52:00,253 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
-INFO 2020-12-03 12:52:00,257 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
-INFO 2020-12-03 12:52:00,258 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
-INFO 2020-12-03 12:52:00,260 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
-INFO 2020-12-03 12:52:00,262 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240196
-INFO 2020-12-03 12:52:00,263 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 4361
-INFO 2020-12-03 12:52:00,264 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 200 31918
-INFO 2020-12-03 12:52:00,264 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 200 3489
-INFO 2020-12-03 12:52:00,393 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
-INFO 2020-12-03 12:52:10,353 basehttp 154 "POST /admin/ HTTP/1.1" 200 4583
-INFO 2020-12-03 12:52:10,378 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 4361
-INFO 2020-12-03 12:52:41,813 autoreload 578 Watching for file changes with StatReloader
-INFO 2020-12-03 12:52:44,935 basehttp 154 "POST /admin/ HTTP/1.1" 200 4587
-INFO 2020-12-03 12:52:45,025 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 4357
-ERROR 2020-12-03 12:54:28,711 exception 75 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
-WARNING 2020-12-03 12:54:28,749 log 222 Bad Request: /
-WARNING 2020-12-03 12:54:28,750 basehttp 154 "GET / HTTP/1.1" 400 63240
-ERROR 2020-12-03 12:54:28,926 exception 75 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
-WARNING 2020-12-03 12:54:28,958 log 222 Bad Request: /favicon.ico
-WARNING 2020-12-03 12:54:28,959 basehttp 154 "GET /favicon.ico HTTP/1.1" 400 63153
-ERROR 2020-12-03 12:54:33,608 exception 75 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
-WARNING 2020-12-03 12:54:33,635 log 222 Bad Request: /admin/
-WARNING 2020-12-03 12:54:33,635 basehttp 154 "GET /admin/ HTTP/1.1" 400 63434
-ERROR 2020-12-03 12:54:40,688 exception 75 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
-WARNING 2020-12-03 12:54:40,724 log 222 Bad Request: /favicon.ico
-WARNING 2020-12-03 12:54:40,724 basehttp 154 "GET /favicon.ico HTTP/1.1" 400 63159
-ERROR 2020-12-03 12:54:53,605 exception 75 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
-WARNING 2020-12-03 12:54:53,638 log 222 Bad Request: /
-WARNING 2020-12-03 12:54:53,639 basehttp 154 "GET / HTTP/1.1" 400 63240
-ERROR 2020-12-03 12:54:53,841 exception 75 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
-WARNING 2020-12-03 12:54:53,876 log 222 Bad Request: /favicon.ico
-WARNING 2020-12-03 12:54:53,877 basehttp 154 "GET /favicon.ico HTTP/1.1" 400 63153
-ERROR 2020-12-03 12:55:01,473 exception 75 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
-WARNING 2020-12-03 12:55:01,501 log 222 Bad Request: /admin/
-WARNING 2020-12-03 12:55:01,501 basehttp 154 "GET /admin/ HTTP/1.1" 400 63306
-ERROR 2020-12-03 12:55:01,574 exception 75 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
-WARNING 2020-12-03 12:55:01,604 log 222 Bad Request: /favicon.ico
-WARNING 2020-12-03 12:55:01,605 basehttp 154 "GET /favicon.ico HTTP/1.1" 400 63159
-INFO 2020-12-03 12:55:35,929 basehttp 154 "GET /admin/ HTTP/1.1" 200 4350
-INFO 2020-12-03 12:55:35,986 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
-INFO 2020-12-03 12:55:35,990 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
-INFO 2020-12-03 12:55:35,991 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
-INFO 2020-12-03 12:55:36,003 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
-INFO 2020-12-03 12:55:36,005 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
-INFO 2020-12-03 12:55:36,005 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
-INFO 2020-12-03 12:55:36,006 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
-INFO 2020-12-03 12:55:36,011 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
-INFO 2020-12-03 12:55:36,020 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
-INFO 2020-12-03 12:55:36,022 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
-INFO 2020-12-03 12:55:36,023 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
-INFO 2020-12-03 12:55:36,025 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
-INFO 2020-12-03 12:55:36,027 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
-INFO 2020-12-03 12:55:36,029 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
-INFO 2020-12-03 12:55:36,029 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
-INFO 2020-12-03 12:55:36,030 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
-INFO 2020-12-03 12:55:36,033 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 4357
-INFO 2020-12-03 12:55:36,146 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
-INFO 2020-12-03 12:55:46,926 basehttp 154 "POST /admin/ HTTP/1.1" 302 0
-INFO 2020-12-03 12:55:47,825 basehttp 154 "GET /admin/ HTTP/1.1" 200 14750
-INFO 2020-12-03 12:55:47,842 basehttp 154 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 200 790
-INFO 2020-12-03 12:55:47,853 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 200 1000
-INFO 2020-12-03 12:55:47,854 basehttp 154 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 200 3208
-INFO 2020-12-03 12:55:47,857 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
-INFO 2020-12-03 12:55:53,356 basehttp 154 "GET /admin/home/banner/ HTTP/1.1" 200 24276
-INFO 2020-12-03 12:55:53,373 basehttp 154 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 200 3763
-INFO 2020-12-03 12:55:53,384 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 200 529
-INFO 2020-12-03 12:55:53,385 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 200 1990
-INFO 2020-12-03 12:55:53,387 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 200 2319
-INFO 2020-12-03 12:55:53,387 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
-INFO 2020-12-03 12:55:53,387 basehttp 154 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 200 1105
-INFO 2020-12-03 12:55:53,388 basehttp 154 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 200 1948
-INFO 2020-12-03 12:55:58,282 basehttp 154 "GET /admin/home/banner/add/ HTTP/1.1" 200 19793
-INFO 2020-12-03 12:55:58,300 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.css HTTP/1.1" 200 3339
-INFO 2020-12-03 12:55:58,309 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
-INFO 2020-12-03 12:55:58,309 basehttp 154 "GET /static/xadmin/vendor/load-image/load-image.js HTTP/1.1" 200 8309
-INFO 2020-12-03 12:55:58,310 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.js HTTP/1.1" 200 15611
-INFO 2020-12-03 13:04:36,901 basehttp 154 "POST /admin/home/banner/add/ HTTP/1.1" 302 0
-INFO 2020-12-03 13:04:36,962 basehttp 154 "GET /admin/home/banner/ HTTP/1.1" 200 28274
-INFO 2020-12-03 13:04:36,978 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
-INFO 2020-12-03 13:04:36,986 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
-INFO 2020-12-03 13:04:36,990 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
-INFO 2020-12-03 13:04:36,991 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
-INFO 2020-12-03 13:04:36,991 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
-INFO 2020-12-03 13:04:36,992 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
-INFO 2020-12-03 13:04:36,995 basehttp 154 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
-INFO 2020-12-03 13:04:36,998 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
-INFO 2020-12-03 13:04:37,000 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:04:37,002 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:04:37,002 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:04:37,004 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 200 4198
-INFO 2020-12-03 13:04:37,005 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:04:37,005 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:04:37,007 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:04:37,009 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:04:37,010 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:04:37,011 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:04:37,012 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:04:37,013 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:04:37,013 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:04:37,014 basehttp 154 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:04:37,015 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:04:37,015 basehttp 154 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:04:44,019 basehttp 154 "GET /admin/home/banner/add/ HTTP/1.1" 200 19793
-INFO 2020-12-03 13:04:44,043 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.css HTTP/1.1" 304 0
-INFO 2020-12-03 13:04:44,052 basehttp 154 "GET /static/xadmin/vendor/load-image/load-image.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:04:44,054 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:04:44,056 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
-INFO 2020-12-03 13:04:44,056 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:05:15,353 basehttp 154 "POST /admin/home/banner/add/ HTTP/1.1" 302 0
-INFO 2020-12-03 13:05:15,407 basehttp 154 "GET /admin/home/banner/ HTTP/1.1" 200 28850
-INFO 2020-12-03 13:05:15,429 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
-INFO 2020-12-03 13:07:12,150 basehttp 154 "GET /admin/home/banner/ HTTP/1.1" 200 28565
-INFO 2020-12-03 13:07:12,183 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
-INFO 2020-12-03 13:07:12,191 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
-INFO 2020-12-03 13:07:12,192 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
-INFO 2020-12-03 13:07:12,194 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
-INFO 2020-12-03 13:07:12,197 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
-INFO 2020-12-03 13:07:12,199 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
-INFO 2020-12-03 13:07:12,202 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:07:12,204 basehttp 154 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
-INFO 2020-12-03 13:07:12,207 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
-INFO 2020-12-03 13:07:12,207 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:07:12,212 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:07:12,213 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:07:12,214 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:07:12,217 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:07:12,219 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:07:12,221 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:07:12,223 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:07:12,223 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:07:12,226 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:07:12,227 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:07:12,230 basehttp 154 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:07:12,230 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:07:12,231 basehttp 154 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:07:12,231 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:07:17,550 basehttp 154 "GET /admin/home/banner/add/ HTTP/1.1" 200 19793
-INFO 2020-12-03 13:07:17,569 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.css HTTP/1.1" 304 0
-INFO 2020-12-03 13:07:17,583 basehttp 154 "GET /static/xadmin/vendor/load-image/load-image.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:07:17,583 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:07:17,584 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:07:17,586 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
-INFO 2020-12-03 13:07:45,519 basehttp 154 "POST /admin/home/banner/add/ HTTP/1.1" 302 0
-INFO 2020-12-03 13:07:45,576 basehttp 154 "GET /admin/home/banner/ HTTP/1.1" 200 29427
-INFO 2020-12-03 13:07:45,597 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
-INFO 2020-12-03 13:08:14,622 basehttp 154 "GET /admin/home/banner/ HTTP/1.1" 200 29142
-INFO 2020-12-03 13:08:14,659 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
-INFO 2020-12-03 13:08:26,070 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 295
-INFO 2020-12-03 13:08:26,125 basehttp 154 "GET /media/banner/02_WzfCFXf.png HTTP/1.1" 200 364808
-INFO 2020-12-03 13:08:26,129 basehttp 154 "GET /media/banner/03_bl5nExS.png HTTP/1.1" 200 745382
-INFO 2020-12-03 13:08:26,130 basehttp 154 "GET /media/banner/01_Ub2T29A.png HTTP/1.1" 200 737783
-INFO 2020-12-03 13:08:48,689 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 295
-INFO 2020-12-03 13:08:48,722 basehttp 154 "GET /media/banner/02_WzfCFXf.png HTTP/1.1" 304 0
-INFO 2020-12-03 13:08:48,722 basehttp 154 "GET /media/banner/03_bl5nExS.png HTTP/1.1" 304 0
-INFO 2020-12-03 13:08:57,468 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 295
-INFO 2020-12-03 13:08:59,850 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 295
-INFO 2020-12-03 13:09:38,362 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 295
-INFO 2020-12-03 13:09:39,772 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 295
-INFO 2020-12-03 13:09:42,730 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 295
-INFO 2020-12-03 13:13:12,839 autoreload 203 /Users/apple/Desktop/code/edu_api/edu_api/settings/develop.py changed, reloading.
-INFO 2020-12-03 13:13:13,800 autoreload 578 Watching for file changes with StatReloader
-INFO 2020-12-03 13:13:17,400 autoreload 578 Watching for file changes with StatReloader
-INFO 2020-12-03 13:13:42,334 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 295
-INFO 2020-12-03 13:38:32,734 autoreload 203 /Users/apple/Desktop/code/edu_api/edu_api/apps/home/views.py changed, reloading.
-INFO 2020-12-03 13:38:33,686 autoreload 578 Watching for file changes with StatReloader
-ERROR 2020-12-03 13:39:14,697 exception 75 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
-WARNING 2020-12-03 13:39:14,743 log 222 Bad Request: /
-WARNING 2020-12-03 13:39:14,744 basehttp 154 "GET / HTTP/1.1" 400 63319
-ERROR 2020-12-03 13:39:14,910 exception 75 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
-WARNING 2020-12-03 13:39:14,941 log 222 Bad Request: /favicon.ico
-WARNING 2020-12-03 13:39:14,941 basehttp 154 "GET /favicon.ico HTTP/1.1" 400 63232
-INFO 2020-12-03 13:39:15,077 autoreload 203 /Users/apple/Desktop/code/edu_api/edu_api/apps/home/views.py changed, reloading.
-INFO 2020-12-03 13:39:15,906 autoreload 578 Watching for file changes with StatReloader
-INFO 2020-12-03 13:39:48,732 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 295
-INFO 2020-12-03 13:39:48,757 basehttp 154 "GET /media/banner/01_Ub2T29A.png HTTP/1.1" 304 0
-INFO 2020-12-03 13:39:48,757 basehttp 154 "GET /media/banner/03_bl5nExS.png HTTP/1.1" 304 0
-INFO 2020-12-03 13:39:48,757 basehttp 154 "GET /media/banner/02_WzfCFXf.png HTTP/1.1" 304 0
-INFO 2020-12-03 13:39:56,349 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 295
-INFO 2020-12-03 13:40:08,972 basehttp 154 "GET /admin/ HTTP/1.1" 200 14750
-INFO 2020-12-03 13:40:08,995 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
-INFO 2020-12-03 13:40:09,005 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
-INFO 2020-12-03 13:40:09,007 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
-INFO 2020-12-03 13:40:09,007 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
-INFO 2020-12-03 13:40:09,009 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
-INFO 2020-12-03 13:40:09,009 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
-INFO 2020-12-03 13:40:09,014 basehttp 154 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 304 0
-INFO 2020-12-03 13:40:09,015 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:40:09,016 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:40:09,017 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:40:09,020 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:40:09,020 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
-INFO 2020-12-03 13:40:09,023 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:40:09,024 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:40:09,026 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:40:09,027 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:40:09,028 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:40:09,028 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:40:09,029 basehttp 154 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:40:09,029 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:40:09,075 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
-INFO 2020-12-03 13:40:15,721 basehttp 154 "GET /admin/home/nav/ HTTP/1.1" 200 24712
-INFO 2020-12-03 13:40:15,747 basehttp 154 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
-INFO 2020-12-03 13:40:15,757 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:40:15,760 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:40:15,761 basehttp 154 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:40:15,761 basehttp 154 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:40:15,761 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:40:15,761 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
-INFO 2020-12-03 13:40:19,879 basehttp 154 "GET /admin/home/nav/add/ HTTP/1.1" 200 19135
-INFO 2020-12-03 13:40:19,898 basehttp 154 "GET /static/xadmin/vendor/select2/select2.css HTTP/1.1" 200 19226
-INFO 2020-12-03 13:40:19,901 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.1" 200 8425
-INFO 2020-12-03 13:40:19,911 basehttp 154 "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.1" 200 1344
-INFO 2020-12-03 13:40:19,912 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-hans.js HTTP/1.1" 200 694
-INFO 2020-12-03 13:40:19,915 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.1" 200 10602
-INFO 2020-12-03 13:40:19,916 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
-INFO 2020-12-03 13:40:19,916 basehttp 154 "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 200 104906
-INFO 2020-12-03 13:40:19,917 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 200 98602
-INFO 2020-12-03 13:41:12,820 basehttp 154 "POST /admin/home/nav/add/ HTTP/1.1" 302 0
-INFO 2020-12-03 13:41:12,883 basehttp 154 "GET /admin/home/nav/ HTTP/1.1" 200 28734
-INFO 2020-12-03 13:41:12,905 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
-INFO 2020-12-03 13:41:12,905 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:41:16,255 basehttp 154 "GET /admin/home/nav/add/ HTTP/1.1" 200 19135
-INFO 2020-12-03 13:41:16,285 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
-INFO 2020-12-03 13:43:19,888 basehttp 154 "POST /admin/home/nav/add/ HTTP/1.1" 302 0
-INFO 2020-12-03 13:43:19,979 basehttp 154 "GET /admin/home/nav/add/ HTTP/1.1" 200 19486
-INFO 2020-12-03 13:43:20,025 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
-INFO 2020-12-03 13:43:50,251 basehttp 154 "POST /admin/home/nav/add/ HTTP/1.1" 302 0
-INFO 2020-12-03 13:43:50,338 basehttp 154 "GET /admin/home/nav/add/ HTTP/1.1" 200 19486
-INFO 2020-12-03 13:43:50,365 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
-INFO 2020-12-03 13:44:11,443 basehttp 154 "GET /admin/home/nav/add/ HTTP/1.1" 200 19135
-INFO 2020-12-03 13:44:38,991 basehttp 154 "POST /admin/home/nav/add/ HTTP/1.1" 302 0
-INFO 2020-12-03 13:44:39,101 basehttp 154 "GET /admin/home/nav/add/ HTTP/1.1" 200 19486
-INFO 2020-12-03 13:44:39,136 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
-INFO 2020-12-03 13:47:17,349 basehttp 154 "POST /admin/home/nav/add/ HTTP/1.1" 302 0
-INFO 2020-12-03 13:47:17,433 basehttp 154 "GET /admin/home/nav/add/ HTTP/1.1" 200 19486
-INFO 2020-12-03 13:47:17,447 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
-INFO 2020-12-03 13:47:17,448 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
-INFO 2020-12-03 13:47:17,457 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
-INFO 2020-12-03 13:47:17,465 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
-INFO 2020-12-03 13:47:17,466 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
-INFO 2020-12-03 13:47:17,468 basehttp 154 "GET /static/xadmin/vendor/select2/select2.css HTTP/1.1" 304 0
-INFO 2020-12-03 13:47:17,470 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
-INFO 2020-12-03 13:47:17,479 basehttp 154 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
-INFO 2020-12-03 13:47:17,485 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:47:17,486 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
-INFO 2020-12-03 13:47:17,486 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.1" 304 0
-INFO 2020-12-03 13:47:17,487 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.1" 304 0
-INFO 2020-12-03 13:47:17,492 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:47:17,492 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:47:17,494 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:47:17,495 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:47:17,498 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:47:17,499 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:47:17,500 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:47:17,503 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:47:17,505 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:47:17,505 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:47:17,506 basehttp 154 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:47:17,509 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:47:17,510 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-hans.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:47:17,511 basehttp 154 "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:47:17,511 basehttp 154 "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:47:42,924 basehttp 154 "POST /admin/home/nav/add/ HTTP/1.1" 302 0
-INFO 2020-12-03 13:47:42,992 basehttp 154 "GET /admin/home/nav/add/ HTTP/1.1" 200 19486
-INFO 2020-12-03 13:47:43,011 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
-INFO 2020-12-03 13:48:07,450 basehttp 154 "POST /admin/home/nav/add/ HTTP/1.1" 302 0
-INFO 2020-12-03 13:48:07,536 basehttp 154 "GET /admin/home/nav/add/ HTTP/1.1" 200 19486
-INFO 2020-12-03 13:48:07,554 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
-INFO 2020-12-03 13:48:54,465 basehttp 154 "POST /admin/home/nav/add/ HTTP/1.1" 302 0
-INFO 2020-12-03 13:48:54,558 basehttp 154 "GET /admin/home/nav/ HTTP/1.1" 200 32901
-INFO 2020-12-03 13:48:54,585 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:48:54,585 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:48:54,587 basehttp 154 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:48:54,589 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:48:54,592 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
-INFO 2020-12-03 13:48:54,595 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
-INFO 2020-12-03 13:51:40,156 autoreload 203 /Users/apple/Desktop/code/edu_api/edu_api/apps/home/serializer.py changed, reloading.
-INFO 2020-12-03 13:51:41,145 autoreload 578 Watching for file changes with StatReloader
-INFO 2020-12-03 13:52:25,339 autoreload 203 /Users/apple/Desktop/code/edu_api/edu_api/apps/home/views.py changed, reloading.
-INFO 2020-12-03 13:52:26,183 autoreload 578 Watching for file changes with StatReloader
-INFO 2020-12-03 13:53:11,585 autoreload 203 /Users/apple/Desktop/code/edu_api/edu_api/apps/home/views.py changed, reloading.
-INFO 2020-12-03 13:53:12,361 autoreload 578 Watching for file changes with StatReloader
-INFO 2020-12-03 14:02:26,865 autoreload 578 Watching for file changes with StatReloader
-INFO 2020-12-03 14:02:45,842 autoreload 578 Watching for file changes with StatReloader
-INFO 2020-12-03 14:02:59,243 basehttp 154 "GET /admin/home/banner/ HTTP/1.1" 200 29142
-INFO 2020-12-03 14:02:59,286 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
-INFO 2020-12-03 14:02:59,288 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
-INFO 2020-12-03 14:02:59,290 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
-INFO 2020-12-03 14:02:59,295 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
-INFO 2020-12-03 14:02:59,299 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
-INFO 2020-12-03 14:02:59,302 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
-INFO 2020-12-03 14:02:59,302 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
-INFO 2020-12-03 14:02:59,305 basehttp 154 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
-INFO 2020-12-03 14:02:59,306 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
-INFO 2020-12-03 14:02:59,307 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
-INFO 2020-12-03 14:02:59,311 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
-INFO 2020-12-03 14:02:59,312 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
-INFO 2020-12-03 14:02:59,315 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
-INFO 2020-12-03 14:02:59,317 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
-INFO 2020-12-03 14:02:59,317 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
-INFO 2020-12-03 14:02:59,320 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
-INFO 2020-12-03 14:02:59,323 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
-INFO 2020-12-03 14:02:59,326 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 304 0
-INFO 2020-12-03 14:02:59,327 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
-INFO 2020-12-03 14:02:59,328 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
-INFO 2020-12-03 14:02:59,328 basehttp 154 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
-INFO 2020-12-03 14:02:59,331 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
-INFO 2020-12-03 14:02:59,333 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
-INFO 2020-12-03 14:02:59,334 basehttp 154 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
-INFO 2020-12-03 14:02:59,335 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
-INFO 2020-12-03 14:02:59,892 basehttp 154 "GET /admin/home/nav/ HTTP/1.1" 200 32599
-INFO 2020-12-03 14:02:59,912 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
-INFO 2020-12-03 14:03:01,933 basehttp 154 "GET /admin/home/nav/ HTTP/1.1" 200 32599
-INFO 2020-12-03 14:03:01,952 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
-ERROR 2020-12-03 14:08:11,086 log 222 Internal Server Error: /home/nav/
-ERROR 2020-12-03 14:08:11,086 basehttp 154 "GET /home/nav/ HTTP/1.1" 500 111
-INFO 2020-12-03 14:08:11,087 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 295
-INFO 2020-12-03 14:08:11,113 basehttp 154 "GET /media/banner/01_Ub2T29A.png HTTP/1.1" 304 0
-INFO 2020-12-03 14:08:11,113 basehttp 154 "GET /media/banner/02_WzfCFXf.png HTTP/1.1" 304 0
-INFO 2020-12-03 14:08:11,114 basehttp 154 "GET /media/banner/03_bl5nExS.png HTTP/1.1" 304 0
-ERROR 2020-12-03 14:08:19,213 log 222 Internal Server Error: /home/nav/
-ERROR 2020-12-03 14:08:19,214 basehttp 154 "GET /home/nav/ HTTP/1.1" 500 111
-INFO 2020-12-03 14:08:19,215 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 295
-INFO 2020-12-03 14:08:19,223 basehttp 154 "GET /media/banner/01_Ub2T29A.png HTTP/1.1" 304 0
-INFO 2020-12-03 14:08:19,223 basehttp 154 "GET /media/banner/02_WzfCFXf.png HTTP/1.1" 304 0
-INFO 2020-12-03 14:08:19,224 basehttp 154 "GET /media/banner/03_bl5nExS.png HTTP/1.1" 304 0
-ERROR 2020-12-03 14:08:41,994 log 222 Internal Server Error: /home/nav/
-ERROR 2020-12-03 14:08:41,994 basehttp 154 "GET /home/nav/ HTTP/1.1" 500 111
-INFO 2020-12-03 14:08:46,086 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 295
-ERROR 2020-12-03 14:08:46,087 log 222 Internal Server Error: /home/nav/
-ERROR 2020-12-03 14:08:46,087 basehttp 154 "GET /home/nav/ HTTP/1.1" 500 111
-INFO 2020-12-03 14:08:48,473 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 295
-ERROR 2020-12-03 14:08:48,474 log 222 Internal Server Error: /home/nav/
-ERROR 2020-12-03 14:08:48,475 basehttp 154 "GET /home/nav/ HTTP/1.1" 500 111
-INFO 2020-12-03 14:08:50,921 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 295
-ERROR 2020-12-03 14:08:50,922 log 222 Internal Server Error: /home/nav/
-ERROR 2020-12-03 14:08:50,922 basehttp 154 "GET /home/nav/ HTTP/1.1" 500 111
-ERROR 2020-12-03 14:09:44,441 log 222 Internal Server Error: /home/nav/
-ERROR 2020-12-03 14:09:44,442 basehttp 154 "GET /home/nav/ HTTP/1.1" 500 111
-ERROR 2020-12-03 14:09:47,045 log 222 Internal Server Error: /home/nav/
-INFO 2020-12-03 14:09:47,046 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 295
-ERROR 2020-12-03 14:09:47,046 basehttp 154 "GET /home/nav/ HTTP/1.1" 500 111
-INFO 2020-12-03 14:15:05,672 autoreload 578 Watching for file changes with StatReloader
-ERROR 2020-12-03 14:15:47,450 log 222 Internal Server Error: /home/nav/
-ERROR 2020-12-03 14:15:47,450 basehttp 154 "GET /home/nav/ HTTP/1.1" 500 111
-ERROR 2020-12-03 14:17:18,400 log 222 Internal Server Error: /home/nav/
-ERROR 2020-12-03 14:17:18,400 basehttp 154 "GET /home/nav/ HTTP/1.1" 500 111
-ERROR 2020-12-03 14:17:18,404 log 222 Internal Server Error: /home/nav/
-ERROR 2020-12-03 14:17:18,404 basehttp 154 "GET /home/nav/ HTTP/1.1" 500 111
-ERROR 2020-12-03 14:17:20,026 log 222 Internal Server Error: /home/nav/
-ERROR 2020-12-03 14:17:20,026 basehttp 154 "GET /home/nav/ HTTP/1.1" 500 111
-INFO 2020-12-03 14:17:20,030 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 295
-ERROR 2020-12-03 14:17:20,033 log 222 Internal Server Error: /home/nav/
-ERROR 2020-12-03 14:17:20,033 basehttp 154 "GET /home/nav/ HTTP/1.1" 500 111
-INFO 2020-12-03 14:17:20,041 basehttp 154 "GET /media/banner/03_bl5nExS.png HTTP/1.1" 304 0
-INFO 2020-12-03 14:17:20,041 basehttp 154 "GET /media/banner/01_Ub2T29A.png HTTP/1.1" 304 0
-INFO 2020-12-03 14:17:20,042 basehttp 154 "GET /media/banner/02_WzfCFXf.png HTTP/1.1" 304 0
-ERROR 2020-12-03 14:23:04,787 log 222 Internal Server Error: /home/nav/
-ERROR 2020-12-03 14:23:04,788 basehttp 154 "GET /home/nav/ HTTP/1.1" 500 111
-INFO 2020-12-03 14:23:04,788 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 295
-ERROR 2020-12-03 14:23:04,795 log 222 Internal Server Error: /home/nav/
-ERROR 2020-12-03 14:23:04,796 basehttp 154 "GET /home/nav/ HTTP/1.1" 500 111
-INFO 2020-12-03 14:41:03,555 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 295
-ERROR 2020-12-03 14:41:03,556 log 222 Internal Server Error: /home/nav/
-ERROR 2020-12-03 14:41:03,557 basehttp 154 "GET /home/nav/ HTTP/1.1" 500 111
-ERROR 2020-12-03 14:41:03,562 log 222 Internal Server Error: /home/nav/
-ERROR 2020-12-03 14:41:03,563 basehttp 154 "GET /home/nav/ HTTP/1.1" 500 111
-INFO 2020-12-03 14:41:03,688 basehttp 154 "GET /media/banner/01_Ub2T29A.png HTTP/1.1" 304 0
-INFO 2020-12-03 14:41:03,698 basehttp 154 "GET /media/banner/02_WzfCFXf.png HTTP/1.1" 304 0
-INFO 2020-12-03 14:41:03,698 basehttp 154 "GET /media/banner/03_bl5nExS.png HTTP/1.1" 304 0
-ERROR 2020-12-03 14:41:23,110 log 222 Internal Server Error: /home/nav/
-ERROR 2020-12-03 14:41:23,110 basehttp 154 "GET /home/nav/ HTTP/1.1" 500 111
-INFO 2020-12-03 14:41:23,111 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 295
-ERROR 2020-12-03 14:41:23,115 log 222 Internal Server Error: /home/nav/
-ERROR 2020-12-03 14:41:23,115 basehttp 154 "GET /home/nav/ HTTP/1.1" 500 111
-ERROR 2020-12-03 14:43:09,602 log 222 Internal Server Error: /home/nav/
-INFO 2020-12-03 14:43:09,603 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 295
-ERROR 2020-12-03 14:43:09,603 basehttp 154 "GET /home/nav/ HTTP/1.1" 500 111
-ERROR 2020-12-03 14:43:09,608 log 222 Internal Server Error: /home/nav/
-ERROR 2020-12-03 14:43:09,608 basehttp 154 "GET /home/nav/ HTTP/1.1" 500 111
-ERROR 2020-12-03 14:44:09,536 log 222 Internal Server Error: /home/nav/
-INFO 2020-12-03 14:44:09,536 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 294
-ERROR 2020-12-03 14:44:09,537 basehttp 154 "GET /home/nav/ HTTP/1.1" 500 111
-ERROR 2020-12-03 14:44:09,543 log 222 Internal Server Error: /home/nav/
-ERROR 2020-12-03 14:44:09,543 basehttp 154 "GET /home/nav/ HTTP/1.1" 500 111
-ERROR 2020-12-03 14:47:21,852 log 222 Internal Server Error: /home/nav/
-ERROR 2020-12-03 14:47:21,853 basehttp 154 "GET /home/nav/ HTTP/1.1" 500 111
-ERROR 2020-12-03 14:47:26,337 log 222 Internal Server Error: /home/nav/
-INFO 2020-12-03 14:47:26,338 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 294
-ERROR 2020-12-03 14:47:26,339 basehttp 154 "GET /home/nav/ HTTP/1.1" 500 111
-ERROR 2020-12-03 14:47:26,344 log 222 Internal Server Error: /home/nav/
-ERROR 2020-12-03 14:47:26,345 basehttp 154 "GET /home/nav/ HTTP/1.1" 500 111
-INFO 2020-12-03 14:48:58,222 autoreload 203 /Users/apple/Desktop/code/edu_api/edu_api/apps/home/views.py changed, reloading.
-INFO 2020-12-03 14:48:59,674 autoreload 578 Watching for file changes with StatReloader
-ERROR 2020-12-03 14:49:02,229 log 222 Internal Server Error: /home/nav/
-INFO 2020-12-03 14:49:02,230 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 294
-ERROR 2020-12-03 14:49:02,230 basehttp 154 "GET /home/nav/ HTTP/1.1" 500 111
-ERROR 2020-12-03 14:49:02,235 log 222 Internal Server Error: /home/nav/
-ERROR 2020-12-03 14:49:02,235 basehttp 154 "GET /home/nav/ HTTP/1.1" 500 111
-ERROR 2020-12-03 14:53:38,238 log 222 Internal Server Error: /home/nav/
-ERROR 2020-12-03 14:53:38,238 basehttp 154 "GET /home/nav/ HTTP/1.1" 500 111
-ERROR 2020-12-03 14:54:34,114 log 222 Internal Server Error: /home/nav/
-ERROR 2020-12-03 14:54:34,115 basehttp 154 "GET /home/nav/ HTTP/1.1" 500 111
-ERROR 2020-12-03 14:57:27,475 log 222 Internal Server Error: /home/nav/
-INFO 2020-12-03 14:57:27,476 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 294
-ERROR 2020-12-03 14:57:27,477 basehttp 154 "GET /home/nav/ HTTP/1.1" 500 111
-ERROR 2020-12-03 14:57:27,487 log 222 Internal Server Error: /home/nav/
-ERROR 2020-12-03 14:57:27,488 basehttp 154 "GET /home/nav/ HTTP/1.1" 500 111
-INFO 2020-12-03 14:57:27,489 basehttp 154 "GET /media/banner/03_bl5nExS.png HTTP/1.1" 304 0
-INFO 2020-12-03 14:57:27,489 basehttp 154 "GET /media/banner/02_WzfCFXf.png HTTP/1.1" 304 0
-INFO 2020-12-03 14:57:27,489 basehttp 154 "GET /media/banner/01_Ub2T29A.png HTTP/1.1" 304 0
-ERROR 2020-12-03 15:00:48,201 log 222 Internal Server Error: /home/nav/
-ERROR 2020-12-03 15:00:48,202 basehttp 154 "GET /home/nav/ HTTP/1.1" 500 111
-ERROR 2020-12-03 15:00:48,206 log 222 Internal Server Error: /home/nav/
-ERROR 2020-12-03 15:00:48,206 basehttp 154 "GET /home/nav/ HTTP/1.1" 500 111
-INFO 2020-12-03 15:01:54,558 autoreload 203 /Users/apple/Desktop/code/edu_api/edu_api/apps/home/views.py changed, reloading.
-INFO 2020-12-03 15:01:55,603 autoreload 578 Watching for file changes with StatReloader
-ERROR 2020-12-03 15:01:57,068 log 222 Internal Server Error: /home/nav/
-INFO 2020-12-03 15:01:57,069 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 294
-ERROR 2020-12-03 15:01:57,070 basehttp 154 "GET /home/nav/ HTTP/1.1" 500 111
-ERROR 2020-12-03 15:01:57,076 log 222 Internal Server Error: /home/nav/
-ERROR 2020-12-03 15:01:57,076 basehttp 154 "GET /home/nav/ HTTP/1.1" 500 111
-INFO 2020-12-03 15:03:35,791 autoreload 203 /Users/apple/Desktop/code/edu_api/edu_api/apps/home/views.py changed, reloading.
-INFO 2020-12-03 15:03:36,739 autoreload 578 Watching for file changes with StatReloader
-ERROR 2020-12-03 15:03:37,360 log 222 Internal Server Error: /home/nav/
-INFO 2020-12-03 15:03:37,360 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 294
-ERROR 2020-12-03 15:03:37,361 basehttp 154 "GET /home/nav/ HTTP/1.1" 500 111
-ERROR 2020-12-03 15:03:37,365 log 222 Internal Server Error: /home/nav/
-ERROR 2020-12-03 15:03:37,365 basehttp 154 "GET /home/nav/ HTTP/1.1" 500 111
-INFO 2020-12-03 15:03:47,931 autoreload 578 Watching for file changes with StatReloader
-ERROR 2020-12-03 15:03:52,089 log 222 Internal Server Error: /home/nav/
-ERROR 2020-12-03 15:03:52,090 basehttp 154 "GET /home/nav/ HTTP/1.1" 500 111
-INFO 2020-12-03 15:03:52,092 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 294
-ERROR 2020-12-03 15:03:52,095 log 222 Internal Server Error: /home/nav/
-ERROR 2020-12-03 15:03:52,095 basehttp 154 "GET /home/nav/ HTTP/1.1" 500 111
-INFO 2020-12-03 15:04:41,550 autoreload 578 Watching for file changes with StatReloader
-INFO 2020-12-03 15:07:56,013 autoreload 578 Watching for file changes with StatReloader
-INFO 2020-12-03 15:08:09,136 autoreload 578 Watching for file changes with StatReloader
-INFO 2020-12-03 15:09:01,334 autoreload 578 Watching for file changes with StatReloader
-ERROR 2020-12-03 15:09:05,018 exception 75 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
-WARNING 2020-12-03 15:09:05,148 log 222 Bad Request: /
-WARNING 2020-12-03 15:09:05,149 basehttp 154 "GET / HTTP/1.1" 400 65582
-ERROR 2020-12-03 15:09:05,312 exception 75 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
-WARNING 2020-12-03 15:09:05,420 log 222 Bad Request: /favicon.ico
-WARNING 2020-12-03 15:09:05,421 basehttp 154 "GET /favicon.ico HTTP/1.1" 400 65495
-INFO 2020-12-03 15:09:14,972 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 294
-ERROR 2020-12-03 15:09:14,974 log 222 Internal Server Error: /home/nav/
-ERROR 2020-12-03 15:09:14,975 basehttp 154 "GET /home/nav/ HTTP/1.1" 500 111
-ERROR 2020-12-03 15:09:14,995 log 222 Internal Server Error: /home/nav/
-INFO 2020-12-03 15:09:14,998 basehttp 154 "GET /media/banner/02_WzfCFXf.png HTTP/1.1" 304 0
-INFO 2020-12-03 15:09:14,998 basehttp 154 "GET /media/banner/01_Ub2T29A.png HTTP/1.1" 304 0
-ERROR 2020-12-03 15:09:14,998 basehttp 154 "GET /home/nav/ HTTP/1.1" 500 111
-INFO 2020-12-03 15:09:14,998 basehttp 154 "GET /media/banner/03_bl5nExS.png HTTP/1.1" 304 0
-ERROR 2020-12-03 15:09:27,732 log 222 Internal Server Error: /home/nav/
-ERROR 2020-12-03 15:09:27,733 basehttp 154 "GET /home/nav/ HTTP/1.1" 500 111
-INFO 2020-12-03 15:09:27,738 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 294
-ERROR 2020-12-03 15:09:27,743 log 222 Internal Server Error: /home/nav/
-ERROR 2020-12-03 15:09:27,744 basehttp 154 "GET /home/nav/ HTTP/1.1" 500 111
-INFO 2020-12-03 15:11:45,192 autoreload 578 Watching for file changes with StatReloader
-INFO 2020-12-03 15:11:55,089 autoreload 578 Watching for file changes with StatReloader
-ERROR 2020-12-03 15:11:58,499 log 222 Internal Server Error: /home/nav/
-INFO 2020-12-03 15:11:58,500 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 294
-ERROR 2020-12-03 15:11:58,500 basehttp 154 "GET /home/nav/ HTTP/1.1" 500 111
-ERROR 2020-12-03 15:11:58,507 log 222 Internal Server Error: /home/nav/
-ERROR 2020-12-03 15:11:58,507 basehttp 154 "GET /home/nav/ HTTP/1.1" 500 111
-INFO 2020-12-03 15:14:00,947 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 294
-ERROR 2020-12-03 15:14:00,947 log 222 Internal Server Error: /home/nav/
-ERROR 2020-12-03 15:14:00,948 basehttp 154 "GET /home/nav/ HTTP/1.1" 500 111
-INFO 2020-12-03 15:14:15,696 autoreload 203 /Users/apple/Desktop/code/edu_api/edu_api/apps/home/views.py changed, reloading.
-INFO 2020-12-03 15:14:16,808 autoreload 578 Watching for file changes with StatReloader
-INFO 2020-12-03 15:15:02,016 autoreload 203 /Users/apple/Desktop/code/edu_api/edu_api/apps/home/views.py changed, reloading.
-INFO 2020-12-03 15:15:03,574 autoreload 578 Watching for file changes with StatReloader
-INFO 2020-12-03 15:19:49,907 autoreload 578 Watching for file changes with StatReloader
-ERROR 2020-12-03 15:19:57,564 log 222 Internal Server Error: /home/navFoot/
-ERROR 2020-12-03 15:19:57,564 log 222 Internal Server Error: /home/navHead/
-INFO 2020-12-03 15:19:57,564 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 294
-ERROR 2020-12-03 15:19:57,565 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 500 112
-ERROR 2020-12-03 15:19:57,565 basehttp 154 "GET /home/navHead/ HTTP/1.1" 500 111
-INFO 2020-12-03 15:21:20,689 autoreload 203 /Users/apple/Desktop/code/edu_api/edu_api/apps/home/serializer.py changed, reloading.
-INFO 2020-12-03 15:21:21,580 autoreload 578 Watching for file changes with StatReloader
-INFO 2020-12-03 15:21:21,880 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 294
-INFO 2020-12-03 15:21:21,881 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 127
-INFO 2020-12-03 15:21:21,883 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 379
-INFO 2020-12-03 15:22:24,625 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 294
-INFO 2020-12-03 15:22:24,625 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 127
-INFO 2020-12-03 15:22:24,626 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 379
-INFO 2020-12-03 15:22:24,705 basehttp 154 "GET /media/banner/01_Ub2T29A.png HTTP/1.1" 304 0
-INFO 2020-12-03 15:22:24,706 basehttp 154 "GET /media/banner/02_WzfCFXf.png HTTP/1.1" 304 0
-INFO 2020-12-03 15:22:24,707 basehttp 154 "GET /media/banner/03_bl5nExS.png HTTP/1.1" 304 0
-INFO 2020-12-03 15:22:59,789 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 253
-INFO 2020-12-03 15:22:59,793 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 294
-INFO 2020-12-03 15:22:59,794 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 253
-INFO 2020-12-03 15:25:03,560 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 253
-INFO 2020-12-03 15:25:03,561 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 294
-INFO 2020-12-03 15:25:03,561 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 253
-INFO 2020-12-03 15:25:49,408 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 253
-INFO 2020-12-03 15:25:49,410 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 253
-INFO 2020-12-03 15:25:49,410 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 294
-INFO 2020-12-03 15:26:11,328 basehttp 154 "GET /admin/home/nav/add/ HTTP/1.1" 200 19135
-INFO 2020-12-03 15:26:11,357 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
-INFO 2020-12-03 15:26:11,358 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
-INFO 2020-12-03 15:26:11,359 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
-INFO 2020-12-03 15:26:11,359 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
-INFO 2020-12-03 15:26:11,359 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
-INFO 2020-12-03 15:26:11,360 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
-INFO 2020-12-03 15:26:11,369 basehttp 154 "GET /static/xadmin/vendor/select2/select2.css HTTP/1.1" 304 0
-INFO 2020-12-03 15:26:11,369 basehttp 154 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
-INFO 2020-12-03 15:26:11,370 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.1" 304 0
-INFO 2020-12-03 15:26:11,372 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.1" 304 0
-INFO 2020-12-03 15:26:11,373 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
-INFO 2020-12-03 15:26:11,377 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
-INFO 2020-12-03 15:26:11,377 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
-INFO 2020-12-03 15:26:11,377 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
-INFO 2020-12-03 15:26:11,377 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
-INFO 2020-12-03 15:26:11,380 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
-INFO 2020-12-03 15:26:11,382 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
-INFO 2020-12-03 15:26:11,384 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
-INFO 2020-12-03 15:26:11,387 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
-INFO 2020-12-03 15:26:11,388 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
-INFO 2020-12-03 15:26:11,390 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 304 0
-INFO 2020-12-03 15:26:11,390 basehttp 154 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
-INFO 2020-12-03 15:26:11,390 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
-INFO 2020-12-03 15:26:11,392 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
-INFO 2020-12-03 15:26:11,393 basehttp 154 "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 304 0
-INFO 2020-12-03 15:26:11,393 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-hans.js HTTP/1.1" 304 0
-INFO 2020-12-03 15:26:11,393 basehttp 154 "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.1" 304 0
-INFO 2020-12-03 15:26:11,396 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
-INFO 2020-12-03 15:26:16,656 basehttp 154 "GET /admin/home/nav/ HTTP/1.1" 200 32599
-INFO 2020-12-03 15:26:58,366 basehttp 154 "GET /admin/home/nav/add/ HTTP/1.1" 200 19135
-INFO 2020-12-03 15:26:58,397 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
-INFO 2020-12-03 15:27:38,467 basehttp 154 "POST /admin/home/nav/add/ HTTP/1.1" 302 0
-INFO 2020-12-03 15:27:38,565 basehttp 154 "GET /admin/home/nav/ HTTP/1.1" 200 33496
-INFO 2020-12-03 15:27:38,628 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
-INFO 2020-12-03 15:27:38,629 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
-INFO 2020-12-03 15:27:38,630 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
-INFO 2020-12-03 15:27:38,631 basehttp 154 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
-INFO 2020-12-03 15:27:38,633 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 304 0
-INFO 2020-12-03 15:27:38,634 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
-INFO 2020-12-03 15:27:41,046 basehttp 154 "GET /admin/home/nav/add/ HTTP/1.1" 200 19135
-INFO 2020-12-03 15:27:41,067 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
-INFO 2020-12-03 15:28:06,893 basehttp 154 "POST /admin/home/nav/add/ HTTP/1.1" 302 0
-INFO 2020-12-03 15:28:06,972 basehttp 154 "GET /admin/home/nav/add/ HTTP/1.1" 200 19487
-INFO 2020-12-03 15:28:07,042 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
-INFO 2020-12-03 15:28:40,376 basehttp 154 "POST /admin/home/nav/add/ HTTP/1.1" 302 0
-INFO 2020-12-03 15:28:40,460 basehttp 154 "GET /admin/home/nav/add/ HTTP/1.1" 200 19487
-INFO 2020-12-03 15:28:40,480 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
-INFO 2020-12-03 15:29:10,409 basehttp 154 "POST /admin/home/nav/add/ HTTP/1.1" 302 0
-INFO 2020-12-03 15:29:10,483 basehttp 154 "GET /admin/home/nav/ HTTP/1.1" 200 35292
-INFO 2020-12-03 15:29:10,502 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
-INFO 2020-12-03 15:29:38,087 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 294
-INFO 2020-12-03 15:29:38,090 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 442
-INFO 2020-12-03 15:29:38,092 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 316
-INFO 2020-12-03 15:30:00,013 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 379
-INFO 2020-12-03 15:30:00,014 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 294
-INFO 2020-12-03 15:30:00,014 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 379
-INFO 2020-12-03 15:30:20,113 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 294
-INFO 2020-12-03 15:30:20,115 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 442
-INFO 2020-12-03 15:30:20,115 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 316
-INFO 2020-12-03 15:30:39,478 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 294
-INFO 2020-12-03 15:30:39,479 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 316
-INFO 2020-12-03 15:30:39,481 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 379
-INFO 2020-12-03 15:31:49,271 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 294
-INFO 2020-12-03 15:31:49,272 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 379
-INFO 2020-12-03 15:31:49,273 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 316
-INFO 2020-12-03 15:31:53,578 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 379
-INFO 2020-12-03 15:31:53,579 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 316
-INFO 2020-12-03 15:31:53,579 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 294
-INFO 2020-12-03 15:32:19,950 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 294
-INFO 2020-12-03 15:32:19,950 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 379
-INFO 2020-12-03 15:32:19,951 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 316
-INFO 2020-12-03 15:32:52,029 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 316
-INFO 2020-12-03 15:32:52,029 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 379
-INFO 2020-12-03 15:32:52,029 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 294
-INFO 2020-12-03 15:33:28,767 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 294
-INFO 2020-12-03 15:33:28,771 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 379
-INFO 2020-12-03 15:33:28,772 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 316
-INFO 2020-12-03 15:33:31,015 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 294
-INFO 2020-12-03 15:33:31,015 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 316
-INFO 2020-12-03 15:33:31,016 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 379
-INFO 2020-12-03 15:38:59,283 autoreload 578 Watching for file changes with StatReloader
-INFO 2020-12-03 15:39:13,722 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 294
-INFO 2020-12-03 15:39:13,723 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 316
-INFO 2020-12-03 15:39:13,724 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 379
-INFO 2020-12-03 15:39:13,746 basehttp 154 "GET /media/banner/02_WzfCFXf.png HTTP/1.1" 304 0
-INFO 2020-12-03 15:39:13,746 basehttp 154 "GET /media/banner/01_Ub2T29A.png HTTP/1.1" 304 0
-INFO 2020-12-03 15:39:13,746 basehttp 154 "GET /media/banner/03_bl5nExS.png HTTP/1.1" 304 0
+INFO 2020-12-04 09:43:29,666 basehttp 124 "GET /home/banners/ HTTP/1.1" 200 276
+INFO 2020-12-04 09:43:29,686 basehttp 124 "GET /media/banner/02.png HTTP/1.1" 200 364808
+INFO 2020-12-04 09:43:29,691 basehttp 124 "GET /media/banner/01.png HTTP/1.1" 200 737783
+INFO 2020-12-04 09:43:29,692 basehttp 124 "GET /media/banner/03.png HTTP/1.1" 200 745382
+INFO 2020-12-04 09:46:53,502 basehttp 124 "GET /home/banners/ HTTP/1.1" 200 276
+INFO 2020-12-04 09:46:53,521 basehttp 124 "GET /home/banners/ HTTP/1.1" 200 276
+INFO 2020-12-04 09:46:53,542 basehttp 124 "GET /media/banner/02.png HTTP/1.1" 200 364808
+INFO 2020-12-04 09:46:53,547 basehttp 124 "GET /media/banner/03.png HTTP/1.1" 200 745382
+INFO 2020-12-04 09:46:53,550 basehttp 124 "GET /media/banner/01.png HTTP/1.1" 200 737783
+WARNING 2020-12-04 10:08:13,824 basehttp 124 "POST /user/login/ HTTP/1.1" 400 79
+INFO 2020-12-04 10:08:29,189 basehttp 124 "POST /user/login/ HTTP/1.1" 200 193
+INFO 2020-12-04 10:12:37,967 basehttp 124 "OPTIONS /user/login/ HTTP/1.1" 200 0
+INFO 2020-12-04 10:12:38,069 basehttp 124 "POST /user/login/ HTTP/1.1" 200 193
+INFO 2020-12-04 10:14:38,868 basehttp 124 "OPTIONS /user/login/ HTTP/1.1" 200 0
+INFO 2020-12-04 10:14:38,967 basehttp 124 "POST /user/login/ HTTP/1.1" 200 193
+INFO 2020-12-04 10:15:53,853 basehttp 124 "OPTIONS /user/login/ HTTP/1.1" 200 0
+INFO 2020-12-04 10:15:53,952 basehttp 124 "POST /user/login/ HTTP/1.1" 200 193
+INFO 2020-12-04 10:15:53,998 basehttp 124 "GET /home/banners/ HTTP/1.1" 200 276
+INFO 2020-12-04 10:15:54,056 basehttp 124 "GET /media/banner/02.png HTTP/1.1" 200 364808
+INFO 2020-12-04 10:15:54,057 basehttp 124 "GET /media/banner/03.png HTTP/1.1" 200 745382
+INFO 2020-12-04 10:15:54,063 basehttp 124 "GET /media/banner/01.png HTTP/1.1" 200 737783
+INFO 2020-12-04 10:21:33,167 basehttp 124 "GET /home/banners/ HTTP/1.1" 200 276
+INFO 2020-12-04 10:21:33,190 basehttp 124 "GET /media/banner/03.png HTTP/1.1" 200 745382
+INFO 2020-12-04 10:21:33,196 basehttp 124 "GET /media/banner/01.png HTTP/1.1" 200 737783
+INFO 2020-12-04 10:21:33,197 basehttp 124 "GET /media/banner/02.png HTTP/1.1" 200 364808
+INFO 2020-12-04 10:23:52,116 basehttp 124 "OPTIONS /user/login/ HTTP/1.1" 200 0
+INFO 2020-12-04 10:23:52,188 basehttp 124 "POST /user/login/ HTTP/1.1" 200 193
+INFO 2020-12-04 10:23:52,210 basehttp 124 "GET /home/banners/ HTTP/1.1" 200 276
+INFO 2020-12-04 10:23:52,222 basehttp 124 "GET /media/banner/02.png HTTP/1.1" 200 364808
+INFO 2020-12-04 10:23:52,224 basehttp 124 "GET /media/banner/03.png HTTP/1.1" 200 745382
+INFO 2020-12-04 10:23:52,227 basehttp 124 "GET /media/banner/01.png HTTP/1.1" 200 737783
+INFO 2020-12-04 10:27:44,973 basehttp 124 "POST /user/login/ HTTP/1.1" 200 193
+INFO 2020-12-04 10:31:22,296 basehttp 124 "POST /user/login/ HTTP/1.1" 200 224
+INFO 2020-12-04 10:32:29,941 basehttp 124 "OPTIONS /user/login/ HTTP/1.1" 200 0
+INFO 2020-12-04 10:32:30,041 basehttp 124 "POST /user/login/ HTTP/1.1" 200 224
+INFO 2020-12-04 10:32:30,084 basehttp 124 "GET /home/banners/ HTTP/1.1" 200 276
+INFO 2020-12-04 10:32:30,106 basehttp 124 "GET /media/banner/02.png HTTP/1.1" 200 364808
+INFO 2020-12-04 10:32:30,109 basehttp 124 "GET /media/banner/01.png HTTP/1.1" 200 737783
+INFO 2020-12-04 10:32:30,110 basehttp 124 "GET /media/banner/03.png HTTP/1.1" 200 745382
+INFO 2020-12-04 11:03:08,113 basehttp 124 "GET /home/banners/ HTTP/1.1" 200 276
+INFO 2020-12-04 11:03:08,140 basehttp 124 "GET /media/banner/03.png HTTP/1.1" 200 745382
+INFO 2020-12-04 11:03:08,141 basehttp 124 "GET /media/banner/01.png HTTP/1.1" 200 737783
+INFO 2020-12-04 11:03:08,145 basehttp 124 "GET /media/banner/02.png HTTP/1.1" 200 364808
+INFO 2020-12-04 11:04:02,463 basehttp 124 "OPTIONS /user/login/ HTTP/1.1" 200 0
+WARNING 2020-12-04 11:04:02,567 basehttp 124 "POST /user/login/ HTTP/1.1" 400 68
+INFO 2020-12-04 11:12:34,057 basehttp 124 "OPTIONS /user/login/ HTTP/1.1" 200 0
+INFO 2020-12-04 11:12:34,163 basehttp 124 "POST /user/login/ HTTP/1.1" 200 224
+INFO 2020-12-04 11:12:34,194 basehttp 124 "GET /home/banners/ HTTP/1.1" 200 276
+INFO 2020-12-04 11:12:34,216 basehttp 124 "GET /media/banner/03.png HTTP/1.1" 200 745382
+INFO 2020-12-04 11:12:34,222 basehttp 124 "GET /media/banner/02.png HTTP/1.1" 200 364808
+INFO 2020-12-04 11:12:34,229 basehttp 124 "GET /media/banner/01.png HTTP/1.1" 200 737783
+INFO 2020-12-04 11:12:53,063 basehttp 124 "OPTIONS /user/login/ HTTP/1.1" 200 0
+INFO 2020-12-04 11:12:53,165 basehttp 124 "POST /user/login/ HTTP/1.1" 200 224
+INFO 2020-12-04 11:12:53,191 basehttp 124 "GET /home/banners/ HTTP/1.1" 200 276
+INFO 2020-12-04 11:12:53,205 basehttp 124 "GET /media/banner/03.png HTTP/1.1" 200 745382
+INFO 2020-12-04 11:12:53,216 basehttp 124 "GET /media/banner/02.png HTTP/1.1" 200 364808
+INFO 2020-12-04 11:12:53,218 basehttp 124 "GET /media/banner/01.png HTTP/1.1" 200 737783
+WARNING 2020-12-04 11:45:23,232 basehttp 124 "GET /user/captcha/ HTTP/1.1" 405 40
+WARNING 2020-12-04 11:46:07,678 basehttp 124 "GET /user/captcha/ HTTP/1.1" 400 32
+WARNING 2020-12-04 11:46:31,101 basehttp 124 "GET /user/captcha/ HTTP/1.1" 400 32
+WARNING 2020-12-04 11:46:37,336 basehttp 124 "GET /user/captcha/ HTTP/1.1" 400 32
+INFO 2020-12-04 11:47:08,210 basehttp 124 "GET /user/captcha/?username=admin HTTP/1.1" 200 140
+WARNING 2020-12-04 14:05:34,717 basehttp 124 "GET /user/captcha/?username= HTTP/1.1" 400 32
+INFO 2020-12-04 14:05:47,218 basehttp 124 "GET /user/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-12-04 14:19:22,628 basehttp 124 "GET /user/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-12-04 14:19:52,931 basehttp 124 "GET /user/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-12-04 14:19:55,954 basehttp 124 "GET /user/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-12-04 14:20:46,747 basehttp 124 "GET /user/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-12-04 14:21:13,475 basehttp 124 "GET /user/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-12-04 14:21:20,677 basehttp 124 "GET /user/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-12-04 14:24:17,795 basehttp 124 "GET /user/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-12-04 14:29:55,409 basehttp 124 "GET /user/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-12-04 14:30:28,668 basehttp 124 "GET /user/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-12-04 14:31:37,559 basehttp 124 "GET /user/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-12-04 14:33:23,482 basehttp 124 "GET /user/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-12-04 14:33:32,411 basehttp 124 "GET /user/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-12-04 14:34:18,585 basehttp 124 "GET /user/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-12-04 14:35:03,991 basehttp 124 "GET /user/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-12-04 14:36:44,705 basehttp 124 "GET /user/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-12-04 14:37:32,892 basehttp 124 "GET /user/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-12-04 14:38:04,409 basehttp 124 "GET /user/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-12-04 14:38:28,366 basehttp 124 "GET /user/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-12-04 14:39:01,857 basehttp 124 "GET /user/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-12-04 14:39:42,252 basehttp 124 "GET /user/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-12-04 14:39:48,571 basehttp 124 "OPTIONS /user/captcha/ HTTP/1.1" 200 0
+INFO 2020-12-04 14:39:48,574 basehttp 124 "POST /user/captcha/ HTTP/1.1" 200 17
+INFO 2020-12-04 14:40:29,622 basehttp 124 "GET /user/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-12-04 14:40:35,509 basehttp 124 "OPTIONS /user/captcha/ HTTP/1.1" 200 0
+INFO 2020-12-04 14:40:35,512 basehttp 124 "POST /user/captcha/ HTTP/1.1" 200 17
+INFO 2020-12-04 14:41:08,804 basehttp 124 "GET /user/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-12-04 14:41:14,240 basehttp 124 "OPTIONS /user/captcha/ HTTP/1.1" 200 0
+INFO 2020-12-04 14:41:42,104 basehttp 124 "GET /user/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-12-04 14:41:47,697 basehttp 124 "OPTIONS /user/captcha/ HTTP/1.1" 200 0
+INFO 2020-12-04 14:41:47,706 basehttp 124 "POST /user/captcha/ HTTP/1.1" 200 17
+INFO 2020-12-04 14:42:08,490 basehttp 124 "GET /user/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-12-04 14:42:14,174 basehttp 124 "OPTIONS /user/captcha/ HTTP/1.1" 200 0
+INFO 2020-12-04 14:42:14,177 basehttp 124 "POST /user/captcha/ HTTP/1.1" 200 17
+INFO 2020-12-04 14:44:22,118 basehttp 124 "GET /user/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-12-04 14:44:24,859 basehttp 124 "GET /user/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-12-04 14:44:31,546 basehttp 124 "OPTIONS /user/captcha/ HTTP/1.1" 200 0
+INFO 2020-12-04 14:44:31,549 basehttp 124 "POST /user/captcha/ HTTP/1.1" 200 17
+INFO 2020-12-04 14:44:45,104 basehttp 124 "GET /user/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-12-04 14:45:07,652 basehttp 124 "GET /user/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-12-04 14:45:12,885 basehttp 124 "OPTIONS /user/captcha/ HTTP/1.1" 200 0
+INFO 2020-12-04 14:46:24,633 basehttp 124 "GET /user/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-12-04 14:46:29,821 basehttp 124 "OPTIONS /user/captcha/ HTTP/1.1" 200 0
+INFO 2020-12-04 14:46:56,937 basehttp 124 "GET /user/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-12-04 14:47:01,805 basehttp 124 "OPTIONS /user/captcha/ HTTP/1.1" 200 0
+INFO 2020-12-04 14:47:01,808 basehttp 124 "POST /user/captcha/ HTTP/1.1" 200 17
+INFO 2020-12-04 14:48:50,618 basehttp 124 "GET /user/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-12-04 14:48:59,176 basehttp 124 "OPTIONS /user/captcha/ HTTP/1.1" 200 0
+INFO 2020-12-04 14:48:59,180 basehttp 124 "POST /user/captcha/ HTTP/1.1" 200 17
+INFO 2020-12-04 14:50:26,391 basehttp 124 "GET /user/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-12-04 14:50:42,991 basehttp 124 "OPTIONS /user/captcha/ HTTP/1.1" 200 0
+INFO 2020-12-04 14:50:42,994 basehttp 124 "POST /user/captcha/ HTTP/1.1" 200 17
+INFO 2020-12-04 14:51:22,294 basehttp 124 "GET /user/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-12-04 14:51:27,363 basehttp 124 "OPTIONS /user/captcha/ HTTP/1.1" 200 0
+ERROR 2020-12-04 14:51:27,365 exception 118 Internal Server Error: /user/captcha/
+Traceback (most recent call last):
+  File "D:\envs\drf_env\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\envs\drf_env\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\envs\drf_env\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\envs\drf_env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\envs\drf_env\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\envs\drf_env\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\envs\drf_env\lib\site-packages\rest_framework\views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\envs\drf_env\lib\site-packages\rest_framework\views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "D:\envs\drf_env\lib\site-packages\rest_framework\views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\code\edu_api\edu_api\apps\user\views.py", line 44, in post
+    result = gt.success_validate(challenge, validate, seccode, self.user_id)
+  File "D:\code\edu_api\edu_api\libs\geetest.py", line 99, in success_validate
+    if not self._check_para(challenge, validate, seccode):
+  File "D:\code\edu_api\edu_api\libs\geetest.py", line 154, in _check_para
+    return (bool(challenge.strip()) and bool(validate.strip()) and bool(seccode.strip()))
+AttributeError: 'NoneType' object has no attribute 'strip'
+ERROR 2020-12-04 14:51:27,482 basehttp 124 "POST /user/captcha/ HTTP/1.1" 500 18842
+INFO 2020-12-04 14:52:20,926 basehttp 124 "GET /user/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-12-04 14:52:25,984 basehttp 124 "OPTIONS /user/captcha/ HTTP/1.1" 200 0
+INFO 2020-12-04 14:52:26,271 basehttp 124 "POST /user/captcha/ HTTP/1.1" 200 20
+INFO 2020-12-04 14:53:48,644 basehttp 124 "GET /user/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-12-04 14:53:53,153 basehttp 124 "OPTIONS /user/captcha/ HTTP/1.1" 200 0
+INFO 2020-12-04 14:53:53,403 basehttp 124 "POST /user/captcha/ HTTP/1.1" 200 20
+INFO 2020-12-04 14:53:53,410 basehttp 124 "OPTIONS /user/login/ HTTP/1.1" 200 0
+INFO 2020-12-04 14:53:53,515 basehttp 124 "POST /user/login/ HTTP/1.1" 200 224
+INFO 2020-12-04 14:53:53,555 basehttp 124 "GET /home/banners/ HTTP/1.1" 200 276
+INFO 2020-12-04 14:53:53,592 basehttp 124 "GET /media/banner/02.png HTTP/1.1" 200 364808
+INFO 2020-12-04 14:53:53,596 basehttp 124 "GET /media/banner/03.png HTTP/1.1" 200 745382
+INFO 2020-12-04 14:53:53,600 basehttp 124 "GET /media/banner/01.png HTTP/1.1" 200 737783
+INFO 2020-12-06 02:42:52,901 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-12-06 07:09:58,125 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-12-06 07:10:49,560 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-12-06 07:11:16,013 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 2
+INFO 2020-12-06 07:11:16,014 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 2
+INFO 2020-12-06 07:11:16,014 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 2
+INFO 2020-12-06 07:18:25,458 autoreload 578 Watching for file changes with StatReloader
+ERROR 2020-12-06 07:18:29,524 exception 75 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2020-12-06 07:18:29,564 log 222 Bad Request: /
+WARNING 2020-12-06 07:18:29,565 basehttp 154 "GET / HTTP/1.1" 400 64076
+ERROR 2020-12-06 07:18:29,734 exception 75 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2020-12-06 07:18:29,768 log 222 Bad Request: /favicon.ico
+WARNING 2020-12-06 07:18:29,768 basehttp 154 "GET /favicon.ico HTTP/1.1" 400 63989
+WARNING 2020-12-06 07:18:33,204 log 222 Not Found: /
+WARNING 2020-12-06 07:18:33,205 basehttp 154 "GET / HTTP/1.1" 404 2265
+INFO 2020-12-06 07:18:40,481 basehttp 154 "GET /admin/ HTTP/1.1" 200 4354
+INFO 2020-12-06 07:18:40,500 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+INFO 2020-12-06 07:18:40,500 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+INFO 2020-12-06 07:18:40,500 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+INFO 2020-12-06 07:18:40,500 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+INFO 2020-12-06 07:18:40,501 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+INFO 2020-12-06 07:18:40,501 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+INFO 2020-12-06 07:18:40,509 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2020-12-06 07:18:40,509 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+INFO 2020-12-06 07:18:40,509 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+INFO 2020-12-06 07:18:40,509 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+INFO 2020-12-06 07:18:40,510 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+INFO 2020-12-06 07:18:40,519 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+INFO 2020-12-06 07:18:40,520 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+INFO 2020-12-06 07:18:40,521 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
+INFO 2020-12-06 07:18:40,521 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+INFO 2020-12-06 07:18:40,521 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+INFO 2020-12-06 07:18:40,524 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 4361
+INFO 2020-12-06 07:18:40,606 basehttp 154 "GET /admin/ HTTP/1.1" 200 4354
+INFO 2020-12-06 07:18:40,641 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 4361
+INFO 2020-12-06 07:18:40,752 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+INFO 2020-12-06 07:18:51,710 basehttp 154 "POST /admin/ HTTP/1.1" 302 0
+INFO 2020-12-06 07:18:54,594 basehttp 154 "GET /admin/ HTTP/1.1" 200 15495
+INFO 2020-12-06 07:18:54,619 basehttp 154 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 304 0
+INFO 2020-12-06 07:18:54,627 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+INFO 2020-12-06 07:18:54,627 basehttp 154 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 304 0
+INFO 2020-12-06 07:18:54,630 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-12-06 07:19:32,811 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-12-06 07:19:42,125 basehttp 154 "GET /admin/ HTTP/1.1" 200 15488
+INFO 2020-12-06 07:19:42,178 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-06 07:19:45,208 basehttp 154 "GET /admin/home/banner/ HTTP/1.1" 200 25014
+INFO 2020-12-06 07:19:45,237 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
+INFO 2020-12-06 07:19:45,238 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
+INFO 2020-12-06 07:19:45,238 basehttp 154 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
+INFO 2020-12-06 07:19:45,238 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
+INFO 2020-12-06 07:19:45,238 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-06 07:19:45,240 basehttp 154 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
+INFO 2020-12-06 07:19:45,241 basehttp 154 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
+INFO 2020-12-06 07:19:52,961 basehttp 154 "GET /admin/home/banner/add/ HTTP/1.1" 200 20531
+INFO 2020-12-06 07:19:52,979 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.css HTTP/1.1" 304 0
+INFO 2020-12-06 07:19:52,991 basehttp 154 "GET /static/xadmin/vendor/load-image/load-image.js HTTP/1.1" 304 0
+INFO 2020-12-06 07:19:52,993 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.js HTTP/1.1" 304 0
+INFO 2020-12-06 07:19:52,993 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-06 07:20:18,905 basehttp 154 "POST /admin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2020-12-06 07:20:18,974 basehttp 154 "GET /admin/home/banner/add/ HTTP/1.1" 200 20865
+INFO 2020-12-06 07:20:18,992 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-06 07:20:36,689 basehttp 154 "POST /admin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2020-12-06 07:20:36,768 basehttp 154 "GET /admin/home/banner/add/ HTTP/1.1" 200 20865
+INFO 2020-12-06 07:20:36,816 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-06 07:20:56,204 basehttp 154 "POST /admin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2020-12-06 07:20:56,286 basehttp 154 "GET /admin/home/banner/ HTTP/1.1" 200 30166
+INFO 2020-12-06 07:20:56,311 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-06 07:20:56,312 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 304 0
+INFO 2020-12-06 07:20:58,087 basehttp 154 "GET /admin/home/nav/ HTTP/1.1" 200 25450
+INFO 2020-12-06 07:20:58,110 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-06 07:21:01,603 basehttp 154 "GET /admin/home/nav/add/ HTTP/1.1" 200 19873
+INFO 2020-12-06 07:21:01,624 basehttp 154 "GET /static/xadmin/vendor/select2/select2.css HTTP/1.1" 304 0
+INFO 2020-12-06 07:21:01,637 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.1" 304 0
+INFO 2020-12-06 07:21:01,638 basehttp 154 "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 304 0
+INFO 2020-12-06 07:21:01,639 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 304 0
+INFO 2020-12-06 07:21:01,640 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-hans.js HTTP/1.1" 304 0
+INFO 2020-12-06 07:21:01,644 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.1" 304 0
+INFO 2020-12-06 07:21:01,645 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-06 07:21:01,646 basehttp 154 "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.1" 304 0
+INFO 2020-12-06 07:22:31,871 basehttp 154 "POST /admin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2020-12-06 07:22:31,972 basehttp 154 "GET /admin/home/nav/add/ HTTP/1.1" 200 20230
+INFO 2020-12-06 07:22:31,994 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-06 07:22:52,394 basehttp 154 "POST /admin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2020-12-06 07:22:52,459 basehttp 154 "GET /admin/home/nav/add/ HTTP/1.1" 200 20224
+INFO 2020-12-06 07:22:52,479 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-06 07:23:15,598 basehttp 154 "POST /admin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2020-12-06 07:23:15,675 basehttp 154 "GET /admin/home/nav/add/ HTTP/1.1" 200 20224
+INFO 2020-12-06 07:23:15,696 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-06 07:24:15,089 basehttp 154 "POST /admin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2020-12-06 07:24:15,177 basehttp 154 "GET /admin/home/nav/add/ HTTP/1.1" 200 20236
+INFO 2020-12-06 07:24:15,231 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-06 07:24:42,863 basehttp 154 "POST /admin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2020-12-06 07:24:42,931 basehttp 154 "GET /admin/home/nav/ HTTP/1.1" 200 31900
+INFO 2020-12-06 07:24:42,955 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-06 07:25:04,961 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 271
+INFO 2020-12-06 07:25:04,962 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 292
+INFO 2020-12-06 07:25:04,962 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 76
+INFO 2020-12-06 07:25:04,984 basehttp 154 "GET /media/banner/02_T238PiS.png HTTP/1.1" 200 364808
+INFO 2020-12-06 07:25:04,987 basehttp 154 "GET /media/banner/03_aN6PIW4.png HTTP/1.1" 200 745382
+INFO 2020-12-06 07:25:04,988 basehttp 154 "GET /media/banner/01_CIUzAj5.png HTTP/1.1" 200 737783
+INFO 2020-12-06 07:26:01,869 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 292
+INFO 2020-12-06 07:26:01,871 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 55
+INFO 2020-12-06 07:26:01,872 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 256
+INFO 2020-12-06 07:26:01,957 basehttp 154 "GET /media/banner/03_aN6PIW4.png HTTP/1.1" 304 0
+INFO 2020-12-06 07:26:01,958 basehttp 154 "GET /media/banner/01_CIUzAj5.png HTTP/1.1" 304 0
+INFO 2020-12-06 07:26:01,958 basehttp 154 "GET /media/banner/02_T238PiS.png HTTP/1.1" 304 0
+INFO 2020-12-06 07:26:38,537 basehttp 154 "GET /admin/home/nav/add/ HTTP/1.1" 200 19873
+INFO 2020-12-06 07:26:38,558 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-06 07:27:05,073 basehttp 154 "POST /admin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2020-12-06 07:27:05,147 basehttp 154 "GET /admin/home/nav/add/ HTTP/1.1" 200 20215
+INFO 2020-12-06 07:27:05,172 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-06 07:27:40,063 basehttp 154 "POST /admin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2020-12-06 07:27:40,139 basehttp 154 "GET /admin/home/nav/ HTTP/1.1" 200 33025
+INFO 2020-12-06 07:27:40,161 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-06 07:28:08,709 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-06 07:28:08,710 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-06 07:28:08,711 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 292
+INFO 2020-12-06 07:28:08,722 basehttp 154 "GET /media/banner/02_T238PiS.png HTTP/1.1" 304 0
+INFO 2020-12-06 07:28:08,722 basehttp 154 "GET /media/banner/01_CIUzAj5.png HTTP/1.1" 304 0
+INFO 2020-12-06 07:28:08,723 basehttp 154 "GET /media/banner/03_aN6PIW4.png HTTP/1.1" 304 0
+WARNING 2020-12-06 07:28:31,324 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 07:28:31,325 basehttp 154 "GET /user/captcha/?username=123123 HTTP/1.1" 400 32
+WARNING 2020-12-06 07:28:32,120 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 07:28:32,121 basehttp 154 "GET /user/captcha/?username=123123 HTTP/1.1" 400 32
+WARNING 2020-12-06 07:28:32,424 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 07:28:32,424 basehttp 154 "GET /user/captcha/?username=123123 HTTP/1.1" 400 32
+WARNING 2020-12-06 07:28:32,641 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 07:28:32,641 basehttp 154 "GET /user/captcha/?username=123123 HTTP/1.1" 400 32
+WARNING 2020-12-06 07:28:32,854 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 07:28:32,854 basehttp 154 "GET /user/captcha/?username=123123 HTTP/1.1" 400 32
+WARNING 2020-12-06 07:28:33,058 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 07:28:33,058 basehttp 154 "GET /user/captcha/?username=123123 HTTP/1.1" 400 32
+WARNING 2020-12-06 07:28:33,528 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 07:28:33,528 basehttp 154 "GET /user/captcha/?username=123123 HTTP/1.1" 400 32
+WARNING 2020-12-06 07:28:33,922 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 07:28:33,923 basehttp 154 "GET /user/captcha/?username=123123 HTTP/1.1" 400 32
+WARNING 2020-12-06 07:28:34,171 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 07:28:34,172 basehttp 154 "GET /user/captcha/?username=123123 HTTP/1.1" 400 32
+WARNING 2020-12-06 07:28:34,393 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 07:28:34,394 basehttp 154 "GET /user/captcha/?username=123123 HTTP/1.1" 400 32
+WARNING 2020-12-06 07:28:34,597 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 07:28:34,597 basehttp 154 "GET /user/captcha/?username=123123 HTTP/1.1" 400 32
+WARNING 2020-12-06 07:28:34,811 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 07:28:34,812 basehttp 154 "GET /user/captcha/?username=123123 HTTP/1.1" 400 32
+WARNING 2020-12-06 07:28:35,003 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 07:28:35,004 basehttp 154 "GET /user/captcha/?username=123123 HTTP/1.1" 400 32
+WARNING 2020-12-06 07:28:35,259 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 07:28:35,260 basehttp 154 "GET /user/captcha/?username=123123 HTTP/1.1" 400 32
+WARNING 2020-12-06 07:28:35,551 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 07:28:35,551 basehttp 154 "GET /user/captcha/?username=123123 HTTP/1.1" 400 32
+WARNING 2020-12-06 07:28:35,757 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 07:28:35,757 basehttp 154 "GET /user/captcha/?username=123123 HTTP/1.1" 400 32
+WARNING 2020-12-06 07:28:35,981 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 07:28:35,981 basehttp 154 "GET /user/captcha/?username=123123 HTTP/1.1" 400 32
+WARNING 2020-12-06 07:28:36,174 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 07:28:36,174 basehttp 154 "GET /user/captcha/?username=123123 HTTP/1.1" 400 32
+WARNING 2020-12-06 07:28:36,377 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 07:28:36,377 basehttp 154 "GET /user/captcha/?username=123123 HTTP/1.1" 400 32
+WARNING 2020-12-06 07:28:36,566 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 07:28:36,567 basehttp 154 "GET /user/captcha/?username=123123 HTTP/1.1" 400 32
+WARNING 2020-12-06 07:28:36,914 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 07:28:36,914 basehttp 154 "GET /user/captcha/?username=123123 HTTP/1.1" 400 32
+WARNING 2020-12-06 07:28:37,094 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 07:28:37,094 basehttp 154 "GET /user/captcha/?username=123123 HTTP/1.1" 400 32
+WARNING 2020-12-06 07:28:37,297 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 07:28:37,298 basehttp 154 "GET /user/captcha/?username=123123 HTTP/1.1" 400 32
+WARNING 2020-12-06 07:28:37,499 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 07:28:37,499 basehttp 154 "GET /user/captcha/?username=123123 HTTP/1.1" 400 32
+WARNING 2020-12-06 07:28:37,659 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 07:28:37,660 basehttp 154 "GET /user/captcha/?username=123123 HTTP/1.1" 400 32
+WARNING 2020-12-06 07:30:55,513 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 07:30:55,513 basehttp 154 "GET /user/captcha/?username=123123 HTTP/1.1" 400 32
+WARNING 2020-12-06 07:30:55,848 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 07:30:55,848 basehttp 154 "GET /user/captcha/?username=123123 HTTP/1.1" 400 32
+WARNING 2020-12-06 07:30:56,028 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 07:30:56,029 basehttp 154 "GET /user/captcha/?username=123123 HTTP/1.1" 400 32
+WARNING 2020-12-06 07:30:56,197 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 07:30:56,198 basehttp 154 "GET /user/captcha/?username=123123 HTTP/1.1" 400 32
+WARNING 2020-12-06 07:30:56,536 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 07:30:56,537 basehttp 154 "GET /user/captcha/?username=123123 HTTP/1.1" 400 32
+WARNING 2020-12-06 07:30:56,692 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 07:30:56,693 basehttp 154 "GET /user/captcha/?username=123123 HTTP/1.1" 400 32
+WARNING 2020-12-06 07:30:56,928 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 07:30:56,928 basehttp 154 "GET /user/captcha/?username=123123 HTTP/1.1" 400 32
+WARNING 2020-12-06 07:30:57,090 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 07:30:57,091 basehttp 154 "GET /user/captcha/?username=123123 HTTP/1.1" 400 32
+WARNING 2020-12-06 07:30:57,221 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 07:30:57,221 basehttp 154 "GET /user/captcha/?username=123123 HTTP/1.1" 400 32
+WARNING 2020-12-06 07:30:57,379 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 07:30:57,380 basehttp 154 "GET /user/captcha/?username=123123 HTTP/1.1" 400 32
+WARNING 2020-12-06 07:30:57,525 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 07:30:57,525 basehttp 154 "GET /user/captcha/?username=123123 HTTP/1.1" 400 32
+WARNING 2020-12-06 07:30:57,694 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 07:30:57,695 basehttp 154 "GET /user/captcha/?username=123123 HTTP/1.1" 400 32
+WARNING 2020-12-06 07:30:58,099 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 07:30:58,099 basehttp 154 "GET /user/captcha/?username=123123 HTTP/1.1" 400 32
+WARNING 2020-12-06 07:30:58,304 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 07:30:58,305 basehttp 154 "GET /user/captcha/?username=123123 HTTP/1.1" 400 32
+WARNING 2020-12-06 07:30:58,472 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 07:30:58,473 basehttp 154 "GET /user/captcha/?username=123123 HTTP/1.1" 400 32
+WARNING 2020-12-06 07:30:58,639 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 07:30:58,639 basehttp 154 "GET /user/captcha/?username=123123 HTTP/1.1" 400 32
+WARNING 2020-12-06 07:30:58,796 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 07:30:58,796 basehttp 154 "GET /user/captcha/?username=123123 HTTP/1.1" 400 32
+WARNING 2020-12-06 07:30:59,306 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 07:30:59,307 basehttp 154 "GET /user/captcha/?username=123123 HTTP/1.1" 400 32
+INFO 2020-12-06 07:32:25,304 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-12-06 07:32:28,370 basehttp 154 "GET /user/captcha/?username= HTTP/1.1" 200 140
+INFO 2020-12-06 07:32:31,522 basehttp 154 "GET /user/captcha/?username= HTTP/1.1" 200 140
+INFO 2020-12-06 07:36:57,767 basehttp 154 "GET /user/captcha/?username= HTTP/1.1" 200 140
+INFO 2020-12-06 07:36:57,928 basehttp 154 "GET /user/captcha/?username= HTTP/1.1" 200 140
+INFO 2020-12-06 07:36:58,231 basehttp 154 "GET /user/captcha/?username= HTTP/1.1" 200 140
+INFO 2020-12-06 07:36:58,530 basehttp 154 "GET /user/captcha/?username= HTTP/1.1" 200 140
+INFO 2020-12-06 07:36:58,722 basehttp 154 "GET /user/captcha/?username= HTTP/1.1" 200 140
+INFO 2020-12-06 07:36:59,027 basehttp 154 "GET /user/captcha/?username= HTTP/1.1" 200 140
+INFO 2020-12-06 07:36:59,281 basehttp 154 "GET /user/captcha/?username= HTTP/1.1" 200 140
+INFO 2020-12-06 07:36:59,442 basehttp 154 "GET /user/captcha/?username= HTTP/1.1" 200 140
+INFO 2020-12-06 07:36:59,599 basehttp 154 "GET /user/captcha/?username= HTTP/1.1" 200 140
+WARNING 2020-12-06 07:37:22,476 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 07:37:22,477 basehttp 154 "GET /user/captcha/?username=13123123 HTTP/1.1" 400 32
+WARNING 2020-12-06 07:37:23,557 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 07:37:23,557 basehttp 154 "GET /user/captcha/?username=13123123 HTTP/1.1" 400 32
+WARNING 2020-12-06 07:37:23,759 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 07:37:23,761 basehttp 154 "GET /user/captcha/?username=13123123 HTTP/1.1" 400 32
+WARNING 2020-12-06 07:37:23,954 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 07:37:23,954 basehttp 154 "GET /user/captcha/?username=13123123 HTTP/1.1" 400 32
+INFO 2020-12-06 07:38:38,120 basehttp 154 "GET /user/captcha/?username=apple HTTP/1.1" 200 140
+INFO 2020-12-06 07:38:38,755 basehttp 154 "GET /user/captcha/?username=apple HTTP/1.1" 200 140
+INFO 2020-12-06 07:38:38,913 basehttp 154 "GET /user/captcha/?username=apple HTTP/1.1" 200 140
+INFO 2020-12-06 07:38:39,062 basehttp 154 "GET /user/captcha/?username=apple HTTP/1.1" 200 140
+INFO 2020-12-06 07:38:39,248 basehttp 154 "GET /user/captcha/?username=apple HTTP/1.1" 200 140
+INFO 2020-12-06 07:38:39,420 basehttp 154 "GET /user/captcha/?username=apple HTTP/1.1" 200 140
+INFO 2020-12-06 07:38:39,586 basehttp 154 "GET /user/captcha/?username=apple HTTP/1.1" 200 140
+INFO 2020-12-06 07:38:39,766 basehttp 154 "GET /user/captcha/?username=apple HTTP/1.1" 200 140
+INFO 2020-12-06 07:38:39,924 basehttp 154 "GET /user/captcha/?username=apple HTTP/1.1" 200 140
+INFO 2020-12-06 07:38:40,061 basehttp 154 "GET /user/captcha/?username=apple HTTP/1.1" 200 140
+INFO 2020-12-06 07:38:40,213 basehttp 154 "GET /user/captcha/?username=apple HTTP/1.1" 200 140
+INFO 2020-12-06 07:38:40,392 basehttp 154 "GET /user/captcha/?username=apple HTTP/1.1" 200 140
+INFO 2020-12-06 07:38:40,558 basehttp 154 "GET /user/captcha/?username=apple HTTP/1.1" 200 140
+INFO 2020-12-06 07:38:40,807 basehttp 154 "GET /user/captcha/?username=apple HTTP/1.1" 200 140
+INFO 2020-12-06 07:48:07,237 basehttp 154 "GET /user/captcha/?username= HTTP/1.1" 200 140
+INFO 2020-12-06 07:48:20,043 basehttp 154 "GET /user/captcha/?username=apple HTTP/1.1" 200 140
+INFO 2020-12-06 08:08:27,294 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-12-06 08:08:29,492 basehttp 154 "GET /user/captcha/?username=apple HTTP/1.1" 200 140
+INFO 2020-12-06 08:08:30,842 basehttp 154 "GET /user/captcha/?username=apple HTTP/1.1" 200 140
+INFO 2020-12-06 08:08:31,211 basehttp 154 "GET /user/captcha/?username=apple HTTP/1.1" 200 140
+INFO 2020-12-06 08:08:31,540 basehttp 154 "GET /user/captcha/?username=apple HTTP/1.1" 200 140
+INFO 2020-12-06 08:08:31,654 basehttp 154 "GET /user/captcha/?username=apple HTTP/1.1" 200 140
+INFO 2020-12-06 08:08:31,809 basehttp 154 "GET /user/captcha/?username=apple HTTP/1.1" 200 140
+INFO 2020-12-06 08:08:32,112 basehttp 154 "GET /user/captcha/?username=apple HTTP/1.1" 200 140
+INFO 2020-12-06 08:13:02,890 basehttp 154 "GET /user/captcha/?username=apple HTTP/1.1" 200 140
+INFO 2020-12-06 08:13:10,134 basehttp 154 "OPTIONS /user/captcha/ HTTP/1.1" 200 0
+INFO 2020-12-06 08:13:10,318 basehttp 154 "POST /user/captcha/ HTTP/1.1" 200 20
+INFO 2020-12-06 08:13:10,321 basehttp 154 "OPTIONS /user/login/ HTTP/1.1" 200 0
+INFO 2020-12-06 08:13:10,402 basehttp 154 "POST /user/login/ HTTP/1.1" 200 227
+INFO 2020-12-06 08:13:10,485 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-06 08:13:10,488 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 292
+INFO 2020-12-06 08:13:10,489 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-06 08:13:10,503 basehttp 154 "GET /media/banner/01_CIUzAj5.png HTTP/1.1" 304 0
+INFO 2020-12-06 08:13:10,504 basehttp 154 "GET /media/banner/02_T238PiS.png HTTP/1.1" 304 0
+INFO 2020-12-06 08:13:10,505 basehttp 154 "GET /media/banner/03_aN6PIW4.png HTTP/1.1" 304 0
+WARNING 2020-12-06 08:13:20,540 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 08:13:20,540 basehttp 154 "GET /user/captcha/?username=123 HTTP/1.1" 400 32
+WARNING 2020-12-06 08:13:22,128 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 08:13:22,128 basehttp 154 "GET /user/captcha/?username=123 HTTP/1.1" 400 32
+WARNING 2020-12-06 08:13:22,735 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 08:13:22,735 basehttp 154 "GET /user/captcha/?username=123 HTTP/1.1" 400 32
+WARNING 2020-12-06 08:13:23,701 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-06 08:13:23,701 basehttp 154 "GET /user/captcha/?username=123 HTTP/1.1" 400 32
+INFO 2020-12-06 08:13:46,966 basehttp 154 "GET /user/captcha/?username=apple HTTP/1.1" 200 140
+INFO 2020-12-06 08:13:54,036 basehttp 154 "POST /user/captcha/ HTTP/1.1" 200 20
+INFO 2020-12-06 08:13:54,120 basehttp 154 "POST /user/login/ HTTP/1.1" 200 227
+INFO 2020-12-06 08:13:54,153 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-06 08:13:54,156 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 292
+INFO 2020-12-06 08:13:54,158 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-06 08:49:48,716 basehttp 154 "GET /user/captcha/?username=apple HTTP/1.1" 200 140
+INFO 2020-12-06 08:49:56,908 basehttp 154 "POST /user/captcha/ HTTP/1.1" 200 20
+INFO 2020-12-06 08:49:57,001 basehttp 154 "POST /user/login/ HTTP/1.1" 200 227
+INFO 2020-12-06 08:49:57,048 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-06 08:49:57,049 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 292
+INFO 2020-12-06 08:49:57,051 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-06 08:50:04,696 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-06 08:50:04,697 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-06 08:50:04,699 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 292
+INFO 2020-12-06 08:50:13,954 basehttp 154 "GET /user/captcha/?username= HTTP/1.1" 200 140
+INFO 2020-12-06 08:50:14,566 basehttp 154 "GET /user/captcha/?username= HTTP/1.1" 200 140
+INFO 2020-12-06 08:50:22,062 basehttp 154 "POST /user/captcha/ HTTP/1.1" 200 20
+WARNING 2020-12-06 08:50:22,067 log 222 Bad Request: /user/login/
+WARNING 2020-12-06 08:50:22,068 basehttp 154 "POST /user/login/ HTTP/1.1" 400 81
+INFO 2020-12-06 08:50:33,134 basehttp 154 "GET /user/captcha/?username= HTTP/1.1" 200 140
+INFO 2020-12-06 08:50:41,411 basehttp 154 "POST /user/captcha/ HTTP/1.1" 200 20
+WARNING 2020-12-06 08:50:41,416 log 222 Bad Request: /user/login/
+WARNING 2020-12-06 08:50:41,417 basehttp 154 "POST /user/login/ HTTP/1.1" 400 81
+INFO 2020-12-06 09:11:46,876 autoreload 203 /Users/apple/Desktop/中期项目_李浩/edu_api/edu_api/apps/user/views.py changed, reloading.
+INFO 2020-12-06 09:11:48,084 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-12-06 09:13:27,643 autoreload 203 /Users/apple/Desktop/中期项目_李浩/edu_api/edu_api/apps/user/views.py changed, reloading.
+INFO 2020-12-06 09:13:28,751 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-12-06 09:14:24,310 autoreload 203 /Users/apple/Desktop/中期项目_李浩/edu_api/edu_api/apps/user/urls.py changed, reloading.
+INFO 2020-12-06 09:14:25,166 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-12-06 09:22:04,210 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-12-06 09:22:20,442 basehttp 154 "GET /user/captcha/?username=apple HTTP/1.1" 200 140
+INFO 2020-12-06 09:22:26,862 basehttp 154 "POST /user/captcha/ HTTP/1.1" 200 20
+INFO 2020-12-06 09:22:26,957 basehttp 154 "POST /user/login/ HTTP/1.1" 200 227
+INFO 2020-12-06 09:22:26,993 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-06 09:22:26,998 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-06 09:22:26,999 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 292
+INFO 2020-12-06 09:23:07,725 autoreload 203 /Users/apple/Desktop/中期项目_李浩/edu_api/edu_api/apps/user/views.py changed, reloading.
+INFO 2020-12-06 09:23:08,821 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-12-06 09:23:10,622 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 292
+INFO 2020-12-06 09:23:10,622 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-06 09:23:10,622 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-06 09:23:10,760 basehttp 154 "GET /media/banner/02_T238PiS.png HTTP/1.1" 304 0
+INFO 2020-12-06 09:23:10,761 basehttp 154 "GET /media/banner/01_CIUzAj5.png HTTP/1.1" 304 0
+INFO 2020-12-06 09:23:10,761 basehttp 154 "GET /media/banner/03_aN6PIW4.png HTTP/1.1" 304 0
+INFO 2020-12-06 09:23:19,922 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-12-06 09:23:23,873 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 292
+INFO 2020-12-06 09:23:23,874 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-06 09:23:23,874 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-06 09:24:54,720 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-06 09:24:55,914 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-06 09:24:55,915 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-06 09:24:55,916 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 292
+INFO 2020-12-06 09:25:20,022 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+ERROR 2020-12-06 09:25:20,033 log 222 Internal Server Error: /user/get_username/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/apple/Desktop/中期项目_李浩/edu_api/edu_api/apps/user/views.py", line 55, in get
+    username = request.query_params.filter('username')
+AttributeError: 'QueryDict' object has no attribute 'filter'
+ERROR 2020-12-06 09:25:20,034 basehttp 154 "GET /user/get_username/ HTTP/1.1" 500 16845
+INFO 2020-12-06 09:25:24,368 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-06 09:25:24,369 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 292
+INFO 2020-12-06 09:25:24,371 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+ERROR 2020-12-06 09:25:24,377 log 222 Internal Server Error: /user/get_username/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/apple/Desktop/中期项目_李浩/edu_api/edu_api/apps/user/views.py", line 55, in get
+    username = request.query_params.filter('username')
+AttributeError: 'QueryDict' object has no attribute 'filter'
+ERROR 2020-12-06 09:25:24,378 basehttp 154 "GET /user/get_username/ HTTP/1.1" 500 16845
+INFO 2020-12-06 09:26:04,648 autoreload 203 /Users/apple/Desktop/中期项目_李浩/edu_api/edu_api/apps/user/views.py changed, reloading.
+INFO 2020-12-06 09:26:05,775 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-12-06 09:41:54,932 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-06 09:44:59,851 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-06 09:44:59,852 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-06 09:44:59,853 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 292
+INFO 2020-12-06 09:44:59,888 basehttp 154 "GET /media/banner/02_T238PiS.png HTTP/1.1" 304 0
+INFO 2020-12-06 09:44:59,889 basehttp 154 "GET /media/banner/03_aN6PIW4.png HTTP/1.1" 304 0
+INFO 2020-12-06 09:44:59,889 basehttp 154 "GET /media/banner/01_CIUzAj5.png HTTP/1.1" 304 0
+INFO 2020-12-06 09:45:20,679 basehttp 154 "GET /user/captcha/?username=apple HTTP/1.1" 200 140
+INFO 2020-12-06 09:45:27,316 basehttp 154 "POST /user/captcha/ HTTP/1.1" 200 20
+INFO 2020-12-06 09:45:27,409 basehttp 154 "POST /user/login/ HTTP/1.1" 200 227
+INFO 2020-12-06 09:45:27,453 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 292
+INFO 2020-12-06 09:45:27,454 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-06 09:45:27,456 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-06 09:46:37,032 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-06 09:46:37,033 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 292
+INFO 2020-12-06 09:46:37,034 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-06 09:46:48,201 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-06 09:46:48,204 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 292
+INFO 2020-12-06 09:46:48,205 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-06 09:48:23,586 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-06 09:48:23,587 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-06 09:48:23,588 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 292
+INFO 2020-12-06 09:48:25,104 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-06 09:48:25,106 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 292
+INFO 2020-12-06 09:48:25,107 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229

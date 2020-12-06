@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/2.0/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.0/ref/settings/
 """
-
+import datetime
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'reversion',
 
     'home',
+    'user',
 ]
 
 MIDDLEWARE = [
@@ -191,6 +192,30 @@ CORS_ORIGIN_ALLOW_ALL = True
 # DRF相关配置
 REST_FRAMEWORK = {
     # 全局异常配置
-    'EXCEPTION_HANDLER': 'utils.exception.custom_exception_handler',
+    'EXCEPTION_HANDLER': 'rest_framework.views.exception_handler',
+
     # 认证方式
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework_jwt.authentication.JSONWebTokenAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
+        'rest_framework.authentication.BasicAuthentication',
+    ],
 }
+
+AUTH_USER_MODEL = "user.UserInfo"
+
+# jwt相关配置
+JWT_AUTH = {
+
+    # token的有效时间
+    'JWT_EXPIRATION_DELTA': datetime.timedelta(seconds=3000),
+
+    # jwt返回数据的格式
+    'JWT_RESPONSE_PAYLOAD_HANDLER':
+        'user.service.jwt_response_payload_handler',
+}
+
+# 自定义多条件登录
+AUTHENTICATION_BACKENDS = [
+    'user.service.UserAuthentication',
+]

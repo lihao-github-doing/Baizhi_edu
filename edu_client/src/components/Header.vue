@@ -19,9 +19,10 @@
             <span><router-link to="/cart">购物车</router-link></span>
           </div>
           <div class="login-box full-left">
-            <span>登录</span>
+            <router-link to="/login">登录</router-link>
             &nbsp;|&nbsp;
             <span>注册</span>
+<!--            <span>欢迎{{name}}} </span>-->
           </div>
         </div>
       </div>
@@ -35,6 +36,7 @@ export default {
   data() {
     return {
       nav_list: [],
+      // usrname:[],
     }
   },
   methods: {
@@ -49,9 +51,22 @@ export default {
         console.log(error)
       })
     },
+    // get_username() {
+    //   this.$axios({
+    //     url: this.$settings.HOST + "user/get_username/",
+    //     method: "get",
+    //   }).then(res => {
+    //     alert(this.usrname)
+    //     this.usrname = res.data
+    //   }).catch(error => {
+    //     alert(this.username)
+    //     this.usrname = []
+    //   })
+    // }
   },
   created() {
     this.get_all_nav()
+    // this.get_username()
   },
 }
 </script>

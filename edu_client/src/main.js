@@ -18,6 +18,8 @@ import "./static/css/global.css"
 import settings from "./settings"
 Vue.prototype.$settings = settings;
 
+import "./static/js/gt.js"
+
 new Vue({
     router,
     store,
