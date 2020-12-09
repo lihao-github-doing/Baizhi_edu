@@ -240,3 +240,22 @@ AUTHENTICATION_BACKENDS = [
 #     },
 # }
 
+CKEDITOR_UPLOAD_PATH = ''  # 使用fdfs分布系统
+CKEDITOR_CONFIGS = {
+    'default': {
+        'toolbar': 'full',  # 完整工具条
+        'height': 300,  # 编辑高度
+        'width': 1000
+    },
+    # 'default': {
+    #     'toolbar': 'Custom',
+    #     'toolbar_Custom': [
+    #         ['Bold', 'Italic', 'Underline'],
+    #         ['NumberedList', 'BulletedList', '-', 'table', 'image2', 'Outdent', 'Indent',
+    #          '-', 'JustifyLeft', 'JustifyCenter',
+    #          'JustifyRight', 'JustifyBlock'],
+    #         ['Link', 'Unlink'],
+    #         ['RemoveFormat', 'Source']
+    #     ]
+    # }
+}

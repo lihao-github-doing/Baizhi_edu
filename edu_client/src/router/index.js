@@ -16,7 +16,7 @@ const routes = [
     {path: "/login", component: Login},
     {path: "/register", component: Register},
     {path: "/course", component: Course},
-    {path: "/CourseDetail", component: CourseDetail},
+    {path: "/detail/:id", component: CourseDetail},
 ]
 
 const router = new VueRouter({

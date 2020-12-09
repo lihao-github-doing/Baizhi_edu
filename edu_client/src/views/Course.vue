@@ -24,13 +24,15 @@
 
       </div>
       <!-- 课程列表 -->
-      <div class="course-list"><router-link to="CourseDetail">
+      <div class="course-list">
         <div class="course-item" v-for="(course, index) in course_list" :key="index">
           <div class="course-image">
             <img :src="course.course_img" alt="">
           </div>
           <div class="course-info">
-            <h3>{{ course.name }} <span><img src="/src/static/image/avatar1.svg" alt="">{{ course.students }}人已加入学习</span>
+            <h3>
+              <router-link :to="'/detail/'+course.id">{{ course.name }}</router-link>
+              <span><img src="../static/image/avatar1.svg" alt="">{{ course.students }}人已加入学习</span>
             </h3>
             <p class="teather-info">huxz 百知教育教学总监
               <span>共{{
@@ -39,7 +41,7 @@
             </p>
             <ul class="lesson-list">
               <li v-for="(lesson, key) in course.lesson_list" :key="key"><span
-                class="lesson-title">{{ key + 1 }} | 第{{ key + 1 }}节：{{ lesson.name }}</span> <span>
+                  class="lesson-title">{{ key + 1 }} | 第{{ key + 1 }}节：{{ lesson.name }}</span> <span
                   class="free" v-if="lesson.free_trail">免费</span></li>
             </ul>
             <div class="pay-box">
@@ -51,7 +53,7 @@
           </div>
         </div>
 
-      </router-link></div>
+      </div>
     </div>
     <el-pagination
         background
@@ -97,10 +99,6 @@ export default {
     },
   },
   methods: {
-    //获取课程
-    get_lessons() {
-
-    },
 
     // 改变分页
     change_page(page) {
@@ -405,7 +403,7 @@ export default {
   color: #666;
   padding-left: 22px;
   /* background: url("路径") 是否平铺 x轴位置 y轴位置 */
-  background: url("/static/image/play-icon-gray.svg") no-repeat left 4px;
+  background: url("../static/image/play-icon-gray.svg") no-repeat left 4px;
   margin-bottom: 15px;
 }
 
@@ -419,7 +417,7 @@ export default {
 }
 
 .course-item .lesson-list li:hover {
-  background-image: url("/static/image/play-icon-yellow.svg");
+  background-image: url("../static/image/play-icon-yellow.svg");
   color: #ffc210;
 }
 

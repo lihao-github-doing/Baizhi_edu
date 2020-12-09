@@ -2120,3 +2120,1019 @@ INFO 2020-12-08 15:50:47,769 basehttp 154 "GET /course/category/ HTTP/1.1" 200 2
 INFO 2020-12-08 15:50:47,772 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
 INFO 2020-12-08 15:50:47,778 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
 INFO 2020-12-08 15:50:47,780 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 634
+INFO 2020-12-09 01:30:48,460 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-12-09 01:31:00,013 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-09 01:31:00,013 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-09 01:31:00,013 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-09 01:31:00,013 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 634
+INFO 2020-12-09 01:31:00,030 basehttp 154 "GET /media/course/python_ef3nLdu.jpg HTTP/1.1" 304 0
+INFO 2020-12-09 01:31:00,031 basehttp 154 "GET /media/course/python_t9P7nW9.jpg HTTP/1.1" 304 0
+INFO 2020-12-09 01:31:04,024 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-09 01:31:04,033 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-09 01:31:04,038 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-09 01:31:04,039 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 634
+INFO 2020-12-09 01:31:09,595 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-09 01:31:09,595 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-09 01:31:09,598 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-09 01:31:09,599 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 634
+INFO 2020-12-09 01:31:12,345 basehttp 154 "GET /course/courses/?page=2&size=2&ordering=-id HTTP/1.1" 200 703
+INFO 2020-12-09 01:31:12,355 basehttp 154 "GET /media/course/python_3oAaUjS.jpg HTTP/1.1" 304 0
+INFO 2020-12-09 01:31:12,356 basehttp 154 "GET /media/course/python_GaFGEhT.jpg HTTP/1.1" 304 0
+INFO 2020-12-09 01:31:13,388 basehttp 154 "GET /course/courses/?page=3&size=2&ordering=-id HTTP/1.1" 200 695
+INFO 2020-12-09 01:31:13,398 basehttp 154 "GET /media/course/java_lesson.png HTTP/1.1" 304 0
+INFO 2020-12-09 01:31:13,399 basehttp 154 "GET /media/course/corejava.png HTTP/1.1" 304 0
+INFO 2020-12-09 01:31:14,991 basehttp 154 "GET /course/courses/?page=4&size=2&ordering=-id HTTP/1.1" 200 716
+INFO 2020-12-09 01:31:15,000 basehttp 154 "GET /media/course/ui_lesson.png HTTP/1.1" 304 0
+INFO 2020-12-09 01:31:15,000 basehttp 154 "GET /media/course/ui_lesson_xzQ1tIx.png HTTP/1.1" 304 0
+INFO 2020-12-09 01:31:15,615 basehttp 154 "GET /course/courses/?page=5&size=2&ordering=-id HTTP/1.1" 200 726
+INFO 2020-12-09 01:31:15,624 basehttp 154 "GET /media/course/ui_lesson_y8PYnBo.png HTTP/1.1" 304 0
+INFO 2020-12-09 01:31:15,624 basehttp 154 "GET /media/course/ui_lesson_NGuIqyL.png HTTP/1.1" 304 0
+INFO 2020-12-09 01:31:17,443 basehttp 154 "GET /course/courses/?page=6&size=2&ordering=-id HTTP/1.1" 200 703
+INFO 2020-12-09 01:31:17,451 basehttp 154 "GET /media/course/ui_lesson_y6FN5UA.png HTTP/1.1" 304 0
+INFO 2020-12-09 01:31:17,452 basehttp 154 "GET /media/course/ui_lesson_Y1LjePH.png HTTP/1.1" 304 0
+INFO 2020-12-09 01:31:18,074 basehttp 154 "GET /course/courses/?page=7&size=2&ordering=-id HTTP/1.1" 200 720
+INFO 2020-12-09 01:31:18,082 basehttp 154 "GET /media/course/corejava_TqCH8j0.png HTTP/1.1" 304 0
+INFO 2020-12-09 01:31:18,083 basehttp 154 "GET /media/course/ui_lesson_yJvhEO4.png HTTP/1.1" 304 0
+INFO 2020-12-09 01:31:18,771 basehttp 154 "GET /course/courses/?page=8&size=2&ordering=-id HTTP/1.1" 200 866
+INFO 2020-12-09 01:31:18,781 basehttp 154 "GET /media/course/corejava_MT68OFt.png HTTP/1.1" 304 0
+INFO 2020-12-09 01:31:18,782 basehttp 154 "GET /media/course/ui_lesson_fs4wTGU.png HTTP/1.1" 304 0
+INFO 2020-12-09 01:31:21,125 basehttp 154 "GET /course/courses/?page=9&size=2&ordering=-id HTTP/1.1" 200 850
+INFO 2020-12-09 01:31:21,134 basehttp 154 "GET /media/course/java_lesson_V3fwScX.png HTTP/1.1" 304 0
+INFO 2020-12-09 01:31:21,134 basehttp 154 "GET /media/course/java_lesson_827RnHg.png HTTP/1.1" 304 0
+INFO 2020-12-09 01:31:28,971 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-09 01:31:28,982 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-09 01:31:28,983 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-09 01:31:28,986 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 634
+INFO 2020-12-09 01:31:36,308 basehttp 154 "GET /course/courses/?page=9&size=2&ordering=-id HTTP/1.1" 200 850
+INFO 2020-12-09 01:33:36,553 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-09 01:33:36,555 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-09 01:33:36,558 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-09 01:33:36,562 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 634
+INFO 2020-12-09 01:33:40,405 basehttp 154 "GET /course/courses/?page=9&size=2&ordering=-id HTTP/1.1" 200 850
+INFO 2020-12-09 01:40:35,366 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-09 01:40:35,391 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 292
+INFO 2020-12-09 01:40:35,392 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-09 01:40:35,394 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-09 01:40:35,396 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 634
+INFO 2020-12-09 01:40:35,405 basehttp 154 "GET /media/banner/02_T238PiS.png HTTP/1.1" 304 0
+INFO 2020-12-09 01:40:35,405 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-09 01:40:35,406 basehttp 154 "GET /media/banner/01_CIUzAj5.png HTTP/1.1" 304 0
+INFO 2020-12-09 01:40:35,407 basehttp 154 "GET /media/banner/03_aN6PIW4.png HTTP/1.1" 304 0
+INFO 2020-12-09 01:40:35,407 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-09 01:40:45,240 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 292
+INFO 2020-12-09 01:40:45,242 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-09 01:40:45,242 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-09 01:40:48,740 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-09 01:40:48,746 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-09 01:40:48,748 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-09 01:40:48,754 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 634
+INFO 2020-12-09 01:40:51,995 basehttp 154 "GET /course/courses/?page=9&size=2&ordering=-id HTTP/1.1" 200 850
+INFO 2020-12-09 06:53:06,012 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-12-09 06:53:17,053 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-09 06:53:17,054 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-09 06:53:17,054 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 292
+INFO 2020-12-09 06:53:21,110 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-09 06:53:21,124 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-09 06:53:21,128 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-09 06:53:21,131 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 902
+INFO 2020-12-09 06:53:21,145 basehttp 154 "GET /media/course/python_t9P7nW9.jpg HTTP/1.1" 304 0
+INFO 2020-12-09 06:53:21,145 basehttp 154 "GET /media/course/python_ef3nLdu.jpg HTTP/1.1" 304 0
+INFO 2020-12-09 06:53:24,641 basehttp 154 "GET /course/courses/?page=9&size=2&ordering=-id HTTP/1.1" 200 1118
+INFO 2020-12-09 06:53:24,651 basehttp 154 "GET /media/course/java_lesson_V3fwScX.png HTTP/1.1" 304 0
+INFO 2020-12-09 06:53:24,652 basehttp 154 "GET /media/course/java_lesson_827RnHg.png HTTP/1.1" 304 0
+INFO 2020-12-09 06:55:14,059 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-09 06:55:14,061 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 292
+INFO 2020-12-09 06:55:14,062 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-09 06:55:20,113 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-09 06:55:20,118 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-09 06:55:20,118 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-09 06:55:20,121 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 902
+INFO 2020-12-09 06:57:04,549 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-09 06:57:04,555 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-09 06:57:04,559 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-09 06:57:04,561 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 902
+INFO 2020-12-09 06:57:07,458 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-09 06:57:07,460 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-09 06:57:07,461 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-09 06:57:07,462 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 902
+INFO 2020-12-09 06:59:48,614 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-09 06:59:48,623 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-09 06:59:48,627 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-09 06:59:48,628 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 902
+INFO 2020-12-09 07:02:21,189 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-09 07:02:21,191 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-09 07:02:21,197 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-09 07:02:21,199 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 902
+INFO 2020-12-09 07:02:28,036 basehttp 154 "GET /course/courses/?page=9&size=2&ordering=-id HTTP/1.1" 200 1118
+INFO 2020-12-09 07:02:32,512 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-09 07:02:32,513 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-09 07:02:32,513 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-09 07:02:32,518 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 902
+INFO 2020-12-09 07:14:06,513 autoreload 203 /Users/apple/Desktop/中期项目_李浩/edu_api/edu_api/apps/course/models.py changed, reloading.
+INFO 2020-12-09 07:14:07,089 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-12-09 07:14:12,582 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-12-09 07:16:13,161 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-12-09 07:27:22,498 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-12-09 07:32:01,094 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-12-09 07:32:06,652 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-09 07:32:06,652 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-09 07:32:06,652 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 902
+INFO 2020-12-09 07:32:06,652 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-09 07:33:34,967 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-12-09 07:36:48,502 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-09 07:36:48,502 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-09 07:36:48,502 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-09 07:36:48,502 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 902
+INFO 2020-12-09 07:36:52,803 basehttp 154 "GET /course/courses/?page=9&size=2&ordering=-id HTTP/1.1" 200 1118
+INFO 2020-12-09 07:42:10,170 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-09 07:42:10,173 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-09 07:42:10,176 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-09 07:42:10,180 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 902
+INFO 2020-12-09 07:42:12,793 basehttp 154 "GET /course/courses/?page=9&size=2&ordering=-id HTTP/1.1" 200 1118
+INFO 2020-12-09 07:45:42,314 basehttp 154 "GET /course/detail/1/ HTTP/1.1" 200 425
+INFO 2020-12-09 07:45:42,483 basehttp 154 "GET /media/teacher/090762D6-7FAE-422D-9D95-C754FB610677.jpeg HTTP/1.1" 200 95446
+INFO 2020-12-09 07:47:12,904 basehttp 154 "GET /course/detail/1/ HTTP/1.1" 200 425
+INFO 2020-12-09 07:50:04,638 basehttp 154 "GET /course/detail/1/ HTTP/1.1" 200 425
+INFO 2020-12-09 07:50:04,788 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-09 07:50:04,792 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-09 07:50:04,796 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 902
+INFO 2020-12-09 07:50:04,797 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-09 07:50:07,717 basehttp 154 "GET /course/detail/29/ HTTP/1.1" 200 422
+INFO 2020-12-09 07:51:33,421 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-09 07:51:33,422 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-09 07:51:33,423 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-09 07:51:33,424 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 902
+INFO 2020-12-09 07:51:35,710 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id&course_category=2 HTTP/1.1" 200 921
+INFO 2020-12-09 07:51:35,719 basehttp 154 "GET /media/course/python_GaFGEhT.jpg HTTP/1.1" 304 0
+INFO 2020-12-09 07:51:36,562 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id&course_category=6 HTTP/1.1" 200 445
+INFO 2020-12-09 07:51:36,571 basehttp 154 "GET /media/course/ui_lesson_y6FN5UA.png HTTP/1.1" 304 0
+INFO 2020-12-09 07:51:37,447 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id&course_category=3 HTTP/1.1" 200 909
+INFO 2020-12-09 07:51:37,458 basehttp 154 "GET /media/course/corejava.png HTTP/1.1" 304 0
+INFO 2020-12-09 07:51:38,709 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id&course_category=7 HTTP/1.1" 200 840
+INFO 2020-12-09 07:51:38,719 basehttp 154 "GET /media/course/ui_lesson_yJvhEO4.png HTTP/1.1" 304 0
+INFO 2020-12-09 07:51:38,720 basehttp 154 "GET /media/course/ui_lesson_NGuIqyL.png HTTP/1.1" 304 0
+INFO 2020-12-09 07:51:40,028 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id&course_category=4 HTTP/1.1" 200 52
+INFO 2020-12-09 07:51:41,895 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id&course_category=8 HTTP/1.1" 200 52
+INFO 2020-12-09 07:51:43,421 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id&course_category=1 HTTP/1.1" 200 927
+INFO 2020-12-09 07:51:43,434 basehttp 154 "GET /media/course/ui_lesson_xzQ1tIx.png HTTP/1.1" 304 0
+INFO 2020-12-09 07:51:43,435 basehttp 154 "GET /media/course/ui_lesson_Y1LjePH.png HTTP/1.1" 304 0
+INFO 2020-12-09 07:51:45,134 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id&course_category=8 HTTP/1.1" 200 52
+INFO 2020-12-09 07:51:45,952 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id&course_category=1 HTTP/1.1" 200 927
+INFO 2020-12-09 07:51:46,970 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id&course_category=5 HTTP/1.1" 200 52
+INFO 2020-12-09 07:51:49,170 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id&course_category=1 HTTP/1.1" 200 927
+INFO 2020-12-09 07:51:52,630 basehttp 154 "GET /course/detail/19/ HTTP/1.1" 200 409
+INFO 2020-12-09 07:52:20,205 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-09 07:52:20,205 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-09 07:52:20,207 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-09 07:52:20,208 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 902
+INFO 2020-12-09 07:52:22,988 basehttp 154 "GET /course/detail/29/ HTTP/1.1" 200 422
+INFO 2020-12-09 07:52:24,923 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-09 07:52:24,932 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-09 07:52:24,937 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-09 07:52:24,938 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 902
+INFO 2020-12-09 07:52:28,095 basehttp 154 "GET /course/detail/28/ HTTP/1.1" 200 413
+INFO 2020-12-09 07:52:32,041 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-09 07:52:32,043 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-09 07:52:32,049 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-09 07:52:32,053 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 902
+INFO 2020-12-09 07:53:01,713 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 292
+INFO 2020-12-09 07:53:01,713 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-09 07:53:01,715 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-09 08:09:14,914 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-09 08:09:14,915 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-09 08:09:14,916 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-09 08:09:14,917 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 902
+INFO 2020-12-09 08:09:21,470 basehttp 154 "GET /course/detail/28/ HTTP/1.1" 200 413
+INFO 2020-12-09 08:09:24,264 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-09 08:09:24,267 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-09 08:09:24,271 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-09 08:09:24,273 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 902
+ERROR 2020-12-09 08:09:53,609 exception 75 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2020-12-09 08:09:53,654 log 222 Bad Request: /admin/
+WARNING 2020-12-09 08:09:53,681 basehttp 154 "GET /admin/ HTTP/1.1" 400 64790
+ERROR 2020-12-09 08:09:53,932 exception 75 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2020-12-09 08:09:53,955 log 222 Bad Request: /favicon.ico
+WARNING 2020-12-09 08:09:53,956 basehttp 154 "GET /favicon.ico HTTP/1.1" 400 64643
+INFO 2020-12-09 08:12:17,140 basehttp 154 "GET /admin/ HTTP/1.1" 200 18437
+INFO 2020-12-09 08:12:17,253 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+INFO 2020-12-09 08:12:17,264 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+INFO 2020-12-09 08:12:17,267 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+INFO 2020-12-09 08:12:17,275 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+INFO 2020-12-09 08:12:17,275 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+INFO 2020-12-09 08:12:17,275 basehttp 154 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 304 0
+INFO 2020-12-09 08:12:17,279 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+INFO 2020-12-09 08:12:17,281 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2020-12-09 08:12:17,285 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-09 08:12:17,288 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+INFO 2020-12-09 08:12:17,289 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+INFO 2020-12-09 08:12:17,290 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+INFO 2020-12-09 08:12:17,290 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+INFO 2020-12-09 08:12:17,294 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+INFO 2020-12-09 08:12:17,296 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+INFO 2020-12-09 08:12:17,298 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+INFO 2020-12-09 08:12:17,298 basehttp 154 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 304 0
+INFO 2020-12-09 08:12:17,299 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+INFO 2020-12-09 08:12:17,299 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
+INFO 2020-12-09 08:12:17,300 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+INFO 2020-12-09 08:12:17,367 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+WARNING 2020-12-09 08:12:17,455 log 222 Not Found: /favicon.ico
+WARNING 2020-12-09 08:12:17,456 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2423
+INFO 2020-12-09 08:12:23,643 basehttp 154 "GET /admin/course/coursechapter/ HTTP/1.1" 200 37000
+INFO 2020-12-09 08:12:23,664 basehttp 154 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
+INFO 2020-12-09 08:12:23,676 basehttp 154 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
+INFO 2020-12-09 08:12:23,678 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
+INFO 2020-12-09 08:12:23,678 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
+INFO 2020-12-09 08:12:23,678 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 304 0
+INFO 2020-12-09 08:12:23,680 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
+INFO 2020-12-09 08:12:23,681 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-09 08:12:23,682 basehttp 154 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
+INFO 2020-12-09 08:12:28,286 basehttp 154 "GET /admin/course/teacher/ HTTP/1.1" 200 31024
+INFO 2020-12-09 08:12:28,311 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-09 08:12:29,661 basehttp 154 "GET /admin/course/course/ HTTP/1.1" 200 54624
+INFO 2020-12-09 08:12:29,683 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+ERROR 2020-12-09 08:12:35,461 log 222 Internal Server Error: /admin/course/course/1/update/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/templatetags/crispy_forms_tags.py", line 203, in render
+    c = self.get_render(context).flatten()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/templatetags/crispy_forms_tags.py", line 119, in get_render
+    actual_form.form_html = helper.render_layout(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/helper.py", line 301, in render_layout
+    html = self.layout.render(form, self.form_style, context, template_pack=template_pack)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 135, in render
+    return self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 96, in get_rendered_fields
+    return "".join(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 97, in <genexpr>
+    render_field(field, form, form_style, context, template_pack=template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/utils.py", line 66, in render_field
+    return field.render(form, form_style, context, template_pack=template_pack)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 367, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 96, in get_rendered_fields
+    return "".join(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 97, in <genexpr>
+    render_field(field, form, form_style, context, template_pack=template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/utils.py", line 66, in render_field
+    return field.render(form, form_style, context, template_pack=template_pack)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 367, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 96, in get_rendered_fields
+    return "".join(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 97, in <genexpr>
+    render_field(field, form, form_style, context, template_pack=template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/utils.py", line 66, in render_field
+    return field.render(form, form_style, context, template_pack=template_pack)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 289, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 96, in get_rendered_fields
+    return "".join(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 97, in <genexpr>
+    render_field(field, form, form_style, context, template_pack=template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/utils.py", line 139, in render_field
+    html = template.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/templatetags/crispy_forms_field.py", line 155, in render
+    return str(field)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/utils/html.py", line 388, in <lambda>
+    klass.__str__ = lambda self: mark_safe(klass_str(self))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/forms/boundfield.py", line 33, in __str__
+    return self.as_widget()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/forms/boundfield.py", line 89, in as_widget
+    return widget.render(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/ckeditor/widgets.py", line 117, in render
+    self._set_config()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/ckeditor_uploader/widgets.py", line 12, in _set_config
+    self.config.setdefault('filebrowserUploadUrl', reverse('ckeditor_upload'))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/urls/base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/urls/resolvers.py", line 660, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'ckeditor_upload' not found. 'ckeditor_upload' is not a valid view function or pattern name.
+ERROR 2020-12-09 08:12:35,466 basehttp 154 "GET /admin/course/course/1/update/ HTTP/1.1" 500 712672
+INFO 2020-12-09 08:12:40,315 basehttp 154 "GET /admin/course/course/ HTTP/1.1" 200 54624
+ERROR 2020-12-09 08:12:42,599 log 222 Internal Server Error: /admin/course/course/1/update/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/templatetags/crispy_forms_tags.py", line 203, in render
+    c = self.get_render(context).flatten()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/templatetags/crispy_forms_tags.py", line 119, in get_render
+    actual_form.form_html = helper.render_layout(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/helper.py", line 301, in render_layout
+    html = self.layout.render(form, self.form_style, context, template_pack=template_pack)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 135, in render
+    return self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 96, in get_rendered_fields
+    return "".join(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 97, in <genexpr>
+    render_field(field, form, form_style, context, template_pack=template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/utils.py", line 66, in render_field
+    return field.render(form, form_style, context, template_pack=template_pack)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 367, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 96, in get_rendered_fields
+    return "".join(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 97, in <genexpr>
+    render_field(field, form, form_style, context, template_pack=template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/utils.py", line 66, in render_field
+    return field.render(form, form_style, context, template_pack=template_pack)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 367, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 96, in get_rendered_fields
+    return "".join(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 97, in <genexpr>
+    render_field(field, form, form_style, context, template_pack=template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/utils.py", line 66, in render_field
+    return field.render(form, form_style, context, template_pack=template_pack)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 289, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 96, in get_rendered_fields
+    return "".join(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 97, in <genexpr>
+    render_field(field, form, form_style, context, template_pack=template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/utils.py", line 139, in render_field
+    html = template.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/templatetags/crispy_forms_field.py", line 155, in render
+    return str(field)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/utils/html.py", line 388, in <lambda>
+    klass.__str__ = lambda self: mark_safe(klass_str(self))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/forms/boundfield.py", line 33, in __str__
+    return self.as_widget()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/forms/boundfield.py", line 89, in as_widget
+    return widget.render(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/ckeditor/widgets.py", line 117, in render
+    self._set_config()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/ckeditor_uploader/widgets.py", line 12, in _set_config
+    self.config.setdefault('filebrowserUploadUrl', reverse('ckeditor_upload'))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/urls/base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/urls/resolvers.py", line 660, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'ckeditor_upload' not found. 'ckeditor_upload' is not a valid view function or pattern name.
+ERROR 2020-12-09 08:12:42,600 basehttp 154 "GET /admin/course/course/1/update/ HTTP/1.1" 500 712672
+INFO 2020-12-09 08:12:50,818 basehttp 154 "GET /admin/course/course/ HTTP/1.1" 200 54624
+ERROR 2020-12-09 08:12:53,965 log 222 Internal Server Error: /admin/course/course/2/update/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/templatetags/crispy_forms_tags.py", line 203, in render
+    c = self.get_render(context).flatten()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/templatetags/crispy_forms_tags.py", line 119, in get_render
+    actual_form.form_html = helper.render_layout(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/helper.py", line 301, in render_layout
+    html = self.layout.render(form, self.form_style, context, template_pack=template_pack)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 135, in render
+    return self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 96, in get_rendered_fields
+    return "".join(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 97, in <genexpr>
+    render_field(field, form, form_style, context, template_pack=template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/utils.py", line 66, in render_field
+    return field.render(form, form_style, context, template_pack=template_pack)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 367, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 96, in get_rendered_fields
+    return "".join(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 97, in <genexpr>
+    render_field(field, form, form_style, context, template_pack=template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/utils.py", line 66, in render_field
+    return field.render(form, form_style, context, template_pack=template_pack)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 367, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 96, in get_rendered_fields
+    return "".join(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 97, in <genexpr>
+    render_field(field, form, form_style, context, template_pack=template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/utils.py", line 66, in render_field
+    return field.render(form, form_style, context, template_pack=template_pack)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 289, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 96, in get_rendered_fields
+    return "".join(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 97, in <genexpr>
+    render_field(field, form, form_style, context, template_pack=template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/utils.py", line 139, in render_field
+    html = template.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/templatetags/crispy_forms_field.py", line 155, in render
+    return str(field)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/utils/html.py", line 388, in <lambda>
+    klass.__str__ = lambda self: mark_safe(klass_str(self))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/forms/boundfield.py", line 33, in __str__
+    return self.as_widget()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/forms/boundfield.py", line 89, in as_widget
+    return widget.render(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/ckeditor/widgets.py", line 117, in render
+    self._set_config()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/ckeditor_uploader/widgets.py", line 12, in _set_config
+    self.config.setdefault('filebrowserUploadUrl', reverse('ckeditor_upload'))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/urls/base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/urls/resolvers.py", line 660, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'ckeditor_upload' not found. 'ckeditor_upload' is not a valid view function or pattern name.
+ERROR 2020-12-09 08:12:53,966 basehttp 154 "GET /admin/course/course/2/update/ HTTP/1.1" 500 712669
+INFO 2020-12-09 08:12:56,728 basehttp 154 "GET /admin/course/course/ HTTP/1.1" 200 54624
+ERROR 2020-12-09 08:13:00,184 log 222 Internal Server Error: /admin/course/course/29/update/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/templatetags/crispy_forms_tags.py", line 203, in render
+    c = self.get_render(context).flatten()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/templatetags/crispy_forms_tags.py", line 119, in get_render
+    actual_form.form_html = helper.render_layout(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/helper.py", line 301, in render_layout
+    html = self.layout.render(form, self.form_style, context, template_pack=template_pack)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 135, in render
+    return self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 96, in get_rendered_fields
+    return "".join(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 97, in <genexpr>
+    render_field(field, form, form_style, context, template_pack=template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/utils.py", line 66, in render_field
+    return field.render(form, form_style, context, template_pack=template_pack)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 367, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 96, in get_rendered_fields
+    return "".join(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 97, in <genexpr>
+    render_field(field, form, form_style, context, template_pack=template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/utils.py", line 66, in render_field
+    return field.render(form, form_style, context, template_pack=template_pack)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 367, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 96, in get_rendered_fields
+    return "".join(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 97, in <genexpr>
+    render_field(field, form, form_style, context, template_pack=template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/utils.py", line 66, in render_field
+    return field.render(form, form_style, context, template_pack=template_pack)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 289, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 96, in get_rendered_fields
+    return "".join(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 97, in <genexpr>
+    render_field(field, form, form_style, context, template_pack=template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/utils.py", line 139, in render_field
+    html = template.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/templatetags/crispy_forms_field.py", line 155, in render
+    return str(field)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/utils/html.py", line 388, in <lambda>
+    klass.__str__ = lambda self: mark_safe(klass_str(self))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/forms/boundfield.py", line 33, in __str__
+    return self.as_widget()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/forms/boundfield.py", line 89, in as_widget
+    return widget.render(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/ckeditor/widgets.py", line 117, in render
+    self._set_config()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/ckeditor_uploader/widgets.py", line 12, in _set_config
+    self.config.setdefault('filebrowserUploadUrl', reverse('ckeditor_upload'))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/urls/base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/urls/resolvers.py", line 660, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'ckeditor_upload' not found. 'ckeditor_upload' is not a valid view function or pattern name.
+ERROR 2020-12-09 08:13:00,185 basehttp 154 "GET /admin/course/course/29/update/ HTTP/1.1" 500 712944
+INFO 2020-12-09 08:14:15,935 basehttp 154 "GET /admin/course/course/ HTTP/1.1" 200 54624
+INFO 2020-12-09 08:14:21,441 basehttp 154 "GET /admin/course/coursechapter/ HTTP/1.1" 200 37000
+INFO 2020-12-09 08:14:21,475 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-09 08:14:26,826 basehttp 154 "GET /admin/course/course/ HTTP/1.1" 200 54624
+INFO 2020-12-09 08:14:26,852 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+ERROR 2020-12-09 08:14:31,268 log 222 Internal Server Error: /admin/course/course/add/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/templatetags/crispy_forms_tags.py", line 203, in render
+    c = self.get_render(context).flatten()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/templatetags/crispy_forms_tags.py", line 119, in get_render
+    actual_form.form_html = helper.render_layout(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/helper.py", line 301, in render_layout
+    html = self.layout.render(form, self.form_style, context, template_pack=template_pack)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 135, in render
+    return self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 96, in get_rendered_fields
+    return "".join(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 97, in <genexpr>
+    render_field(field, form, form_style, context, template_pack=template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/utils.py", line 66, in render_field
+    return field.render(form, form_style, context, template_pack=template_pack)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 367, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 96, in get_rendered_fields
+    return "".join(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 97, in <genexpr>
+    render_field(field, form, form_style, context, template_pack=template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/utils.py", line 66, in render_field
+    return field.render(form, form_style, context, template_pack=template_pack)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 367, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 96, in get_rendered_fields
+    return "".join(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 97, in <genexpr>
+    render_field(field, form, form_style, context, template_pack=template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/utils.py", line 66, in render_field
+    return field.render(form, form_style, context, template_pack=template_pack)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 289, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 96, in get_rendered_fields
+    return "".join(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 97, in <genexpr>
+    render_field(field, form, form_style, context, template_pack=template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/utils.py", line 139, in render_field
+    html = template.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/templatetags/crispy_forms_field.py", line 155, in render
+    return str(field)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/utils/html.py", line 388, in <lambda>
+    klass.__str__ = lambda self: mark_safe(klass_str(self))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/forms/boundfield.py", line 33, in __str__
+    return self.as_widget()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/forms/boundfield.py", line 89, in as_widget
+    return widget.render(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/ckeditor/widgets.py", line 117, in render
+    self._set_config()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/ckeditor_uploader/widgets.py", line 12, in _set_config
+    self.config.setdefault('filebrowserUploadUrl', reverse('ckeditor_upload'))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/urls/base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/urls/resolvers.py", line 660, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'ckeditor_upload' not found. 'ckeditor_upload' is not a valid view function or pattern name.
+ERROR 2020-12-09 08:14:31,269 basehttp 154 "GET /admin/course/course/add/ HTTP/1.1" 500 713019
+INFO 2020-12-09 08:14:33,024 basehttp 154 "GET /admin/course/course/ HTTP/1.1" 200 54624
+INFO 2020-12-09 08:14:34,608 basehttp 154 "GET /admin/course/teacher/ HTTP/1.1" 200 31024
+INFO 2020-12-09 08:14:34,632 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-09 08:14:36,048 basehttp 154 "GET /admin/course/coursechapter/ HTTP/1.1" 200 37000
+INFO 2020-12-09 08:14:36,068 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-09 08:14:37,664 basehttp 154 "GET /admin/course/teacher/ HTTP/1.1" 200 31024
+INFO 2020-12-09 08:14:37,689 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-09 08:14:38,929 basehttp 154 "GET /admin/course/teacher/add/ HTTP/1.1" 200 25364
+INFO 2020-12-09 08:14:38,954 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.css HTTP/1.1" 304 0
+INFO 2020-12-09 08:14:38,955 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.1" 304 0
+INFO 2020-12-09 08:14:38,957 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.1" 304 0
+INFO 2020-12-09 08:14:38,959 basehttp 154 "GET /static/xadmin/vendor/load-image/load-image.js HTTP/1.1" 304 0
+INFO 2020-12-09 08:14:38,960 basehttp 154 "GET /static/xadmin/vendor/select2/select2.css HTTP/1.1" 304 0
+INFO 2020-12-09 08:14:38,962 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-09 08:14:38,963 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.js HTTP/1.1" 304 0
+INFO 2020-12-09 08:14:38,964 basehttp 154 "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 304 0
+INFO 2020-12-09 08:14:38,965 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 304 0
+INFO 2020-12-09 08:14:38,965 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-hans.js HTTP/1.1" 304 0
+INFO 2020-12-09 08:14:38,965 basehttp 154 "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.1" 304 0
+INFO 2020-12-09 08:14:41,011 basehttp 154 "GET /admin/course/teacher/ HTTP/1.1" 200 31024
+INFO 2020-12-09 08:14:42,529 basehttp 154 "GET /admin/course/courselesson/ HTTP/1.1" 200 33282
+INFO 2020-12-09 08:14:42,556 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-09 08:14:45,250 basehttp 154 "GET /admin/course/course/ HTTP/1.1" 200 54624
+INFO 2020-12-09 08:14:45,271 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-09 08:14:55,751 basehttp 154 "GET /admin/course/courselesson/ HTTP/1.1" 200 33282
+INFO 2020-12-09 08:14:55,771 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-09 08:15:00,247 basehttp 154 "GET /admin/course/courselesson/add/ HTTP/1.1" 200 26191
+INFO 2020-12-09 08:15:00,276 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-09 08:15:00,278 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.quick-form.js HTTP/1.1" 304 0
+INFO 2020-12-09 08:16:21,809 basehttp 154 "POST /admin/course/courselesson/add/ HTTP/1.1" 302 0
+INFO 2020-12-09 08:16:21,897 basehttp 154 "GET /admin/course/courselesson/ HTTP/1.1" 200 34036
+INFO 2020-12-09 08:16:21,935 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-09 08:16:29,724 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-09 08:16:29,727 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-09 08:16:29,730 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-09 08:16:29,734 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 950
+INFO 2020-12-09 08:16:39,076 basehttp 154 "GET /course/detail/29/ HTTP/1.1" 200 422
+INFO 2020-12-09 08:16:42,932 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-09 08:16:42,939 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-09 08:16:42,939 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-09 08:16:42,943 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 950
+INFO 2020-12-09 08:17:01,949 basehttp 154 "GET /admin/course/courselesson/add/ HTTP/1.1" 200 26191
+INFO 2020-12-09 08:17:01,973 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-09 08:17:48,822 basehttp 154 "POST /admin/course/courselesson/add/ HTTP/1.1" 302 0
+INFO 2020-12-09 08:17:48,930 basehttp 154 "GET /admin/course/courselesson/add/ HTTP/1.1" 200 26580
+INFO 2020-12-09 08:17:48,978 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-09 08:18:14,250 basehttp 154 "POST /admin/course/courselesson/add/ HTTP/1.1" 302 0
+INFO 2020-12-09 08:18:14,348 basehttp 154 "GET /admin/course/courselesson/ HTTP/1.1" 200 34846
+INFO 2020-12-09 08:18:14,370 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-09 08:18:19,722 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-09 08:18:19,725 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-09 08:18:19,725 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-09 08:18:19,728 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 1037
+INFO 2020-12-09 08:18:40,349 basehttp 154 "GET /admin/course/courselesson/add/ HTTP/1.1" 200 26191
+INFO 2020-12-09 08:18:40,374 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-09 08:19:27,722 basehttp 154 "POST /admin/course/courselesson/add/ HTTP/1.1" 302 0
+INFO 2020-12-09 08:19:27,817 basehttp 154 "GET /admin/course/courselesson/ HTTP/1.1" 200 35319
+INFO 2020-12-09 08:19:27,881 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-09 08:19:32,027 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-09 08:19:32,031 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-09 08:19:32,032 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-09 08:19:32,038 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 1115
+INFO 2020-12-09 08:19:38,106 basehttp 154 "GET /course/detail/29/ HTTP/1.1" 200 422
+INFO 2020-12-09 08:19:55,694 basehttp 154 "GET /admin/course/teacher/ HTTP/1.1" 200 31024
+INFO 2020-12-09 08:19:55,719 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-09 08:20:00,066 basehttp 154 "GET /admin/course/teacher/1/update/ HTTP/1.1" 200 25927
+INFO 2020-12-09 08:20:00,088 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-09 08:20:52,916 basehttp 154 "POST /admin/course/teacher/1/update/ HTTP/1.1" 302 0
+INFO 2020-12-09 08:20:52,970 basehttp 154 "GET /admin/course/teacher/ HTTP/1.1" 200 31257
+INFO 2020-12-09 08:20:53,011 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-09 08:20:59,676 basehttp 154 "GET /course/detail/29/ HTTP/1.1" 200 438
+INFO 2020-12-09 08:20:59,828 basehttp 154 "GET /media/teacher/090762D6-7FAE-422D-9D95-C754FB610677_luT2gJI.jpeg HTTP/1.1" 200 95446
+INFO 2020-12-09 08:24:22,740 basehttp 154 "GET /admin/course/teacher/1/update/ HTTP/1.1" 200 25948
+INFO 2020-12-09 08:24:22,769 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-09 08:24:22,779 basehttp 154 "GET /media/teacher/090762D6-7FAE-422D-9D95-C754FB610677_luT2gJI.jpeg HTTP/1.1" 304 0
+INFO 2020-12-09 08:24:51,225 basehttp 154 "POST /admin/course/teacher/1/update/ HTTP/1.1" 302 0
+INFO 2020-12-09 08:24:51,289 basehttp 154 "GET /admin/course/teacher/ HTTP/1.1" 200 31257
+INFO 2020-12-09 08:24:51,319 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-09 08:24:56,737 basehttp 154 "GET /course/detail/29/ HTTP/1.1" 200 430
+INFO 2020-12-09 08:24:56,904 basehttp 154 "GET /media/teacher/62684B2D-79E8-4CCA-890E-AB7F771CEEB9.jpeg HTTP/1.1" 200 70970
+INFO 2020-12-09 08:37:03,860 autoreload 203 /Users/apple/Desktop/中期项目_李浩/edu_api/edu_api/settings/develop.py changed, reloading.
+INFO 2020-12-09 08:37:05,055 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-12-09 08:39:01,997 basehttp 154 "GET /admin/ HTTP/1.1" 200 18437
+INFO 2020-12-09 08:39:02,094 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-09 08:39:35,856 autoreload 203 /Users/apple/Desktop/中期项目_李浩/edu_api/edu_api/settings/develop.py changed, reloading.
+INFO 2020-12-09 08:39:36,997 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-12-09 08:41:23,027 basehttp 154 "GET /admin/home/banner/ HTTP/1.1" 200 32829
+INFO 2020-12-09 08:41:23,073 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-09 08:41:23,393 basehttp 154 "GET /admin/home/nav/ HTTP/1.1" 200 35674
+INFO 2020-12-09 08:41:23,416 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-09 08:41:25,012 basehttp 154 "GET /admin/home/banner/ HTTP/1.1" 200 32829
+INFO 2020-12-09 08:41:25,035 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-09 08:42:30,677 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-09 08:42:30,679 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-09 08:42:30,680 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-09 08:42:30,681 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 1131
+INFO 2020-12-09 08:42:30,707 basehttp 154 "GET /media/course/python_t9P7nW9.jpg HTTP/1.1" 304 0
+INFO 2020-12-09 08:42:30,708 basehttp 154 "GET /media/course/python_ef3nLdu.jpg HTTP/1.1" 304 0
+INFO 2020-12-09 08:42:51,133 basehttp 154 "GET /course/detail/29/ HTTP/1.1" 200 430
+INFO 2020-12-09 09:02:17,931 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-09 09:02:17,939 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-09 09:02:17,942 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-09 09:02:17,943 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 1131
+INFO 2020-12-09 09:02:20,096 basehttp 154 "GET /course/detail/29/ HTTP/1.1" 200 430
+INFO 2020-12-09 09:02:22,991 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-09 09:02:23,001 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-09 09:02:23,002 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-09 09:02:23,007 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 1131

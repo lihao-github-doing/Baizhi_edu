@@ -4,11 +4,20 @@
     <div class="main">
       <div class="course-info">
         <div class="wrap-left">
+          <!--          <videoPlayer></videoPlayer>-->
+          <videoPlayer class="video-player vjs-custom-skin"
+                       ref="videoPlayer"
+                       :playsinline="true"
+                       :options="playerOptions">
+<!--                       @play="onPlayerPlay($event)"-->
+<!--                       @pause="onPlayerPause($event)"-->
 
+          </videoPlayer>
         </div>
         <div class="wrap-right">
-          <h3 class="course-name">Vue实战大全</h3>
-          <p class="data">23475人在学&nbsp;&nbsp;&nbsp;&nbsp;课程总时长：45课时/89小时&nbsp;&nbsp;&nbsp;&nbsp;难度：初级</p>
+          <h3 class="course-name">{{ course.name }}</h3>
+          <p class="data">{{ course.students }}人在学&nbsp;&nbsp;&nbsp;&nbsp;课程总时长：45课时/89小时&nbsp;&nbsp;&nbsp;&nbsp;
+            难度：{{ course.level_name }}</p>
           <div class="sale-time">
             <p class="sale-type">限时免费</p>
             <p class="expire">距离结束：仅剩 110天 13小时 33分 <span class="second">08</span> 秒</p>
@@ -16,7 +25,7 @@
           <p class="course-price">
             <span>活动价</span>
             <span class="discount">¥0.00</span>
-            <span class="original">¥29.00</span>
+            <span class="original">¥{{ course.price }}</span>
           </p>
           <div class="buy">
             <div class="buy-btn">
@@ -39,15 +48,7 @@
       <div class="course-content">
         <div class="course-tab-list">
           <div class="tab-item" v-if="tabIndex==1">
-            <p><img alt=""
-                    src=""
-                    width="840"></p>
-            <p><img alt=""
-                    src=""
-                    width="840"></p>
-            <p><img alt=""
-                    src=""
-                    width="840"></p>
+            <div v-html="course.brief_html"></div>
           </div>
           <div class="tab-item" v-if="tabIndex==2">
             <div class="tab-item-title">
@@ -99,9 +100,9 @@
             <h4 class="side-title"><span>授课老师</span></h4>
             <div class="teacher-content">
               <div class="cont1">
-                <img src="/static/image/12.png">
+                <img :src="course.teacher.image">
                 <div class="name">
-                  <p class="teacher-name">小波*李</p>
+                  <p class="teacher-name">{{ course.teacher.name }}</p>
                   <p class="teacher-title">我永远18！</p>
                 </div>
               </div>
@@ -116,8 +117,89 @@
 </template>
 
 <script>
+
+import {videoPlayer} from 'vue-video-player'
+
 export default {
-  name: "CourseDetail"
+  name: "CourseDetail",
+  data() {
+    return {
+      course_id: 0,
+      tabIndex: 2,
+      course: {
+        teacher: {}
+      },
+      // 播放视频的配置
+      playerOptions: {
+        playbackRates: [0.7, 1.0, 1.5, 2.0], // 播放速度
+        autoplay: false, //如果true,则自动播放
+        muted: false, // 默认情况下将会消除任何音频。
+        loop: false, // 循环播放
+        preload: 'auto',  // 建议浏览器在<video>加载元素后是否应该开始下载视频数据。auto浏览器选择最佳行为,立即开始加载视频（如果浏览器支持）
+        language: 'zh-CN',
+        aspectRatio: '16:9', // 将播放器置于流畅模式，并在计算播放器的动态大小时使用该值。值应该代表一个比例 - 用冒号分隔的两个数字（例如"16:9"或"4:3"）
+        fluid: true, // 当true时，Video.js player将拥有流体大小。换句话说，它将按比例缩放以适应其容器。
+        sources: [{ // 播放资源和资源格式
+          type: "video/mp4",
+          src: "https://cdn.theguardian.tv/webM/2015/07/20/150716YesMen_synd_768k_vp8.webm"
+          //你的视频地址（必填）
+        }],
+        poster: "../static/image/java_lesson.png", //视频封面图
+        width: document.documentElement.clientWidth, // 默认视频全屏时的最大宽度
+        notSupportedMessage: '此视频暂无法播放，请稍后再试', //允许覆盖Video.js无法播放媒体源时显示的默认信息。
+      },
+    }
+  },
+  methods: {
+
+    // onPlayerPlay() {
+    //   alert("我是广告")
+    // },
+    // onPlayerPause() {
+    //   alert("我是广告1")
+    // },
+
+    // 获取课程id
+    get_course_id() {
+      let course_id = this.$route.params.id;
+      if (course_id > 0) {
+        this.course_id = parseInt(course_id)
+      } else {
+        let self = this;
+        this.$alert("对不起，您访问的页面不存在", "百知教育", {
+          callback() {
+            self.$router.go(-1);
+          }
+        });
+        return false;
+      }
+      return course_id;
+    },
+
+    // 获取当前课程的详细信息
+    get_course_detail() {
+      this.$axios({
+        url: this.$settings.HOST + "course/detail/" + this.course_id + "/",
+        method: 'get',
+      }).then(res => {
+        console.log(res.data);
+        this.course = res.data;
+      }).catch(error => {
+        console.log(error);
+      })
+    },
+
+    // 获取当前课程的章节信息
+    get_course_chapter() {
+    },
+  },
+  created() {
+    this.get_course_id()
+    this.get_course_detail()
+  },
+  components: {
+    videoPlayer
+  }
 }
 </script>
 
