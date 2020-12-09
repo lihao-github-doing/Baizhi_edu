@@ -48,9 +48,11 @@ INSTALLED_APPS = [
     'xadmin',
     'crispy_forms',
     'reversion',
+    'django_filters',
 
     'home',
     'user',
+    "course",
 ]
 
 MIDDLEWARE = [
@@ -218,4 +220,23 @@ JWT_AUTH = {
 # 自定义多条件登录
 AUTHENTICATION_BACKENDS = [
     'user.service.UserAuthentication',
-]
+]# redis相关配置
+# CACHES = {
+#     # 默认库
+#     "default": {
+#         "BACKEND": "django_redis.cache.RedisCache",
+#         "LOCATION": "redis://localhost:6379/1",
+#         "OPTIONS": {
+#             "CLIENT_CLASS": "django_redis.client.DefaultClient",
+#         }
+#     },
+#     # 验证码储存位置
+#     "sms_code": {
+#         "BACKEND": "django_redis.cache.RedisCache",
+#         "LOCATION": "redis://localhost:6379/2",
+#         "OPTIONS": {
+#             "CLIENT_CLASS": "django_redis.client.DefaultClient",
+#         }
+#     },
+# }
+

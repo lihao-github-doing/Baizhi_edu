@@ -6,7 +6,7 @@
           <router-link to="/"><img src="../static/image/logo.png" alt=""></router-link>
         </div>
         <ul class="nav full-left" >
-          <li v-for="(nav,index) in nav_list" :key="index"><a :href="nav.link">{{nav.title}}</a></li>
+          <li v-for="(nav,index) in nav_list" :key="index"><a :href="nav.link"><router-link to="/course">{{nav.title}}</router-link></a></li>
 <!--          <li><span>Java进阶之路</span></li>-->
 <!--          <li><span>大数据成功法门</span></li>-->
 <!--          <li><span>Python全栈</span></li>-->
@@ -21,7 +21,7 @@
           <div class="login-box full-left">
             <router-link to="/login">登录</router-link>
             &nbsp;|&nbsp;
-            <span>注册</span>
+            <router-link to="/register">注册</router-link>
 <!--            <span>欢迎{{name}}} </span>-->
           </div>
         </div>

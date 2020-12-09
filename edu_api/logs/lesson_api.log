@@ -1068,3 +1068,1055 @@ INFO 2020-12-06 09:48:23,588 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 292
 INFO 2020-12-06 09:48:25,104 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
 INFO 2020-12-06 09:48:25,106 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 292
 INFO 2020-12-06 09:48:25,107 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-07 12:20:29,888 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-12-07 12:22:26,267 autoreload 203 /Users/apple/Desktop/中期项目_李浩/edu_api/edu_api/settings/develop.py changed, reloading.
+INFO 2020-12-07 12:22:27,106 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-12-07 12:35:06,304 autoreload 203 /Users/apple/Desktop/中期项目_李浩/edu_api/edu_api/apps/user/views.py changed, reloading.
+INFO 2020-12-07 12:35:07,289 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-12-07 12:36:44,322 autoreload 578 Watching for file changes with StatReloader
+ERROR 2020-12-07 12:36:46,844 exception 75 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2020-12-07 12:36:46,884 log 222 Bad Request: /
+WARNING 2020-12-07 12:36:46,884 basehttp 154 "GET / HTTP/1.1" 400 64503
+ERROR 2020-12-07 12:36:47,025 exception 75 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2020-12-07 12:36:47,061 log 222 Bad Request: /favicon.ico
+WARNING 2020-12-07 12:36:47,062 basehttp 154 "GET /favicon.ico HTTP/1.1" 400 64416
+ERROR 2020-12-07 12:36:55,628 exception 75 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2020-12-07 12:36:55,659 log 222 Bad Request: /
+WARNING 2020-12-07 12:36:55,660 basehttp 154 "GET / HTTP/1.1" 400 64702
+ERROR 2020-12-07 12:36:55,823 exception 75 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2020-12-07 12:36:55,849 log 222 Bad Request: /favicon.ico
+WARNING 2020-12-07 12:36:55,849 basehttp 154 "GET /favicon.ico HTTP/1.1" 400 64615
+INFO 2020-12-07 12:37:46,843 basehttp 154 "GET /admin/ HTTP/1.1" 200 15488
+INFO 2020-12-07 12:37:46,919 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+INFO 2020-12-07 12:37:46,940 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+INFO 2020-12-07 12:37:46,942 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+INFO 2020-12-07 12:37:46,947 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+INFO 2020-12-07 12:37:46,953 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-07 12:37:46,954 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+INFO 2020-12-07 12:37:46,956 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+INFO 2020-12-07 12:37:46,958 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+INFO 2020-12-07 12:37:46,961 basehttp 154 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 304 0
+INFO 2020-12-07 12:37:46,963 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240196
+INFO 2020-12-07 12:37:46,965 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+INFO 2020-12-07 12:37:46,965 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+INFO 2020-12-07 12:37:46,966 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+INFO 2020-12-07 12:37:46,966 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+INFO 2020-12-07 12:37:46,971 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+INFO 2020-12-07 12:37:46,974 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+INFO 2020-12-07 12:37:46,975 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
+INFO 2020-12-07 12:37:46,978 basehttp 154 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 304 0
+INFO 2020-12-07 12:37:46,979 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+INFO 2020-12-07 12:37:46,980 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+INFO 2020-12-07 12:37:47,039 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+WARNING 2020-12-07 12:37:47,108 log 222 Not Found: /favicon.ico
+WARNING 2020-12-07 12:37:47,108 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2316
+WARNING 2020-12-07 12:37:54,553 log 222 Not Found: /
+WARNING 2020-12-07 12:37:54,553 basehttp 154 "GET / HTTP/1.1" 404 2265
+WARNING 2020-12-07 12:38:06,858 log 222 Not Found: /user/
+WARNING 2020-12-07 12:38:06,859 basehttp 154 "GET /user/ HTTP/1.1" 404 2829
+INFO 2020-12-07 12:42:28,728 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-07 12:42:28,728 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-07 12:42:28,728 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 292
+INFO 2020-12-07 12:42:28,762 basehttp 154 "GET /media/banner/02_T238PiS.png HTTP/1.1" 200 364808
+INFO 2020-12-07 12:42:28,769 basehttp 154 "GET /media/banner/01_CIUzAj5.png HTTP/1.1" 200 737783
+INFO 2020-12-07 12:42:28,770 basehttp 154 "GET /media/banner/03_aN6PIW4.png HTTP/1.1" 200 745382
+INFO 2020-12-07 12:45:05,424 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 292
+INFO 2020-12-07 12:45:05,426 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-07 12:45:05,427 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+WARNING 2020-12-07 13:23:46,000 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-07 13:23:46,000 basehttp 154 "GET /user/captcha/?username=15176893059 HTTP/1.1" 400 32
+WARNING 2020-12-07 13:23:47,638 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-07 13:23:47,639 basehttp 154 "GET /user/captcha/?username=15176893059 HTTP/1.1" 400 32
+WARNING 2020-12-07 13:31:38,063 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-07 13:31:38,063 basehttp 154 "GET /user/captcha/?username=15176893059 HTTP/1.1" 400 32
+WARNING 2020-12-07 13:31:38,558 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-07 13:31:38,558 basehttp 154 "GET /user/captcha/?username=15176893059 HTTP/1.1" 400 32
+WARNING 2020-12-07 13:31:38,759 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-07 13:31:38,759 basehttp 154 "GET /user/captcha/?username=15176893059 HTTP/1.1" 400 32
+WARNING 2020-12-07 13:31:38,960 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-07 13:31:38,961 basehttp 154 "GET /user/captcha/?username=15176893059 HTTP/1.1" 400 32
+WARNING 2020-12-07 13:31:39,128 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-07 13:31:39,129 basehttp 154 "GET /user/captcha/?username=15176893059 HTTP/1.1" 400 32
+WARNING 2020-12-07 13:31:39,331 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-07 13:31:39,331 basehttp 154 "GET /user/captcha/?username=15176893059 HTTP/1.1" 400 32
+WARNING 2020-12-07 13:31:39,510 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-07 13:31:39,510 basehttp 154 "GET /user/captcha/?username=15176893059 HTTP/1.1" 400 32
+WARNING 2020-12-07 13:31:39,669 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-07 13:31:39,670 basehttp 154 "GET /user/captcha/?username=15176893059 HTTP/1.1" 400 32
+WARNING 2020-12-07 13:31:39,838 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-07 13:31:39,838 basehttp 154 "GET /user/captcha/?username=15176893059 HTTP/1.1" 400 32
+WARNING 2020-12-07 13:31:40,007 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-07 13:31:40,007 basehttp 154 "GET /user/captcha/?username=15176893059 HTTP/1.1" 400 32
+WARNING 2020-12-07 13:31:40,165 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-07 13:31:40,165 basehttp 154 "GET /user/captcha/?username=15176893059 HTTP/1.1" 400 32
+WARNING 2020-12-07 13:31:40,286 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-07 13:31:40,286 basehttp 154 "GET /user/captcha/?username=15176893059 HTTP/1.1" 400 32
+WARNING 2020-12-07 13:31:40,435 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-07 13:31:40,435 basehttp 154 "GET /user/captcha/?username=15176893059 HTTP/1.1" 400 32
+WARNING 2020-12-07 13:31:40,635 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-07 13:31:40,635 basehttp 154 "GET /user/captcha/?username=15176893059 HTTP/1.1" 400 32
+WARNING 2020-12-07 13:31:40,805 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-07 13:31:40,806 basehttp 154 "GET /user/captcha/?username=15176893059 HTTP/1.1" 400 32
+WARNING 2020-12-07 13:31:40,996 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-07 13:31:40,996 basehttp 154 "GET /user/captcha/?username=15176893059 HTTP/1.1" 400 32
+WARNING 2020-12-07 13:31:41,190 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-07 13:31:41,190 basehttp 154 "GET /user/captcha/?username=15176893059 HTTP/1.1" 400 32
+WARNING 2020-12-07 13:31:41,412 log 222 Bad Request: /user/captcha/
+WARNING 2020-12-07 13:31:41,413 basehttp 154 "GET /user/captcha/?username=15176893059 HTTP/1.1" 400 32
+INFO 2020-12-07 13:31:56,723 basehttp 154 "GET /user/captcha/?username=apple HTTP/1.1" 200 140
+INFO 2020-12-07 13:32:03,823 basehttp 154 "OPTIONS /user/captcha/ HTTP/1.1" 200 0
+INFO 2020-12-07 13:32:03,901 basehttp 154 "POST /user/captcha/ HTTP/1.1" 200 20
+INFO 2020-12-07 13:32:03,906 basehttp 154 "OPTIONS /user/login/ HTTP/1.1" 200 0
+INFO 2020-12-07 13:32:03,993 basehttp 154 "POST /user/login/ HTTP/1.1" 200 227
+INFO 2020-12-07 13:32:04,029 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-07 13:32:04,034 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 292
+INFO 2020-12-07 13:32:04,035 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+ERROR 2020-12-07 13:32:19,955 log 222 Internal Server Error: /user/message/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/apple/Desktop/中期项目_李浩/edu_api/edu_api/apps/user/views.py", line 85, in get
+    phone_code = redis_connection.get("sms_%s" % phone)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/client.py", line 1606, in get
+    return self.execute_command('GET', name)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to localhost:6379. Connection refused.
+ERROR 2020-12-07 13:32:19,957 basehttp 154 "GET /user/message/?phone=15176893059 HTTP/1.1" 500 18452
+ERROR 2020-12-07 13:32:21,029 log 222 Internal Server Error: /user/message/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/apple/Desktop/中期项目_李浩/edu_api/edu_api/apps/user/views.py", line 85, in get
+    phone_code = redis_connection.get("sms_%s" % phone)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/client.py", line 1606, in get
+    return self.execute_command('GET', name)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to localhost:6379. Connection refused.
+ERROR 2020-12-07 13:32:21,030 basehttp 154 "GET /user/message/?phone=15176893059 HTTP/1.1" 500 18452
+ERROR 2020-12-07 13:32:21,286 log 222 Internal Server Error: /user/message/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/apple/Desktop/中期项目_李浩/edu_api/edu_api/apps/user/views.py", line 85, in get
+    phone_code = redis_connection.get("sms_%s" % phone)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/client.py", line 1606, in get
+    return self.execute_command('GET', name)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to localhost:6379. Connection refused.
+ERROR 2020-12-07 13:32:21,286 basehttp 154 "GET /user/message/?phone=15176893059 HTTP/1.1" 500 18452
+ERROR 2020-12-07 13:32:21,465 log 222 Internal Server Error: /user/message/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/apple/Desktop/中期项目_李浩/edu_api/edu_api/apps/user/views.py", line 85, in get
+    phone_code = redis_connection.get("sms_%s" % phone)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/client.py", line 1606, in get
+    return self.execute_command('GET', name)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to localhost:6379. Connection refused.
+ERROR 2020-12-07 13:32:21,466 basehttp 154 "GET /user/message/?phone=15176893059 HTTP/1.1" 500 18452
+INFO 2020-12-07 14:16:54,012 autoreload 203 /Users/apple/Desktop/中期项目_李浩/edu_api/edu_api/apps/user/views.py changed, reloading.
+INFO 2020-12-07 14:16:55,278 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-12-07 14:17:20,008 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-12-07 14:18:19,827 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-12-07 14:19:07,880 autoreload 578 Watching for file changes with StatReloader
+ERROR 2020-12-07 14:19:14,368 log 222 Internal Server Error: /user/message/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/apple/Desktop/中期项目_李浩/edu_api/edu_api/apps/user/views.py", line 85, in get
+    phone_code = redis_connection.get("sms_%s" % phone)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/client.py", line 1606, in get
+    return self.execute_command('GET', name)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to localhost:6379. Connection refused.
+ERROR 2020-12-07 14:19:14,371 basehttp 154 "GET /user/message/?phone=15176893059 HTTP/1.1" 500 18452
+ERROR 2020-12-07 14:25:45,673 log 222 Internal Server Error: /user/message/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/apple/Desktop/中期项目_李浩/edu_api/edu_api/apps/user/views.py", line 85, in get
+    phone_code = redis_connection.get("sms_%s" % phone)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/client.py", line 1606, in get
+    return self.execute_command('GET', name)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to localhost:6379. Connection refused.
+ERROR 2020-12-07 14:25:45,673 basehttp 154 "GET /user/message/?phone=15176893059 HTTP/1.1" 500 18452
+INFO 2020-12-07 14:30:33,424 autoreload 203 /Users/apple/Desktop/中期项目_李浩/edu_api/edu_api/apps/user/serializer.py changed, reloading.
+INFO 2020-12-07 14:30:35,090 autoreload 578 Watching for file changes with StatReloader
+ERROR 2020-12-07 14:33:02,276 log 222 Internal Server Error: /user/message/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/apple/Desktop/中期项目_李浩/edu_api/edu_api/apps/user/views.py", line 85, in get
+    phone_code = redis_connection.get("sms_%s" % phone)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/client.py", line 1606, in get
+    return self.execute_command('GET', name)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to localhost:6379. Connection refused.
+ERROR 2020-12-07 14:33:02,278 basehttp 154 "GET /user/message/?phone=15176893059 HTTP/1.1" 500 18452
+ERROR 2020-12-07 15:17:48,740 exception 75 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2020-12-07 15:17:48,774 log 222 Bad Request: /userapp/login_logic/
+WARNING 2020-12-07 15:17:48,774 basehttp 154 "GET /userapp/login_logic/ HTTP/1.1" 400 64723
+ERROR 2020-12-07 15:17:48,961 exception 75 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2020-12-07 15:17:48,997 log 222 Bad Request: /favicon.ico
+WARNING 2020-12-07 15:17:48,997 basehttp 154 "GET /favicon.ico HTTP/1.1" 400 64436
+INFO 2020-12-08 01:35:11,639 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-08 01:35:11,640 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 292
+INFO 2020-12-08 01:35:11,640 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-08 01:35:11,674 basehttp 154 "GET /media/banner/02_T238PiS.png HTTP/1.1" 200 364808
+INFO 2020-12-08 01:35:11,678 basehttp 154 "GET /media/banner/03_aN6PIW4.png HTTP/1.1" 200 745382
+INFO 2020-12-08 01:35:11,679 basehttp 154 "GET /media/banner/01_CIUzAj5.png HTTP/1.1" 200 737783
+INFO 2020-12-08 01:35:15,589 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-08 01:35:15,590 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-08 01:35:15,591 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 292
+INFO 2020-12-08 01:45:15,597 autoreload 203 /Users/apple/Desktop/中期项目_李浩/edu_api/edu_api/apps/user/views.py changed, reloading.
+INFO 2020-12-08 01:45:16,796 autoreload 578 Watching for file changes with StatReloader
+ERROR 2020-12-08 01:47:02,769 log 222 Internal Server Error: /user/message/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/apple/Desktop/中期项目_李浩/edu_api/edu_api/apps/user/views.py", line 85, in get
+    phone_code = redis_connection.get("sms_%s" % phone)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/client.py", line 1606, in get
+    return self.execute_command('GET', name)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to localhost:6379. Connection refused.
+ERROR 2020-12-08 01:47:02,771 basehttp 154 "GET /user/message/?phone=15176893059 HTTP/1.1" 500 18451
+ERROR 2020-12-08 01:47:04,530 log 222 Internal Server Error: /user/message/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/apple/Desktop/中期项目_李浩/edu_api/edu_api/apps/user/views.py", line 85, in get
+    phone_code = redis_connection.get("sms_%s" % phone)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/client.py", line 1606, in get
+    return self.execute_command('GET', name)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to localhost:6379. Connection refused.
+ERROR 2020-12-08 01:47:04,531 basehttp 154 "GET /user/message/?phone=15176893059 HTTP/1.1" 500 18451
+INFO 2020-12-08 01:49:39,837 autoreload 203 /Users/apple/Desktop/中期项目_李浩/edu_api/edu_api/apps/user/serializer.py changed, reloading.
+INFO 2020-12-08 01:49:40,812 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-12-08 02:01:59,849 autoreload 203 /Users/apple/Desktop/中期项目_李浩/edu_api/edu_api/apps/user/views.py changed, reloading.
+INFO 2020-12-08 02:02:00,704 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-12-08 02:11:09,001 autoreload 203 /Users/apple/Desktop/中期项目_李浩/edu_api/edu_api/apps/user/views.py changed, reloading.
+INFO 2020-12-08 02:11:10,458 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-12-08 12:17:49,457 autoreload 578 Watching for file changes with StatReloader
+ERROR 2020-12-08 12:18:46,934 exception 75 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2020-12-08 12:18:54,032 log 222 Bad Request: /
+ERROR 2020-12-08 12:19:47,601 exception 75 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2020-12-08 12:19:50,503 log 222 Bad Request: /admin/
+ERROR 2020-12-08 12:20:05,165 exception 75 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2020-12-08 12:20:08,264 log 222 Bad Request: /
+ERROR 2020-12-08 12:20:08,401 exception 75 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+ERROR 2020-12-08 12:20:08,696 exception 75 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+ERROR 2020-12-08 12:20:08,882 exception 75 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+ERROR 2020-12-08 12:20:09,040 exception 75 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+ERROR 2020-12-08 12:20:09,312 exception 75 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+ERROR 2020-12-08 12:20:09,418 exception 75 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+ERROR 2020-12-08 12:20:09,919 exception 75 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+ERROR 2020-12-08 12:20:10,029 exception 75 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+ERROR 2020-12-08 12:20:10,052 exception 75 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2020-12-08 12:20:10,336 log 222 Bad Request: /
+WARNING 2020-12-08 12:20:10,933 log 222 Bad Request: /
+WARNING 2020-12-08 12:20:11,730 log 222 Bad Request: /
+WARNING 2020-12-08 12:20:11,857 log 222 Bad Request: /
+WARNING 2020-12-08 12:20:12,100 log 222 Bad Request: /
+WARNING 2020-12-08 12:20:12,441 log 222 Bad Request: /
+WARNING 2020-12-08 12:20:12,450 log 222 Bad Request: /
+WARNING 2020-12-08 12:20:12,569 log 222 Bad Request: /
+WARNING 2020-12-08 12:20:13,420 log 222 Bad Request: /
+WARNING 2020-12-08 12:20:13,836 basehttp 154 "GET / HTTP/1.1" 400 64793
+ERROR 2020-12-08 12:20:13,936 exception 75 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2020-12-08 12:20:17,028 log 222 Bad Request: /favicon.ico
+WARNING 2020-12-08 12:20:17,051 basehttp 154 "GET /favicon.ico HTTP/1.1" 400 64706
+INFO 2020-12-08 12:20:48,634 basehttp 154 code 400, message Bad request version ('ëD\x1aåwc\x156\x18þ\x07õ)B_æ\x17ò\x1bÉsMcAòò\x03\x89x³ã\x00')
+ERROR 2020-12-08 12:20:48,685 basehttp 135 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2020-12-08 12:20:48,807 basehttp 154 code 400, message Bad request version ('úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93')
+INFO 2020-12-08 12:20:48,995 basehttp 154 code 400, message Bad request version ('\x91Z³\x17\x8e@!uÕÒômW\x00"**\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x00')
+ERROR 2020-12-08 12:20:49,022 basehttp 135 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+ERROR 2020-12-08 12:20:49,045 basehttp 135 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2020-12-08 12:20:49,248 basehttp 154 code 400, message Bad request version ('¨\x86\x865ÆC\x87µÔ\x81ùòA&ËF!Eb·¨\x86áËÂ¬À¼\x16\x04nÖ\x00"\x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x00')
+ERROR 2020-12-08 12:20:49,578 basehttp 135 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+WARNING 2020-12-08 12:21:00,755 log 222 Not Found: /
+WARNING 2020-12-08 12:21:00,870 basehttp 154 "GET / HTTP/1.1" 404 2372
+WARNING 2020-12-08 12:21:02,113 log 222 Not Found: /favicon.ico
+WARNING 2020-12-08 12:21:02,260 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2423
+INFO 2020-12-08 12:24:04,778 autoreload 578 Watching for file changes with StatReloader
+ERROR 2020-12-08 12:24:09,145 exception 75 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2020-12-08 12:24:09,190 log 222 Bad Request: /
+WARNING 2020-12-08 12:24:09,191 basehttp 154 "GET / HTTP/1.1" 400 64594
+ERROR 2020-12-08 12:24:09,394 exception 75 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2020-12-08 12:24:09,426 log 222 Bad Request: /favicon.ico
+WARNING 2020-12-08 12:24:09,426 basehttp 154 "GET /favicon.ico HTTP/1.1" 400 64507
+INFO 2020-12-08 12:28:09,219 autoreload 578 Watching for file changes with StatReloader
+ERROR 2020-12-08 12:28:15,416 exception 75 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2020-12-08 12:28:15,499 log 222 Bad Request: /
+WARNING 2020-12-08 12:28:15,500 basehttp 154 "GET / HTTP/1.1" 400 64594
+ERROR 2020-12-08 12:28:15,503 exception 75 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2020-12-08 12:28:15,573 log 222 Bad Request: /
+WARNING 2020-12-08 12:28:15,573 basehttp 154 "GET / HTTP/1.1" 400 64594
+ERROR 2020-12-08 12:28:15,576 exception 75 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2020-12-08 12:28:15,627 log 222 Bad Request: /
+WARNING 2020-12-08 12:28:15,628 basehttp 154 "GET / HTTP/1.1" 400 64594
+ERROR 2020-12-08 12:28:15,631 exception 75 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2020-12-08 12:28:15,689 log 222 Bad Request: /
+ERROR 2020-12-08 12:28:15,691 exception 75 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2020-12-08 12:28:15,691 basehttp 154 "GET / HTTP/1.1" 400 64594
+WARNING 2020-12-08 12:28:15,747 log 222 Bad Request: /favicon.ico
+WARNING 2020-12-08 12:28:15,748 basehttp 154 "GET /favicon.ico HTTP/1.1" 400 64507
+ERROR 2020-12-08 12:28:15,751 exception 75 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2020-12-08 12:28:15,805 log 222 Bad Request: /favicon.ico
+WARNING 2020-12-08 12:28:15,806 basehttp 154 "GET /favicon.ico HTTP/1.1" 400 64507
+ERROR 2020-12-08 12:28:15,808 exception 75 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2020-12-08 12:28:15,848 log 222 Bad Request: /favicon.ico
+WARNING 2020-12-08 12:28:15,849 basehttp 154 "GET /favicon.ico HTTP/1.1" 400 64507
+ERROR 2020-12-08 12:28:15,874 exception 75 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2020-12-08 12:28:15,922 log 222 Bad Request: /favicon.ico
+WARNING 2020-12-08 12:28:15,923 basehttp 154 "GET /favicon.ico HTTP/1.1" 400 64507
+WARNING 2020-12-08 12:31:40,370 log 222 Not Found: /home/
+WARNING 2020-12-08 12:31:40,462 basehttp 154 "GET /home/ HTTP/1.1" 404 2780
+WARNING 2020-12-08 12:31:41,731 log 222 Not Found: /favicon.ico
+WARNING 2020-12-08 12:31:41,864 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2423
+INFO 2020-12-08 12:33:18,963 autoreload 578 Watching for file changes with StatReloader
+WARNING 2020-12-08 12:33:41,927 log 222 Not Found: /
+WARNING 2020-12-08 12:33:41,933 basehttp 154 "GET / HTTP/1.1" 404 2372
+WARNING 2020-12-08 12:35:27,899 log 222 Not Found: /
+WARNING 2020-12-08 12:35:27,947 basehttp 154 "GET / HTTP/1.1" 404 2372
+INFO 2020-12-08 12:41:24,893 autoreload 578 Watching for file changes with StatReloader
+ERROR 2020-12-08 12:41:31,319 exception 75 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2020-12-08 12:41:31,359 log 222 Bad Request: /
+WARNING 2020-12-08 12:41:31,360 basehttp 154 "GET / HTTP/1.1" 400 64594
+ERROR 2020-12-08 12:41:31,537 exception 75 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2020-12-08 12:41:31,563 log 222 Bad Request: /favicon.ico
+WARNING 2020-12-08 12:41:31,563 basehttp 154 "GET /favicon.ico HTTP/1.1" 400 64507
+INFO 2020-12-08 12:45:31,093 basehttp 154 "GET /admin/ HTTP/1.1" 200 4350
+INFO 2020-12-08 12:45:31,348 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
+INFO 2020-12-08 12:45:31,378 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8376
+INFO 2020-12-08 12:45:31,415 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 1888
+INFO 2020-12-08 12:45:31,456 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+INFO 2020-12-08 12:45:31,473 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+INFO 2020-12-08 12:45:31,560 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+INFO 2020-12-08 12:45:31,604 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+INFO 2020-12-08 12:45:31,672 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+INFO 2020-12-08 12:45:31,729 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+INFO 2020-12-08 12:45:31,846 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+INFO 2020-12-08 12:45:31,851 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+INFO 2020-12-08 12:45:31,863 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
+INFO 2020-12-08 12:45:31,875 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+INFO 2020-12-08 12:45:31,964 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240196
+INFO 2020-12-08 12:45:32,051 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 200 31918
+INFO 2020-12-08 12:45:32,088 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 200 3489
+INFO 2020-12-08 12:45:32,143 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 4357
+INFO 2020-12-08 12:45:32,505 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+INFO 2020-12-08 12:45:50,377 basehttp 154 "POST /admin/ HTTP/1.1" 200 4587
+INFO 2020-12-08 12:45:50,942 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 4357
+INFO 2020-12-08 12:46:04,002 basehttp 154 "POST /admin/ HTTP/1.1" 302 0
+WARNING 2020-12-08 12:46:09,766 log 222 Forbidden (CSRF token missing or incorrect.): /admin/
+WARNING 2020-12-08 12:46:09,783 basehttp 154 "POST /admin/ HTTP/1.1" 403 2508
+INFO 2020-12-08 12:54:20,715 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-12-08 12:55:42,124 basehttp 154 "GET /admin/ HTTP/1.1" 200 4350
+INFO 2020-12-08 12:55:42,263 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+INFO 2020-12-08 12:55:42,269 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
+INFO 2020-12-08 12:55:42,283 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 1888
+INFO 2020-12-08 12:55:42,289 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+INFO 2020-12-08 12:55:42,321 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8376
+INFO 2020-12-08 12:55:42,395 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+INFO 2020-12-08 12:55:42,395 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+INFO 2020-12-08 12:55:42,459 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+INFO 2020-12-08 12:55:42,479 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+INFO 2020-12-08 12:55:42,568 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
+INFO 2020-12-08 12:55:42,574 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+INFO 2020-12-08 12:55:42,574 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+INFO 2020-12-08 12:55:42,580 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240196
+INFO 2020-12-08 12:55:42,607 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+INFO 2020-12-08 12:55:42,658 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 200 3489
+INFO 2020-12-08 12:55:42,754 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 200 31918
+INFO 2020-12-08 12:55:42,761 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 4357
+INFO 2020-12-08 12:55:43,007 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+WARNING 2020-12-08 12:55:43,274 log 222 Not Found: /favicon.ico
+WARNING 2020-12-08 12:55:43,303 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2423
+INFO 2020-12-08 12:55:57,900 basehttp 154 "POST /admin/ HTTP/1.1" 302 0
+INFO 2020-12-08 13:05:35,434 autoreload 578 Watching for file changes with StatReloader
+ERROR 2020-12-08 13:05:40,014 exception 75 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2020-12-08 13:05:40,064 log 222 Bad Request: /
+WARNING 2020-12-08 13:05:40,064 basehttp 154 "GET / HTTP/1.1" 400 64594
+ERROR 2020-12-08 13:05:40,285 exception 75 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2020-12-08 13:05:40,313 log 222 Bad Request: /favicon.ico
+WARNING 2020-12-08 13:05:40,313 basehttp 154 "GET /favicon.ico HTTP/1.1" 400 64507
+INFO 2020-12-08 13:12:53,997 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-12-08 13:13:29,740 basehttp 154 "GET /admin/ HTTP/1.1" 200 18437
+INFO 2020-12-08 13:13:29,769 basehttp 154 "GET /admin/ HTTP/1.1" 200 18437
+INFO 2020-12-08 13:13:29,817 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+INFO 2020-12-08 13:13:29,823 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+INFO 2020-12-08 13:13:29,825 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+INFO 2020-12-08 13:13:29,828 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+INFO 2020-12-08 13:13:29,837 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+INFO 2020-12-08 13:13:29,838 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+INFO 2020-12-08 13:13:29,845 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+INFO 2020-12-08 13:13:29,848 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-08 13:13:29,851 basehttp 154 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 304 0
+INFO 2020-12-08 13:13:29,852 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+INFO 2020-12-08 13:13:29,856 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+INFO 2020-12-08 13:13:29,858 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+INFO 2020-12-08 13:13:29,859 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+INFO 2020-12-08 13:13:29,859 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+INFO 2020-12-08 13:13:29,859 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 200 31918
+INFO 2020-12-08 13:13:29,864 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240196
+INFO 2020-12-08 13:13:29,867 basehttp 154 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 304 0
+INFO 2020-12-08 13:13:29,867 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+INFO 2020-12-08 13:13:29,868 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+INFO 2020-12-08 13:13:29,869 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+INFO 2020-12-08 13:13:29,872 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-08 13:13:29,961 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+WARNING 2020-12-08 13:13:30,053 log 222 Not Found: /favicon.ico
+WARNING 2020-12-08 13:13:30,053 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2423
+INFO 2020-12-08 13:13:45,189 basehttp 154 "GET /admin/course/coursecategory/ HTTP/1.1" 200 37361
+INFO 2020-12-08 13:13:45,207 basehttp 154 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 200 3763
+INFO 2020-12-08 13:13:45,219 basehttp 154 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
+INFO 2020-12-08 13:13:45,219 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
+INFO 2020-12-08 13:13:45,221 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 200 4198
+INFO 2020-12-08 13:13:45,221 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
+INFO 2020-12-08 13:13:45,222 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
+INFO 2020-12-08 13:13:45,222 basehttp 154 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
+INFO 2020-12-08 13:13:47,758 basehttp 154 "GET /admin/course/course/ HTTP/1.1" 200 54624
+INFO 2020-12-08 13:13:47,780 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-08 13:14:32,270 basehttp 154 "GET /admin/course/teacher/ HTTP/1.1" 200 31024
+INFO 2020-12-08 13:14:32,308 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-08 13:14:33,961 basehttp 154 "GET /admin/course/coursechapter/ HTTP/1.1" 200 37000
+INFO 2020-12-08 13:14:33,981 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-08 13:14:35,928 basehttp 154 "GET /admin/course/coursechapter/7/update/ HTTP/1.1" 200 24407
+INFO 2020-12-08 13:14:35,944 basehttp 154 "GET /static/xadmin/vendor/select2/select2.css HTTP/1.1" 200 19226
+INFO 2020-12-08 13:14:35,947 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.1" 200 10602
+INFO 2020-12-08 13:14:35,947 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.1" 200 8425
+INFO 2020-12-08 13:14:35,957 basehttp 154 "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.1" 304 0
+INFO 2020-12-08 13:14:35,960 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.quick-form.js HTTP/1.1" 200 7546
+INFO 2020-12-08 13:14:35,960 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-hans.js HTTP/1.1" 304 0
+INFO 2020-12-08 13:14:35,960 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-08 13:14:35,962 basehttp 154 "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 200 104906
+INFO 2020-12-08 13:14:35,962 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 200 98602
+INFO 2020-12-08 13:14:49,084 basehttp 154 "GET /admin/course/course/ HTTP/1.1" 200 54624
+INFO 2020-12-08 13:14:49,108 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-08 13:14:51,064 basehttp 154 "GET /admin/course/course/29/update/ HTTP/1.1" 200 29945
+INFO 2020-12-08 13:14:51,081 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.css HTTP/1.1" 200 3339
+INFO 2020-12-08 13:14:51,086 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-08 13:14:51,089 basehttp 154 "GET /static/xadmin/vendor/load-image/load-image.js HTTP/1.1" 200 8309
+WARNING 2020-12-08 13:14:51,095 log 222 Not Found: /media/course/2efe076a-8378-4980-9b94-606a0546fb93.png
+WARNING 2020-12-08 13:14:51,096 basehttp 154 "GET /media/course/2efe076a-8378-4980-9b94-606a0546fb93.png HTTP/1.1" 404 1928
+INFO 2020-12-08 13:14:51,096 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.js HTTP/1.1" 200 15611
+INFO 2020-12-08 13:16:03,182 basehttp 154 "POST /admin/course/course/29/update/ HTTP/1.1" 302 0
+INFO 2020-12-08 13:16:03,275 basehttp 154 "GET /admin/course/course/add/ HTTP/1.1" 200 29483
+INFO 2020-12-08 13:16:03,314 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-08 13:16:06,854 basehttp 154 "GET /admin/course/course/29/update/ HTTP/1.1" 200 29885
+INFO 2020-12-08 13:16:06,872 basehttp 154 "GET /media/course/python.jpg HTTP/1.1" 200 98963
+INFO 2020-12-08 13:16:08,229 basehttp 154 "POST /admin/course/course/29/update/ HTTP/1.1" 302 0
+INFO 2020-12-08 13:16:08,331 basehttp 154 "GET /admin/course/course/ HTTP/1.1" 200 54862
+INFO 2020-12-08 13:16:08,364 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-08 13:16:10,176 basehttp 154 "GET /admin/course/course/28/update/ HTTP/1.1" 200 29912
+INFO 2020-12-08 13:16:10,198 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2020-12-08 13:16:10,200 log 222 Not Found: /media/course/25b934c3-ade0-4176-81a1-8ca905d487c4.png
+WARNING 2020-12-08 13:16:10,201 basehttp 154 "GET /media/course/25b934c3-ade0-4176-81a1-8ca905d487c4.png HTTP/1.1" 404 1928
+INFO 2020-12-08 13:16:23,550 basehttp 154 "POST /admin/course/course/28/update/ HTTP/1.1" 302 0
+INFO 2020-12-08 13:16:23,631 basehttp 154 "GET /admin/course/course/ HTTP/1.1" 200 54858
+INFO 2020-12-08 13:16:23,651 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-08 13:17:35,698 basehttp 154 "GET /admin/course/course/27/update/ HTTP/1.1" 200 29888
+INFO 2020-12-08 13:17:35,736 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2020-12-08 13:17:35,747 log 222 Not Found: /media/course/2.jpeg
+WARNING 2020-12-08 13:17:35,747 basehttp 154 "GET /media/course/2.jpeg HTTP/1.1" 404 1826
+INFO 2020-12-08 13:17:45,763 basehttp 154 "POST /admin/course/course/27/update/ HTTP/1.1" 302 0
+INFO 2020-12-08 13:17:45,862 basehttp 154 "GET /admin/course/course/ HTTP/1.1" 200 54865
+INFO 2020-12-08 13:17:45,885 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-08 13:17:47,378 basehttp 154 "GET /admin/course/course/26/update/ HTTP/1.1" 200 29937
+INFO 2020-12-08 13:17:47,399 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2020-12-08 13:17:47,403 log 222 Not Found: /media/course/9000eeed-b0af-4df4-b6fb-c2becfcc5b18.jpg
+WARNING 2020-12-08 13:17:47,403 basehttp 154 "GET /media/course/9000eeed-b0af-4df4-b6fb-c2becfcc5b18.jpg HTTP/1.1" 404 1928
+INFO 2020-12-08 13:17:59,556 basehttp 154 "POST /admin/course/course/26/update/ HTTP/1.1" 302 0
+INFO 2020-12-08 13:17:59,642 basehttp 154 "GET /admin/course/course/ HTTP/1.1" 200 54865
+INFO 2020-12-08 13:17:59,663 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-08 13:18:03,670 basehttp 154 "GET /admin/course/course/25/update/ HTTP/1.1" 200 29905
+INFO 2020-12-08 13:18:03,697 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2020-12-08 13:18:03,699 log 222 Not Found: /media/course/307a9365-a113-4df8-916a-7396aa898b65.jpg
+WARNING 2020-12-08 13:18:03,700 basehttp 154 "GET /media/course/307a9365-a113-4df8-916a-7396aa898b65.jpg HTTP/1.1" 404 1928
+INFO 2020-12-08 13:18:09,898 basehttp 154 "POST /admin/course/course/25/update/ HTTP/1.1" 302 0
+INFO 2020-12-08 13:18:09,983 basehttp 154 "GET /admin/course/course/ HTTP/1.1" 200 54857
+INFO 2020-12-08 13:18:10,005 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-08 13:18:16,733 basehttp 154 "GET /admin/course/course/24/update/ HTTP/1.1" 200 29945
+INFO 2020-12-08 13:18:16,757 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2020-12-08 13:18:16,761 log 222 Not Found: /media/course/788dbf38-076d-4d1e-b7cc-4b69a5abbf35.png
+WARNING 2020-12-08 13:18:16,761 basehttp 154 "GET /media/course/788dbf38-076d-4d1e-b7cc-4b69a5abbf35.png HTTP/1.1" 404 1928
+INFO 2020-12-08 13:18:24,418 basehttp 154 "POST /admin/course/course/24/update/ HTTP/1.1" 302 0
+INFO 2020-12-08 13:18:24,500 basehttp 154 "GET /admin/course/course/ HTTP/1.1" 200 54867
+INFO 2020-12-08 13:18:24,524 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-08 13:18:37,536 basehttp 154 "GET /admin/course/course/23/update/ HTTP/1.1" 200 29941
+INFO 2020-12-08 13:18:37,567 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2020-12-08 13:18:37,575 log 222 Not Found: /media/course/74e724d3-5ee5-40aa-a4bf-98f866ca15ab.jpg
+WARNING 2020-12-08 13:18:37,576 basehttp 154 "GET /media/course/74e724d3-5ee5-40aa-a4bf-98f866ca15ab.jpg HTTP/1.1" 404 1928
+INFO 2020-12-08 13:18:47,527 basehttp 154 "POST /admin/course/course/23/update/ HTTP/1.1" 302 0
+INFO 2020-12-08 13:18:47,659 basehttp 154 "GET /admin/course/course/ HTTP/1.1" 200 54866
+INFO 2020-12-08 13:18:47,682 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-08 13:18:52,239 basehttp 154 "GET /admin/course/course/22/update/ HTTP/1.1" 200 29965
+INFO 2020-12-08 13:18:52,262 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2020-12-08 13:18:52,265 log 222 Not Found: /media/course/2452c9d2-3539-447b-a98a-99378a750dee.png
+WARNING 2020-12-08 13:18:52,266 basehttp 154 "GET /media/course/2452c9d2-3539-447b-a98a-99378a750dee.png HTTP/1.1" 404 1928
+INFO 2020-12-08 13:19:00,343 basehttp 154 "POST /admin/course/course/22/update/ HTTP/1.1" 302 0
+INFO 2020-12-08 13:19:00,430 basehttp 154 "GET /admin/course/course/ HTTP/1.1" 200 54872
+INFO 2020-12-08 13:19:00,451 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-08 13:19:03,120 basehttp 154 "GET /admin/course/course/21/update/ HTTP/1.1" 200 29973
+INFO 2020-12-08 13:19:03,147 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2020-12-08 13:19:03,150 log 222 Not Found: /media/course/a3dd8fd0-d395-4566-a573-a0e3f60d5f85.jpg
+WARNING 2020-12-08 13:19:03,150 basehttp 154 "GET /media/course/a3dd8fd0-d395-4566-a573-a0e3f60d5f85.jpg HTTP/1.1" 404 1928
+INFO 2020-12-08 13:19:09,633 basehttp 154 "POST /admin/course/course/21/update/ HTTP/1.1" 302 0
+INFO 2020-12-08 13:19:09,721 basehttp 154 "GET /admin/course/course/ HTTP/1.1" 200 54874
+INFO 2020-12-08 13:19:09,749 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-08 13:19:14,870 basehttp 154 "GET /admin/course/course/20/update/ HTTP/1.1" 200 29869
+INFO 2020-12-08 13:19:14,899 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2020-12-08 13:19:14,901 log 222 Not Found: /media/course/2.jpeg
+WARNING 2020-12-08 13:19:14,901 basehttp 154 "GET /media/course/2.jpeg HTTP/1.1" 404 1826
+INFO 2020-12-08 13:19:23,799 basehttp 154 "POST /admin/course/course/20/update/ HTTP/1.1" 302 0
+INFO 2020-12-08 13:19:23,889 basehttp 154 "GET /admin/course/course/ HTTP/1.1" 200 54865
+INFO 2020-12-08 13:19:23,909 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-08 13:19:26,505 basehttp 154 "GET /admin/course/course/19/update/ HTTP/1.1" 200 29821
+INFO 2020-12-08 13:19:26,529 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2020-12-08 13:19:26,531 log 222 Not Found: /media/course/2.jpeg
+WARNING 2020-12-08 13:19:26,531 basehttp 154 "GET /media/course/2.jpeg HTTP/1.1" 404 1826
+INFO 2020-12-08 13:19:34,386 basehttp 154 "POST /admin/course/course/19/update/ HTTP/1.1" 302 0
+INFO 2020-12-08 13:19:34,485 basehttp 154 "GET /admin/course/course/ HTTP/1.1" 200 54853
+INFO 2020-12-08 13:19:34,507 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-08 13:19:39,147 basehttp 154 "GET /admin/course/course/18/update/ HTTP/1.1" 200 29857
+INFO 2020-12-08 13:19:39,190 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2020-12-08 13:19:39,194 log 222 Not Found: /media/course/2.jpeg
+WARNING 2020-12-08 13:19:39,195 basehttp 154 "GET /media/course/2.jpeg HTTP/1.1" 404 1826
+INFO 2020-12-08 13:19:46,267 basehttp 154 "POST /admin/course/course/18/update/ HTTP/1.1" 302 0
+INFO 2020-12-08 13:19:46,355 basehttp 154 "GET /admin/course/course/ HTTP/1.1" 200 54862
+INFO 2020-12-08 13:19:46,377 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-08 13:19:49,142 basehttp 154 "GET /admin/course/course/17/update/ HTTP/1.1" 200 29904
+INFO 2020-12-08 13:19:49,165 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2020-12-08 13:19:49,167 log 222 Not Found: /media/course/2.jpeg
+WARNING 2020-12-08 13:19:49,167 basehttp 154 "GET /media/course/2.jpeg HTTP/1.1" 404 1826
+INFO 2020-12-08 13:20:00,305 basehttp 154 "POST /admin/course/course/17/update/ HTTP/1.1" 302 0
+INFO 2020-12-08 13:20:00,385 basehttp 154 "GET /admin/course/course/ HTTP/1.1" 200 54874
+INFO 2020-12-08 13:20:00,407 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-08 13:20:03,352 basehttp 154 "GET /admin/course/course/16/update/ HTTP/1.1" 200 29852
+INFO 2020-12-08 13:20:03,382 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2020-12-08 13:20:03,385 log 222 Not Found: /media/course/2.jpeg
+WARNING 2020-12-08 13:20:03,386 basehttp 154 "GET /media/course/2.jpeg HTTP/1.1" 404 1826
+INFO 2020-12-08 13:20:09,539 basehttp 154 "POST /admin/course/course/16/update/ HTTP/1.1" 302 0
+INFO 2020-12-08 13:20:09,627 basehttp 154 "GET /admin/course/course/ HTTP/1.1" 200 54861
+INFO 2020-12-08 13:20:09,649 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-08 13:20:12,109 basehttp 154 "GET /admin/course/course/15/update/ HTTP/1.1" 200 29856
+INFO 2020-12-08 13:20:12,133 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2020-12-08 13:20:12,138 log 222 Not Found: /media/course/2.jpeg
+WARNING 2020-12-08 13:20:12,139 basehttp 154 "GET /media/course/2.jpeg HTTP/1.1" 404 1826
+INFO 2020-12-08 13:20:19,308 basehttp 154 "POST /admin/course/course/15/update/ HTTP/1.1" 302 0
+INFO 2020-12-08 13:20:19,394 basehttp 154 "GET /admin/course/course/ HTTP/1.1" 200 54862
+INFO 2020-12-08 13:20:19,413 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-08 13:20:25,346 basehttp 154 "GET /admin/course/course/3/update/ HTTP/1.1" 200 29873
+INFO 2020-12-08 13:20:25,371 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2020-12-08 13:20:25,374 log 222 Not Found: /media/course/2.jpeg
+WARNING 2020-12-08 13:20:25,393 basehttp 154 "GET /media/course/2.jpeg HTTP/1.1" 404 1826
+INFO 2020-12-08 13:20:31,819 basehttp 154 "POST /admin/course/course/3/update/ HTTP/1.1" 302 0
+INFO 2020-12-08 13:20:31,908 basehttp 154 "GET /admin/course/course/ HTTP/1.1" 200 54862
+INFO 2020-12-08 13:20:31,934 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-08 13:20:34,317 basehttp 154 "GET /admin/course/course/2/update/ HTTP/1.1" 200 29871
+INFO 2020-12-08 13:20:34,346 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2020-12-08 13:20:34,351 log 222 Not Found: /media/course/course-cover.jpeg
+WARNING 2020-12-08 13:20:34,351 basehttp 154 "GET /media/course/course-cover.jpeg HTTP/1.1" 404 1859
+INFO 2020-12-08 13:20:43,012 basehttp 154 "POST /admin/course/course/2/update/ HTTP/1.1" 302 0
+INFO 2020-12-08 13:20:43,096 basehttp 154 "GET /admin/course/course/ HTTP/1.1" 200 54856
+INFO 2020-12-08 13:20:43,131 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-08 13:20:45,135 basehttp 154 "GET /admin/course/course/1/update/ HTTP/1.1" 200 29934
+INFO 2020-12-08 13:20:45,157 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2020-12-08 13:20:45,160 log 222 Not Found: /media/course/7d0ac6cc-1487-4041-b42c-a0a9546f6aee.png
+WARNING 2020-12-08 13:20:45,161 basehttp 154 "GET /media/course/7d0ac6cc-1487-4041-b42c-a0a9546f6aee.png HTTP/1.1" 404 1928
+INFO 2020-12-08 13:20:52,676 basehttp 154 "POST /admin/course/course/1/update/ HTTP/1.1" 302 0
+INFO 2020-12-08 13:20:52,766 basehttp 154 "GET /admin/course/course/ HTTP/1.1" 200 54859
+INFO 2020-12-08 13:20:52,787 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-08 13:21:07,627 basehttp 154 "GET /admin/course/teacher/ HTTP/1.1" 200 31024
+INFO 2020-12-08 13:21:07,650 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-08 13:21:10,035 basehttp 154 "GET /admin/course/teacher/1/update/ HTTP/1.1" 200 25865
+INFO 2020-12-08 13:21:10,057 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2020-12-08 13:21:10,067 log 222 Not Found: /media/teacher/logo2x.png
+WARNING 2020-12-08 13:21:10,068 basehttp 154 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1841
+INFO 2020-12-08 13:21:39,081 basehttp 154 "POST /admin/course/teacher/1/update/ HTTP/1.1" 302 0
+INFO 2020-12-08 13:21:39,132 basehttp 154 "GET /admin/course/teacher/ HTTP/1.1" 200 31259
+INFO 2020-12-08 13:21:39,154 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-08 13:21:41,142 basehttp 154 "GET /admin/course/coursechapter/ HTTP/1.1" 200 37000
+INFO 2020-12-08 13:21:41,162 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-08 13:21:44,612 basehttp 154 "GET /admin/course/coursechapter/7/update/ HTTP/1.1" 200 24407
+INFO 2020-12-08 13:21:44,652 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-08 13:21:53,308 basehttp 154 "GET /admin/course/courselesson/ HTTP/1.1" 200 33282
+INFO 2020-12-08 13:21:53,329 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-08 13:21:55,725 basehttp 154 "GET /admin/course/courselesson/16/update/ HTTP/1.1" 200 26675
+INFO 2020-12-08 13:21:55,743 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-08 13:36:53,244 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-08 13:36:53,244 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-08 13:36:53,244 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 292
+INFO 2020-12-08 13:36:53,387 basehttp 154 "GET /media/banner/02_T238PiS.png HTTP/1.1" 200 364808
+INFO 2020-12-08 13:36:53,391 basehttp 154 "GET /media/banner/01_CIUzAj5.png HTTP/1.1" 200 737783
+INFO 2020-12-08 13:36:53,392 basehttp 154 "GET /media/banner/03_aN6PIW4.png HTTP/1.1" 200 745382
+INFO 2020-12-08 13:36:57,453 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-08 13:36:57,462 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-08 13:36:57,468 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-08 13:36:57,471 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 634
+INFO 2020-12-08 13:36:57,483 basehttp 154 "GET /media/course/python_t9P7nW9.jpg HTTP/1.1" 200 98963
+INFO 2020-12-08 13:36:57,483 basehttp 154 "GET /media/course/python_ef3nLdu.jpg HTTP/1.1" 200 98963
+INFO 2020-12-08 13:37:04,176 basehttp 154 "GET /course/courses/?page=1&size=3&ordering=-id HTTP/1.1" 200 893
+INFO 2020-12-08 13:37:04,184 basehttp 154 "GET /media/course/python_GaFGEhT.jpg HTTP/1.1" 200 98963
+INFO 2020-12-08 13:37:06,609 basehttp 154 "GET /course/courses/?page=2&size=3&ordering=-id HTTP/1.1" 200 947
+INFO 2020-12-08 13:37:06,625 basehttp 154 "GET /media/course/python_3oAaUjS.jpg HTTP/1.1" 200 98963
+INFO 2020-12-08 13:37:06,627 basehttp 154 "GET /media/course/corejava.png HTTP/1.1" 200 302234
+INFO 2020-12-08 13:37:06,628 basehttp 154 "GET /media/course/java_lesson.png HTTP/1.1" 200 338717
+INFO 2020-12-08 13:37:09,509 basehttp 154 "GET /course/courses/?page=3&size=3&ordering=-id HTTP/1.1" 200 987
+INFO 2020-12-08 13:37:09,525 basehttp 154 "GET /media/course/ui_lesson_y8PYnBo.png HTTP/1.1" 200 210215
+INFO 2020-12-08 13:37:09,526 basehttp 154 "GET /media/course/ui_lesson_xzQ1tIx.png HTTP/1.1" 200 210215
+INFO 2020-12-08 13:37:09,526 basehttp 154 "GET /media/course/ui_lesson.png HTTP/1.1" 200 210215
+INFO 2020-12-08 13:37:14,927 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 634
+INFO 2020-12-08 13:37:16,351 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 634
+INFO 2020-12-08 13:37:17,487 basehttp 154 "GET /course/courses/?page=4&size=2&ordering=-id HTTP/1.1" 200 716
+INFO 2020-12-08 13:37:18,060 basehttp 154 "GET /course/courses/?page=6&size=2&ordering=-id HTTP/1.1" 200 703
+INFO 2020-12-08 13:37:18,071 basehttp 154 "GET /media/course/ui_lesson_y6FN5UA.png HTTP/1.1" 200 210215
+INFO 2020-12-08 13:37:18,071 basehttp 154 "GET /media/course/ui_lesson_Y1LjePH.png HTTP/1.1" 200 210215
+INFO 2020-12-08 13:37:20,165 basehttp 154 "GET /course/courses/?page=7&size=2&ordering=-id HTTP/1.1" 200 720
+INFO 2020-12-08 13:37:20,176 basehttp 154 "GET /media/course/ui_lesson_yJvhEO4.png HTTP/1.1" 200 210215
+INFO 2020-12-08 13:37:20,176 basehttp 154 "GET /media/course/corejava_TqCH8j0.png HTTP/1.1" 200 302234
+INFO 2020-12-08 13:37:20,939 basehttp 154 "GET /course/courses/?page=8&size=2&ordering=-id HTTP/1.1" 200 866
+INFO 2020-12-08 13:37:20,950 basehttp 154 "GET /media/course/ui_lesson_fs4wTGU.png HTTP/1.1" 200 210215
+INFO 2020-12-08 13:37:20,950 basehttp 154 "GET /media/course/corejava_MT68OFt.png HTTP/1.1" 200 302234
+INFO 2020-12-08 13:37:22,493 basehttp 154 "GET /course/courses/?page=9&size=2&ordering=-id HTTP/1.1" 200 850
+INFO 2020-12-08 13:37:22,506 basehttp 154 "GET /media/course/java_lesson_827RnHg.png HTTP/1.1" 200 338717
+INFO 2020-12-08 13:37:22,506 basehttp 154 "GET /media/course/java_lesson_V3fwScX.png HTTP/1.1" 200 338717
+INFO 2020-12-08 13:37:29,546 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-08 13:37:29,551 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 292
+INFO 2020-12-08 13:37:29,552 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-08 13:37:30,410 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-08 13:37:30,416 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-08 13:37:30,416 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-08 13:37:30,422 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 634
+INFO 2020-12-08 13:37:43,751 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id&course_category=2 HTTP/1.1" 200 653
+INFO 2020-12-08 13:37:48,260 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id&course_category=1 HTTP/1.1" 200 659
+INFO 2020-12-08 13:37:51,372 basehttp 154 "GET /course/courses/?page=2&size=2&ordering=-id&course_category=1 HTTP/1.1" 200 749
+INFO 2020-12-08 13:37:52,519 basehttp 154 "GET /course/courses/?page=3&size=2&ordering=-id&course_category=1 HTTP/1.1" 200 896
+INFO 2020-12-08 13:37:53,740 basehttp 154 "GET /course/courses/?page=4&size=2&ordering=-id&course_category=1 HTTP/1.1" 200 613
+INFO 2020-12-08 13:37:57,089 basehttp 154 "GET /course/courses/?page=4&size=2&ordering=-price&course_category=1 HTTP/1.1" 200 557
+INFO 2020-12-08 13:38:02,032 basehttp 154 "GET /course/courses/?page=4&size=2&ordering=-students&course_category=1 HTTP/1.1" 200 414
+INFO 2020-12-08 13:38:04,050 basehttp 154 "GET /course/courses/?page=3&size=2&ordering=-students&course_category=1 HTTP/1.1" 200 760
+INFO 2020-12-08 13:38:15,198 basehttp 154 "GET /course/courses/?page=3&size=2&ordering=-price&course_category=1 HTTP/1.1" 200 761
+INFO 2020-12-08 13:38:16,348 basehttp 154 "GET /course/courses/?page=3&size=2&ordering=price&course_category=1 HTTP/1.1" 200 975
+INFO 2020-12-08 13:38:19,318 basehttp 154 "GET /course/courses/?page=3&size=2&ordering=-price&course_category=1 HTTP/1.1" 200 761
+INFO 2020-12-08 13:38:21,365 basehttp 154 "GET /course/courses/?page=3&size=2&ordering=-students&course_category=1 HTTP/1.1" 200 760
+INFO 2020-12-08 13:38:24,178 basehttp 154 "GET /course/courses/?page=3&size=2&ordering=students&course_category=1 HTTP/1.1" 200 757
+INFO 2020-12-08 13:38:26,383 basehttp 154 "GET /course/courses/?page=3&size=2&ordering=id&course_category=1 HTTP/1.1" 200 746
+INFO 2020-12-08 13:38:27,921 basehttp 154 "GET /course/courses/?page=3&size=2&ordering=-id&course_category=1 HTTP/1.1" 200 896
+INFO 2020-12-08 13:38:29,001 basehttp 154 "GET /course/courses/?page=3&size=2&ordering=id&course_category=1 HTTP/1.1" 200 746
+INFO 2020-12-08 13:38:30,051 basehttp 154 "GET /course/courses/?page=3&size=2&ordering=-id&course_category=1 HTTP/1.1" 200 896
+INFO 2020-12-08 13:38:30,758 basehttp 154 "GET /course/courses/?page=3&size=2&ordering=id&course_category=1 HTTP/1.1" 200 746
+INFO 2020-12-08 13:38:31,422 basehttp 154 "GET /course/courses/?page=3&size=2&ordering=-id&course_category=1 HTTP/1.1" 200 896
+INFO 2020-12-08 13:38:32,177 basehttp 154 "GET /course/courses/?page=3&size=2&ordering=id&course_category=1 HTTP/1.1" 200 746
+INFO 2020-12-08 13:38:32,774 basehttp 154 "GET /course/courses/?page=3&size=2&ordering=-id&course_category=1 HTTP/1.1" 200 896
+INFO 2020-12-08 13:38:33,373 basehttp 154 "GET /course/courses/?page=3&size=2&ordering=id&course_category=1 HTTP/1.1" 200 746
+INFO 2020-12-08 13:38:33,957 basehttp 154 "GET /course/courses/?page=3&size=2&ordering=-id&course_category=1 HTTP/1.1" 200 896
+INFO 2020-12-08 13:38:34,763 basehttp 154 "GET /course/courses/?page=3&size=2&ordering=id&course_category=1 HTTP/1.1" 200 746
+INFO 2020-12-08 13:38:35,338 basehttp 154 "GET /course/courses/?page=3&size=2&ordering=-id&course_category=1 HTTP/1.1" 200 896
+INFO 2020-12-08 13:38:38,543 basehttp 154 "GET /course/courses/?page=3&size=2&ordering=-id HTTP/1.1" 200 695
+INFO 2020-12-08 13:38:40,058 basehttp 154 "GET /course/courses/?page=3&size=2&ordering=id HTTP/1.1" 200 718
+INFO 2020-12-08 13:38:43,320 basehttp 154 "GET /course/courses/?page=3&size=2&ordering=-id HTTP/1.1" 200 695
+INFO 2020-12-08 13:38:44,111 basehttp 154 "GET /course/courses/?page=3&size=2&ordering=id HTTP/1.1" 200 718
+INFO 2020-12-08 13:38:44,720 basehttp 154 "GET /course/courses/?page=3&size=2&ordering=-id HTTP/1.1" 200 695
+INFO 2020-12-08 13:38:45,227 basehttp 154 "GET /course/courses/?page=3&size=2&ordering=id HTTP/1.1" 200 718
+INFO 2020-12-08 13:38:47,160 basehttp 154 "GET /course/courses/?page=3&size=2&ordering=students HTTP/1.1" 200 732
+INFO 2020-12-08 13:38:47,890 basehttp 154 "GET /course/courses/?page=3&size=2&ordering=-students HTTP/1.1" 200 873
+INFO 2020-12-08 13:38:48,900 basehttp 154 "GET /course/courses/?page=3&size=2&ordering=students HTTP/1.1" 200 732
+INFO 2020-12-08 13:38:49,656 basehttp 154 "GET /course/courses/?page=3&size=2&ordering=-students HTTP/1.1" 200 873
+INFO 2020-12-08 13:38:50,673 basehttp 154 "GET /course/courses/?page=3&size=2&ordering=-price HTTP/1.1" 200 723
+INFO 2020-12-08 13:38:57,184 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-price HTTP/1.1" 200 639
+INFO 2020-12-08 13:38:57,191 basehttp 154 "GET /media/course/ui_lesson_NGuIqyL.png HTTP/1.1" 200 210215
+INFO 2020-12-08 13:38:59,005 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=price HTTP/1.1" 200 794
+INFO 2020-12-08 13:39:00,244 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-price HTTP/1.1" 200 639
+INFO 2020-12-08 13:39:01,245 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=price HTTP/1.1" 200 794
+INFO 2020-12-08 13:39:01,988 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-price HTTP/1.1" 200 639
+INFO 2020-12-08 13:53:55,070 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-08 13:53:55,072 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-08 13:53:55,073 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 292
+INFO 2020-12-08 13:53:59,964 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-08 13:53:59,965 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-08 13:53:59,971 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-08 13:53:59,972 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 634
+INFO 2020-12-08 13:53:59,986 basehttp 154 "GET /media/course/python_t9P7nW9.jpg HTTP/1.1" 304 0
+INFO 2020-12-08 13:53:59,987 basehttp 154 "GET /media/course/python_ef3nLdu.jpg HTTP/1.1" 304 0
+INFO 2020-12-08 13:56:06,945 basehttp 154 "GET /course/courses/?page=2&size=2&ordering=-id HTTP/1.1" 200 703
+INFO 2020-12-08 13:56:06,954 basehttp 154 "GET /media/course/python_GaFGEhT.jpg HTTP/1.1" 304 0
+INFO 2020-12-08 13:56:06,955 basehttp 154 "GET /media/course/python_3oAaUjS.jpg HTTP/1.1" 304 0
+INFO 2020-12-08 13:56:08,080 basehttp 154 "GET /course/courses/?page=3&size=2&ordering=-id HTTP/1.1" 200 695
+INFO 2020-12-08 13:56:08,090 basehttp 154 "GET /media/course/java_lesson.png HTTP/1.1" 304 0
+INFO 2020-12-08 13:56:08,090 basehttp 154 "GET /media/course/corejava.png HTTP/1.1" 304 0
+INFO 2020-12-08 13:56:09,196 basehttp 154 "GET /course/courses/?page=4&size=2&ordering=-id HTTP/1.1" 200 716
+INFO 2020-12-08 13:56:09,205 basehttp 154 "GET /media/course/ui_lesson_xzQ1tIx.png HTTP/1.1" 304 0
+INFO 2020-12-08 13:56:09,206 basehttp 154 "GET /media/course/ui_lesson.png HTTP/1.1" 304 0
+INFO 2020-12-08 13:56:10,140 basehttp 154 "GET /course/courses/?page=5&size=2&ordering=-id HTTP/1.1" 200 726
+INFO 2020-12-08 13:56:10,151 basehttp 154 "GET /media/course/ui_lesson_NGuIqyL.png HTTP/1.1" 304 0
+INFO 2020-12-08 13:56:10,152 basehttp 154 "GET /media/course/ui_lesson_y8PYnBo.png HTTP/1.1" 304 0
+INFO 2020-12-08 13:56:11,164 basehttp 154 "GET /course/courses/?page=6&size=2&ordering=-id HTTP/1.1" 200 703
+INFO 2020-12-08 13:56:11,172 basehttp 154 "GET /media/course/ui_lesson_Y1LjePH.png HTTP/1.1" 304 0
+INFO 2020-12-08 13:56:11,173 basehttp 154 "GET /media/course/ui_lesson_y6FN5UA.png HTTP/1.1" 304 0
+INFO 2020-12-08 13:56:11,899 basehttp 154 "GET /course/courses/?page=7&size=2&ordering=-id HTTP/1.1" 200 720
+INFO 2020-12-08 13:56:11,908 basehttp 154 "GET /media/course/corejava_TqCH8j0.png HTTP/1.1" 304 0
+INFO 2020-12-08 13:56:11,909 basehttp 154 "GET /media/course/ui_lesson_yJvhEO4.png HTTP/1.1" 304 0
+INFO 2020-12-08 13:56:12,730 basehttp 154 "GET /course/courses/?page=8&size=2&ordering=-id HTTP/1.1" 200 866
+INFO 2020-12-08 13:56:12,739 basehttp 154 "GET /media/course/corejava_MT68OFt.png HTTP/1.1" 304 0
+INFO 2020-12-08 13:56:12,740 basehttp 154 "GET /media/course/ui_lesson_fs4wTGU.png HTTP/1.1" 304 0
+INFO 2020-12-08 13:56:13,503 basehttp 154 "GET /course/courses/?page=9&size=2&ordering=-id HTTP/1.1" 200 850
+INFO 2020-12-08 13:56:13,514 basehttp 154 "GET /media/course/java_lesson_V3fwScX.png HTTP/1.1" 304 0
+INFO 2020-12-08 13:56:13,515 basehttp 154 "GET /media/course/java_lesson_827RnHg.png HTTP/1.1" 304 0
+INFO 2020-12-08 14:06:03,437 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 634
+INFO 2020-12-08 14:06:03,453 basehttp 154 "GET /media/course/python_t9P7nW9.jpg HTTP/1.1" 304 0
+INFO 2020-12-08 14:06:03,454 basehttp 154 "GET /media/course/python_ef3nLdu.jpg HTTP/1.1" 304 0
+INFO 2020-12-08 14:06:05,177 basehttp 154 "GET /course/courses/?page=9&size=2&ordering=-id HTTP/1.1" 200 850
+INFO 2020-12-08 14:11:28,751 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-08 14:11:28,758 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-08 14:11:28,761 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-08 14:11:28,762 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 634
+INFO 2020-12-08 14:11:28,775 basehttp 154 "GET /media/course/python_t9P7nW9.jpg HTTP/1.1" 304 0
+INFO 2020-12-08 14:11:28,775 basehttp 154 "GET /media/course/python_ef3nLdu.jpg HTTP/1.1" 304 0
+INFO 2020-12-08 14:44:49,636 basehttp 154 "GET /course/courses/?page=9&size=2&ordering=-id HTTP/1.1" 200 850
+INFO 2020-12-08 14:47:22,532 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-08 14:47:22,536 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-08 14:47:22,538 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-08 14:47:22,541 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 634
+INFO 2020-12-08 14:52:16,195 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-08 14:52:16,198 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 292
+INFO 2020-12-08 14:52:16,202 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-08 14:52:16,539 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-08 14:52:16,539 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-08 14:52:16,539 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-08 14:52:16,543 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 634
+INFO 2020-12-08 14:52:16,671 basehttp 154 "GET /media/course/python_t9P7nW9.jpg HTTP/1.1" 304 0
+INFO 2020-12-08 14:52:16,672 basehttp 154 "GET /media/course/python_ef3nLdu.jpg HTTP/1.1" 304 0
+INFO 2020-12-08 14:52:22,843 basehttp 154 "GET /course/courses/?page=9&size=2&ordering=-id HTTP/1.1" 200 850
+INFO 2020-12-08 14:52:22,855 basehttp 154 "GET /media/course/java_lesson_V3fwScX.png HTTP/1.1" 304 0
+INFO 2020-12-08 14:52:22,855 basehttp 154 "GET /media/course/java_lesson_827RnHg.png HTTP/1.1" 304 0
+INFO 2020-12-08 14:52:28,163 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-08 14:52:28,168 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-08 14:52:28,169 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-08 14:52:28,170 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 634
+INFO 2020-12-08 14:52:31,123 basehttp 154 "GET /course/courses/?page=9&size=2&ordering=-id HTTP/1.1" 200 850
+INFO 2020-12-08 14:53:10,351 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-08 14:53:10,354 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-08 14:53:10,354 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-08 14:53:10,358 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 634
+INFO 2020-12-08 14:53:12,705 basehttp 154 "GET /course/courses/?page=9&size=2&ordering=-id HTTP/1.1" 200 850
+INFO 2020-12-08 15:48:52,632 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-08 15:48:52,633 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 292
+INFO 2020-12-08 15:48:52,634 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-08 15:48:57,615 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-08 15:48:57,616 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-08 15:48:57,618 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 634
+INFO 2020-12-08 15:48:57,619 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-08 15:48:57,631 basehttp 154 "GET /media/course/python_t9P7nW9.jpg HTTP/1.1" 304 0
+INFO 2020-12-08 15:48:57,632 basehttp 154 "GET /media/course/python_ef3nLdu.jpg HTTP/1.1" 304 0
+INFO 2020-12-08 15:50:03,056 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-08 15:50:03,061 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-08 15:50:03,066 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-08 15:50:03,068 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 634
+INFO 2020-12-08 15:50:08,651 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-08 15:50:08,656 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-08 15:50:08,659 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-08 15:50:08,660 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 634
+INFO 2020-12-08 15:50:11,298 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-08 15:50:11,300 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-08 15:50:11,301 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-08 15:50:11,302 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 634
+INFO 2020-12-08 15:50:47,769 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-08 15:50:47,772 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-08 15:50:47,778 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-08 15:50:47,780 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 634
