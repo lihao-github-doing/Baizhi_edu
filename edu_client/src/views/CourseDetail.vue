@@ -9,9 +9,6 @@
                        ref="videoPlayer"
                        :playsinline="true"
                        :options="playerOptions">
-<!--                       @play="onPlayerPlay($event)"-->
-<!--                       @pause="onPlayerPause($event)"-->
-
           </videoPlayer>
         </div>
         <div class="wrap-right">
@@ -32,7 +29,9 @@
               <button class="buy-now">立即购买</button>
               <button class="free">免费试学</button>
             </div>
-            <div class="add-cart"><img src="/static/image/cart-yellow.svg" alt="">加入购物车</div>
+            <div class="add-cart"><img src="/static/image/cart-yellow.svg" alt="">
+              <span @click="add_cart">加入购物车</span>
+            </div>
           </div>
         </div>
       </div>
@@ -119,6 +118,8 @@
 <script>
 
 import {videoPlayer} from 'vue-video-player'
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 export default {
   name: "CourseDetail",
@@ -152,12 +153,41 @@ export default {
   },
   methods: {
 
-    // onPlayerPlay() {
-    //   alert("我是广告")
-    // },
-    // onPlayerPause() {
-    //   alert("我是广告1")
-    // },
+    // 检查用户是否登录
+    check_user_login() {
+      let token = localStorage.token || sessionStorage.token;
+      if (!token) {
+        let self = this;
+        this.$confirm("对不起，请登录后再添加购物车", {
+          callback() {
+            self.$router.push("/login")
+          },
+        });
+        return false
+      }
+      return token;
+    },
+
+    // 添加购物车
+    add_cart() {
+      let token = this.check_user_login();
+      // 发起请求添加购物车
+      this.$axios.post(this.$settings.HOST + "cart/option/", {
+        course_id: this.course_id,
+      }, {
+        headers: {
+          // 必须请求头中携带token "jwt token值"
+          "Authorization": "jwt " + token,
+        }
+      }).then(res => {
+        this.$message.success(res.data.message);
+        // 向状态机提交动作来修改商品的总数
+        this.$store.commit("add_cart", res.data.cart_length)
+      }).catch(error => {
+        console.log(error);
+        alert('未登录或登录失效，请重新登录')
+      })
+    },
 
     // 获取课程id
     get_course_id() {
@@ -198,7 +228,9 @@ export default {
     this.get_course_detail()
   },
   components: {
-    videoPlayer
+    videoPlayer,
+    Footer,
+    Header
   }
 }
 </script>

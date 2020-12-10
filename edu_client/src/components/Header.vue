@@ -13,7 +13,20 @@
 <!--          <li><span>人工智能的魅力</span></li>-->
 <!--          <li><span>百知教育</span></li>-->
         </ul>
-        <div class="login-bar full-right">
+
+        <div class="login-bar full-right" v-if="token">
+          <div class="shop-cart full-left">
+            <img src="../static/image/cart.svg" alt="">
+            <span><router-link to="/cart">{{ this.$store.state.cart_length }}购物车</router-link></span>
+          </div>
+          <div class="login-box full-left">
+            <router-link to="/login">个人中心</router-link>
+            &nbsp;|&nbsp;
+            <span @click="quiting">退出登录</span>
+          </div>
+        </div>
+
+        <div class="login-bar full-right" v-else>
           <div class="shop-cart full-left">
             <img src="../static/image/cart.svg" alt="">
             <span><router-link to="/cart">购物车</router-link></span>
@@ -36,10 +49,17 @@ export default {
   data() {
     return {
       nav_list: [],
+      token: "",
       // usrname:[],
     }
   },
   methods: {
+    quiting() {
+      localStorage.removeItem('token')
+    },
+    get_token() {
+      this.token = localStorage.token || sessionStorage.token;
+    },
     // 获取所有轮播图的方法
     get_all_nav() {
       this.$axios({
@@ -50,6 +70,7 @@ export default {
       }).catch(error => {
         console.log(error)
       })
+
     },
     // get_username() {
     //   this.$axios({
@@ -66,6 +87,7 @@ export default {
   },
   created() {
     this.get_all_nav()
+    this.get_token()
     // this.get_username()
   },
 }

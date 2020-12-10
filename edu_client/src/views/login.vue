@@ -131,6 +131,7 @@ export default {
           type: 'success',
           duration: 2000
         })
+        localStorage.token = res.data.token;
         // 登录成功后返回首页
         this.$router.push({
           path: "/",
