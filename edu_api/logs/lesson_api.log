@@ -3753,3 +3753,6 @@ INFO 2020-12-10 13:40:02,562 basehttp 154 "GET /media/course/java_lesson_V3fwScX
 INFO 2020-12-10 13:41:24,190 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
 INFO 2020-12-10 13:41:24,193 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
 INFO 2020-12-10 13:41:24,193 basehttp 154 "GET /course/detail/29/ HTTP/1.1" 200 430
+INFO 2020-12-13 07:19:19,446 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-12-14 00:57:24,443 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-12-14 06:04:24,383 autoreload 578 Watching for file changes with StatReloader
