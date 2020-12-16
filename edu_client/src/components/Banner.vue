@@ -1,7 +1,7 @@
 <template>
   <el-carousel height="720px" :interval="3000" arrow="always">
     <el-carousel-item v-for="(banner, index) in banner_list" :key="index">
-      <a :href="banner.link"> <img :src="banner.img" alt=""> </a>
+      <a :href="banner.link"><img :src="banner.img"></a>
     </el-carousel-item>
   </el-carousel>
 </template>
@@ -15,15 +15,21 @@ export default {
     }
   },
   methods: {
-    // 获取所有轮播图的方法
+    // 获取轮播图
     get_all_banner() {
       this.$axios({
         url: this.$settings.HOST + "home/banners/",
         method: 'get',
-      }).then(res => {
-        this.banner_list = res.data;
+      }).then(response => {
+        this.banner_list = response.data;
       }).catch(error => {
-        console.log(error);
+        console.log(26, error);
+        this.$message({
+          message: '地址错误',
+          type: 'error',
+          duration: 1000,
+          showClose: true,
+        });
       })
     },
   },
@@ -38,7 +44,7 @@ export default {
   color: #475669;
   font-size: 18px;
   opacity: 0.75;
-  line-height: 300px;
+  line-height: 100px;
   margin: 0;
 }
 

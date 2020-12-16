@@ -14,29 +14,30 @@
           </videoPlayer>
         </div>
         <div class="wrap-right">
-          <h3 class="course-name">{{ course_detail.name }}</h3>
-          <p class="data">{{ course_detail.students }}人在学&nbsp;&nbsp;&nbsp;&nbsp;课程总时长：{{
-              course_detail.pub_lessons
-            }}课时/ {{ course_detail.lessons }}课时&nbsp;&nbsp;&nbsp;&nbsp;难度：{{ course_detail.level_name }}</p>
+          <h3 class="course-name">{{ course.name }}</h3>
+          <p class="data">{{ course.students }}人在学&nbsp;&nbsp;&nbsp;&nbsp;课程总时长：45课时/89小时&nbsp;&nbsp;&nbsp;&nbsp;
+            难度：{{ course.level_name }}</p>
           <div class="sale-time">
-            <p class="sale-type">{{ course_detail.discount_name }}</p>
-            <p class="expire">距离结束：仅剩 {{ parseInt(course_detail.active_time / (24 * 3600)) }}天
-              {{ parseInt(course_detail.active_time / 3600 % 24) }}小时
-              {{ parseInt(course_detail.active_time / 60 % 60) }}分
-              <span class="second">{{ parseInt(course_detail.active_time % 60) }}</span> 秒</p>
+            <p class="sale-type">{{ course.discount_name }}</p>
+            <p class="expire">距离结束：仅剩 {{ parseInt(course.active_time / (24 * 3600)) }}天
+              {{ parseInt(course.active_time / 3600 % 24) }}小时
+              {{ parseInt(course.active_time / 60 % 60) }}分 <span
+                  class="second">{{ parseInt(course.active_time % 60) }}</span> 秒
+            </p>
           </div>
           <p class="course-price">
             <span>活动价</span>
-            <span class="discount">¥{{ course_detail.discount_price }}</span>
-            <span class="original">¥{{ course_detail.price }}</span>
+            <span class="discount">¥{{ course.discount_price }}</span>
+            <span class="original">¥{{ course.price }}</span>
           </p>
           <div class="buy">
             <div class="buy-btn">
               <button class="buy-now">立即购买</button>
               <button class="free">免费试学</button>
             </div>
-            <div class="add-cart"><img src="/static/image/cart.svg" alt="">
-              <span @click="add_cart">加入购物车</span></div>
+            <div class="add-cart"><img src="/static/image/cart-yellow.svg" alt="">
+              <span @click="add_cart">加入购物车</span>
+            </div>
           </div>
         </div>
       </div>
@@ -52,36 +53,42 @@
       <div class="course-content">
         <div class="course-tab-list">
           <div class="tab-item" v-if="tabIndex==1">
-            <div v-html="course_detail.brief_html"></div>
-            <!--            <p><img alt=""-->
-            <!--                    src=""-->
-            <!--                    width="840"></p>-->
-            <!--            <p><img alt=""-->
-            <!--                    src=""-->
-            <!--                    width="840"></p>-->
-            <!--            <p><img alt=""-->
-            <!--                    src=""-->
-            <!--                    width="840"></p>-->
+            <div v-html="course.brief_html"></div>
           </div>
           <div class="tab-item" v-if="tabIndex==2">
             <div class="tab-item-title">
               <p class="chapter">课程章节</p>
-              <p class="chapter-length">共5章 {{ course_detail.lessons }}个课时</p>
+              <p class="chapter-length">共8章 75个课时</p>
             </div>
-            <div class="chapter-item" v-for="(chapter,index) in course_detail.chapter_list" :key="index">
-              <p class="chapter-title">第{{ chapter.chapter }}章-{{ chapter.name }}</p>
-              <ul class="lesson-list" v-for="(lesson_detail,index) in course_detail.lesson_list" :key="index">
-                <li class="lesson-item" v-if="lesson_detail.chapter_id===chapter.id">
-                  <div>
-                    <p class="name">
-                      <!--                    <span class="index">1-1</span>-->
-                      {{ lesson_detail.name }}
-                      <span class="free" v-if="lesson_detail.free_trail">免费</span>
-                    </p>
-                    <p class="time">{{ lesson_detail.duration }}<img src="/static/image/chapter-player.svg"></p>
-                    <button class="try" v-if="lesson_detail.free_trail">立即试学</button>
-                    <button class="try" v-else>立即购买</button>
-                  </div>
+            <div class="chapter-item">
+              <p class="chapter-title"><img src="/static/image/1.svg" alt="">第1章·Vue简介</p>
+              <ul class="lesson-list">
+                <li class="lesson-item">
+                  <p class="name"><span class="index">1-1</span> Vue基本介绍<span class="free">免费</span>
+                  </p>
+                  <p class="time">07:30 <img src="/static/image/chapter-player.svg"></p>
+                  <button class="try">立即试学</button>
+                </li>
+                <li class="lesson-item">
+                  <p class="name"><span class="index">1-2</span> Vue的双向绑定<span class="free">免费</span>
+                  </p>
+                  <p class="time">07:30 <img src="/static/image/chapter-player.svg"></p>
+                  <button class="try">立即试学</button>
+                </li>
+              </ul>
+            </div>
+            <div class="chapter-item">
+              <p class="chapter-title"><img src="/static/image/12.png" alt="">第2章·Vue发展过程</p>
+              <ul class="lesson-list">
+                <li class="lesson-item">
+                  <p class="name"><span class="index">2-1</span> Vue脚手架</p>
+                  <p class="time">07:30 <img src="/static/image/chapter-player.svg"></p>
+                  <button class="try">立即购买</button>
+                </li>
+                <li class="lesson-item">
+                  <p class="name"><span class="index">2-2</span> Vue的路由</p>
+                  <p class="time">07:30 <img src="/static/image/chapter-player.svg"></p>
+                  <button class="try">立即购买</button>
                 </li>
               </ul>
             </div>
@@ -98,13 +105,13 @@
             <h4 class="side-title"><span>授课老师</span></h4>
             <div class="teacher-content">
               <div class="cont1">
-                <img :src="course_detail.teacher.image">
+                <img :src="course.teacher.image">
                 <div class="name">
-                  <p class="teacher-name">{{ course_detail.teacher.name }}</p>
-                  <p class="teacher-title">{{ course_detail.teacher.title }}</p>
+                  <p class="teacher-name">{{ course.teacher.name }}</p>
+                  <p class="teacher-title">我永远18！</p>
                 </div>
               </div>
-              <p class="narrative">{{ course_detail.teacher.brief }}</p>
+              <p class="narrative">技术专家，百知教育金牌讲师，独有的闷骚气质撩到爆炸</p>
             </div>
           </div>
         </div>
@@ -115,23 +122,19 @@
 </template>
 
 <script>
+
+import {videoPlayer} from 'vue-video-player'
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import {videoPlayer} from "vue-video-player";
 
 export default {
   name: "CourseDetail",
-  data: function () {
+  data() {
     return {
-      course_id: '',    // 课程id
+      course_id: 0,
       tabIndex: 2,
-      level: '',        // 难度
-      course_detail: {    // 课程详情
-        chapter_list: [],  // 章节列表
-        lesson_list: [],   // 课时列表
-        teacher: {
-          image: ''
-        },
+      course: {
+        teacher: {}
       },
       // 播放视频的配置
       playerOptions: {
@@ -154,53 +157,48 @@ export default {
       },
     }
   },
-
   methods: {
+
     // 检查用户是否登录
     check_user_login() {
-      let token = localStorage.token || sessionStorage.token
+      let token = localStorage.token || sessionStorage.token;
       if (!token) {
-        let self = this
-        this.$confirm('对不起，请先登录', {
+        let self = this;
+        this.$confirm("对不起，请登录后再添加购物车", {
           callback() {
-            self.$router.push('/login')
+            self.$router.push("/login")
           },
-        })
+        });
         return false
       }
-      return token
+      return token;
     },
 
     // 添加购物车
     add_cart() {
-      let token = this.check_user_login()
+      let token = this.check_user_login();
       // 发起请求添加购物车
-      this.$axios({
-        url: this.$settings.HOST + 'cart/option/',
-        method: 'post',
-        data: {
-          course_id: this.course_id
-        },
+      this.$axios.post(this.$settings.HOST + "cart/option/", {
+        course_id: this.course_id,
+      }, {
         headers: {
           // 必须请求头中携带token "jwt token值"
-          'Authorization': 'jwt ' + token
+          "Authorization": "jwt " + token,
         }
-      }).then(response => {
-        console.log(response)
-        this.$message.success(response.data.message);
+      }).then(res => {
+        this.$message.success(res.data.message);
         // 向状态机提交动作来修改商品的总数
-        this.$store.commit("add_cart", response.data.cart_length)
+        this.$store.commit("add_cart", res.data.cart_length)
       }).catch(error => {
-        console.log(error)
+        console.log(error);
       })
     },
 
-
     onPlayerPlay() {
-      alert("广告1")
+      alert("我是广告")
     },
     onPlayerPause() {
-      alert("广告2")
+      alert("我是广告1")
     },
 
     // 获取课程id
@@ -210,7 +208,7 @@ export default {
         this.course_id = parseInt(course_id)
       } else {
         let self = this;
-        this.$alert("您访问的页面不存在!", "百知教育", {
+        this.$alert("对不起，您访问的页面不存在", "百知教育", {
           callback() {
             self.$router.go(-1);
           }
@@ -220,38 +218,43 @@ export default {
       return course_id;
     },
 
-    get_detail() {
+    // 获取当前课程的详细信息
+    get_course_detail() {
       this.$axios({
-        url: this.$settings.HOST + `course/lession/${this.course_id}/`,
-        method: "get"
+        url: this.$settings.HOST + "course/detail/" + this.course_id + "/",
+        method: 'get',
       }).then(res => {
-        this.course_detail = res.data
+        console.log(res.data);
+        this.course = res.data;
+
         // 设置课程活动的倒计时
-        if (this.course_detail.active_time > 0) {
+        if (this.course.active_time > 0) {
           let timer = setInterval(() => {
-            if (this.course_detail.active_time > 1) {
-              this.course_detail.active_time -= 1
+            if (this.course.active_time > 1) {
+              this.course.active_time -= 1
             } else {
               clearInterval(timer)
             }
           }, 1000)
         }
 
-
       }).catch(error => {
-        console.log(error)
+        console.log(error);
       })
     },
 
+    // 获取当前课程的章节信息
+    get_course_chapter() {
+    },
   },
   created() {
     this.get_course_id()
-    this.get_detail()
+    this.get_course_detail()
   },
   components: {
-    Header: Header,
-    Footer: Footer,
     videoPlayer,
+    Footer,
+    Header
   }
 }
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <div class="cart_item">
+  <div class="cart_item" v-show="is_show">
     <div class="cart_column column_1">
       <el-checkbox class="my_el_checkbox" v-model="course.selected"></el-checkbox>
     </div>
@@ -8,15 +8,16 @@
       <span><router-link :to="'/detail/'+course.id">{{ course.name }}</router-link></span>
     </div>
     <div class="cart_column column_3">
-      <el-select v-model="expire" size="mini" placeholder="请选择购买有效期" class="my_el_select">
-        <el-option label="1个月有效" value="30" key="30"></el-option>
-        <el-option label="2个月有效" value="60" key="60"></el-option>
-        <el-option label="3个月有效" value="90" key="90"></el-option>
-        <el-option label="永久有效" value="10000" key="10000"></el-option>
+      <el-select v-model="course.expire_id" size="mini" placeholder="请选择购买有效期" class="my_el_select">
+        <el-option :label="item.expire_text" :value="item.id"
+                   v-for="(item, index) in course.expire_list" :key="index">
+        </el-option>
       </el-select>
     </div>
-    <div class="cart_column column_4">¥{{ course.price }}</div>
-    <div class="cart_column column_4"><span @click="deleting">删除</span></div>
+    <div class="cart_column column_4">{{ course.final_price }}</div>
+    <div class="cart_column column_4">
+      <el-button type="danger" @click="del_course" icon="el-icon-delete" circle></el-button>
+    </div>
   </div>
 </template>
 <script>
@@ -24,26 +25,107 @@ export default {
   name: "CartItem",
   props: ['course'],
   watch: {
+    // 通过监测select的变化来改变当前的选中状态
     'course.selected': function () {
       // 后台发起请求改变状态
       this.change_select();
+    },
+    // 通过监测课程id来切换有效期
+    'course.expire_id': function () {
+      this.change_expire()
     }
   },
   data() {
     return {
-      checked: 0,
-      expire: 0,
+      expire_id: this.course.expire_id,
+      is_show: true
     }
   },
   methods: {
-    change_select() {
+
+    // 检查用户是否登录
+    check_user_login() {
+      let token = localStorage.token || sessionStorage.token
+      if (!token) {
+        let self = this
+        this.$confirm('对不起，请先登录', {
+          callback() {
+            self.$router.push('/login')
+          },
+        })
+        return false
+      }
+      return token
     },
-    deleting(){
-      alert("hello world")
-      // this.$axios({
-      //   url: this.$settings.HOST + "user/captcha/",
-      // })
-    }
+
+    // 有效期
+    change_expire() {
+      let token = this.check_user_login()
+      this.$axios({
+        url: this.$settings.HOST + 'cart/option/',
+        method: 'put',
+        data: {
+          course_id: this.course.id,
+          expire_id: this.course.expire_id
+        },
+        headers: {
+          "Authorization": "jwt " + token
+        }
+      }).then(res => {
+        console.log(111, res)
+        this.course.final_price = res.data.price;
+
+        this.$emit('cart_total_price')
+      }).catch(error => {
+        console.log(error)
+      })
+    },
+
+    // 删除
+    del_course() {
+      let token = this.check_user_login()
+      this.$axios({
+        url: this.$settings.HOST + 'cart/option/',
+        method: 'delete',
+        data: {
+          course_id: this.course.id,
+          selected: this.course.selected
+        },
+        headers: {
+          "Authorization": "jwt " + token
+        }
+      }).then(res => {
+        console.log(res.data)
+        this.$store.commit("add_cart", res.data.cart_length)
+
+        this.$emit('cart_total_price1')
+      }).catch(error => {
+        console.log(error)
+      })
+    },
+
+    // 状态切换
+    change_select() {
+      let token = this.check_user_login()
+      this.$axios({
+        url: this.$settings.HOST + 'cart/option/',
+        method: 'patch',
+        data: {
+          course_id: this.course.id,
+          selected: this.course.selected,
+        },
+        headers: {
+          "Authorization": "jwt " + token
+        }
+      }).then(res => {
+        console.log(res.data.message)
+        this.$emit('cart_total_price')
+      }).catch(error => {
+        console.log(error)
+      })
+    },
+  },
+  created() {
   }
 }
 </script>

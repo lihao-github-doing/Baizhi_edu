@@ -11,6 +11,7 @@
               :key="index">{{ cate.name }}
           </li>
         </ul>
+
         <div class="ordering">
           <ul>
             <li class="title">筛&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;选:</li>
@@ -18,7 +19,7 @@
             <li class="hot" @click="change_order_type('students')" :class="change_order_class('students')">人气</li>
             <li class="price" @click="change_order_type('price')" :class="change_order_class('price')">价格</li>
           </ul>
-          <p class="condition-result">共{{ course_number }}个课程</p>
+          <p class="condition-result">共21个课程</p>
         </div>
 
       </div>
@@ -30,7 +31,7 @@
           </div>
           <div class="course-info">
             <h3>
-              <router-link :to="'/courseDetail/'+course.id+'/'">{{ course.name }}</router-link>
+              <router-link :to="'/detail/'+course.id">{{ course.name }}</router-link>
               <span><img src="../static/image/avatar1.svg" alt="">{{ course.students }}人已加入学习</span>
             </h3>
             <p class="teather-info">huxz 百知教育教学总监
@@ -44,16 +45,15 @@
                   class="free" v-if="lesson.free_trail">免费</span></li>
             </ul>
             <div class="pay-box">
-              <span class="discount-type" v-if="course.discount_name">{{ course.discount_name }}</span>
-              <span class="discount-price" v-if="course.discount_name">￥{{ course.discount_price }}元</span>
-              <span class="original-price" v-if="course.discount_name">原价：{{ course.price }}元</span>
-              <span class="discount-price" v-else>{{ course.price }}元</span>
+              <span class="discount-type">{{ course.discount_name }}</span>
+              <span class="discount-price">￥{{ course.discount_price }}元</span>
+              <span class="original-price">原价：{{ course.price }}元</span>
               <span class="buy-now">立即购买</span>
             </div>
           </div>
         </div>
-      </div>
 
+      </div>
     </div>
     <el-pagination
         background
@@ -79,16 +79,15 @@ export default {
   name: "Course",
   data() {
     return {
-      category_list: [], // 课程分类
-      category: 0,       // 类别
-      course_list: [],   // 课程列表
-      total: 0,          // 总数
-      course_number: 0,
+      category_list: [],
+      category: 0,
+      course_list: [],
+      total: 0,
       filters: {
-        type: "id",        // 排序类型默认值
-        orders: "desc",    // 排序类型  desc 降序 asc升序
-        page: 1,           // 分页的页码
-        size: 2,           // 每页展示的数量
+        type: "id", // 排序类型默认值
+        orders: "desc",   // 排序类型  desc 降序 asc升序
+        page: 1, // 分页的页码
+        size: 2, // 每页展示的数量
       }
     }
   },
@@ -138,7 +137,6 @@ export default {
         return ""
       }
     },
-
     // 获取所有课程分类
     get_all_category() {
       this.$axios.get(this.$settings.HOST + "course/category/").then(res => {
@@ -147,6 +145,7 @@ export default {
     },
     // 获取所有的课程信息
     get_all_course() {
+
       let filters = {
         // 切换分页后的页面
         page: this.filters.page,
@@ -169,7 +168,6 @@ export default {
         params: filters
       }).then(res => {
         console.log(res.data);
-        this.course_number = res.data.count
         this.course_list = res.data.results;
         // 分页的总数量
         this.total = res.data.count;

@@ -6,18 +6,13 @@
           <router-link to="/"><img src="../static/image/logo.png" alt=""></router-link>
         </div>
         <ul class="nav full-left">
-          <!--          <li v-for="(date,index) in nav_list" :key='index'><a :href="date.link">{{ date.title }}</a></li>-->
-
-          <li v-for="(date,index) in nav_list" :key='index'><a :href="date.link" target="_self"
-                                                               v-if="date.is_site">{{ date.title }}</a>
-            <router-link :to="date.link" v-else>{{ date.title }}</router-link>
+          <li><span>Java进阶之路</span></li>
+          <li><span>大数据成功法门</span></li>
+          <li>
+            <router-link to="/course">Python全栈</router-link>
           </li>
-
-          <!--          <li><span>Java进阶之路</span></li>-->
-          <!--          <li><span>大数据成功法门</span></li>-->
-          <!--          <li><span>Python全栈</span></li>-->
-          <!--          <li><span>人工智能的魅力</span></li>-->
-          <!--          <li><span>百知教育</span></li>-->
+          <li><span>人工智能的魅力</span></li>
+          <li><span>百知教育</span></li>
         </ul>
 
         <div class="login-bar full-right" v-if="token">
@@ -26,9 +21,9 @@
             <span><router-link to="/cart">{{ this.$store.state.cart_length }}购物车</router-link></span>
           </div>
           <div class="login-box full-left">
-            <router-link to="/list">{{ username }}</router-link>
+            <router-link to="/list">个人中心</router-link>
             &nbsp;|&nbsp;
-            <span @click="quit">退出登录</span>
+            <span>退出登录</span>
           </div>
         </div>
 
@@ -54,60 +49,18 @@ export default {
   name: "Header",
   data() {
     return {
-      nav_list: [],
-      token: '',
-      username: '',
+      token: "",
     }
   },
-  created() {
-    this.get_all_nav()
-    this.get_token()
-
-  },
   methods: {
-    user_login() {
-      let self = this
-      this.$confirm("对不起，请先登录再添加购物车", {
-        callback() {
-          self.$router.push("/login")
-        }
-      })
-      return false
-    },
-
-    get_all_nav() {
-      this.$axios({
-        url: this.$settings.HOST + "home/navs/",
-        method: 'get',
-      }).then(response => {
-        this.nav_list = response.data;
-      }).catch(error => {
-        console.log(error);
-        this.$message({
-          message: '地址错误',
-          type: 'error',
-          duration: 1000,
-          showClose: true,
-        });
-      })
-    },
+    // H获取token 确定用户的登录状态
     get_token() {
       this.token = localStorage.token || sessionStorage.token;
-      this.username = localStorage.username || sessionStorage.username
-    },
-    quit() {
-      localStorage.removeItem('token')
-      localStorage.removeItem('username')
-      localStorage.removeItem('password')
-
-      sessionStorage.removeItem('token')
-      sessionStorage.removeItem('username')
-      sessionStorage.removeItem('password')
-
-      this.token = ''
-      this.username = ''
     },
   },
+  created() {
+    this.get_token()
+  }
 }
 </script>
 

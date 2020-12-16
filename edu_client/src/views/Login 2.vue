@@ -8,10 +8,10 @@
       </div>
       <div class="login_box">
         <div class="title">
-          <span>密码登录</span>
-          <span>短信登录</span>
+          <span @click="login_type=0">密码登录</span>
+          <span @click="login_type=1">短信登录</span>
         </div>
-        <div class="inp" v-if="true">
+        <div class="inp" v-if="login_type==0">
           <input type="text" placeholder="用户名 / 手机号码 / 邮箱" class="user" v-model="username">
           <input type="password" name="" class="pwd" placeholder="密码" v-model="password">
           <div id="geetest1"></div>
@@ -24,10 +24,10 @@
           </div>
           <button class="login_btn btn btn-primary" @click="get_captcha">登录</button>
           <p class="go_login">没有账号
-            <router-link to="/user/register/">立即注册</router-link>
+            <router-link to="/register/">立即注册</router-link>
           </p>
         </div>
-        <div class="inp" v-show="false">
+        <div class="inp" v-else>
           <input type="text" placeholder="手机号码" class="user">
           <input type="text" class="pwd" placeholder="短信验证码">
           <button id="get_code" class="btn btn-primary">获取验证码</button>
@@ -49,7 +49,8 @@ export default {
     return {
       username: "",
       password: "",
-      remember_me: true
+      remember_me: true,
+      login_type: 0,
     }
   },
   methods: {
@@ -95,13 +96,13 @@ export default {
             geetest_validate: validate.geetest_validate,
             geetest_seccode: validate.geetest_seccode
           },
-        }).then(res=>{
+        }).then(res => {
           console.log(res.data);
           // 如果滑块验证码的验证结果为True，则完成登录
-          if (res.data.status){
+          if (res.data.status) {
             self.user_login();
           }
-        }).catch(error=>{
+        }).catch(error => {
           console.log(error);
         })
       })
@@ -133,10 +134,7 @@ export default {
         })
         localStorage.token = res.data.token;
         // 登录成功后返回首页
-        this.$router.push({
-          path: "/",
-          usrname: res.data.name
-        })
+        this.$router.push("/")
       }).catch(error => {
         console.log(error);
         this.$message.error("用户名或密码错误")

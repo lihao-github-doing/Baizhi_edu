@@ -16,8 +16,9 @@
         </div>
         <div class="cart_course_list">
           <CartItem v-for="(course, index) in cart_list" :course="course" :key="index"
-                    @cart_total_price="cart_total_price"
-                    @cart_total_price1="cart_total_price1"></CartItem>
+                    @change_select="cart_total_price">
+
+          </CartItem>
         </div>
         <div class="cart_footer_row">
           <span class="cart_select"><label> <el-checkbox></el-checkbox><span>全选</span></label></span>
@@ -40,7 +41,7 @@ export default {
   name: "Cart",
   data() {
     return {
-      cart_list: [],      // 购物车列表
+      cart_list: [],  // 购物车列表
       total_price: 0.00,  // 购物车总价
     }
   },
@@ -52,31 +53,9 @@ export default {
       this.cart_list.forEach((course, key) => {
         // 判断商品是否被选中  选中则计入总价
         if (course.selected) {
-          total += parseFloat(course.final_price);
+          total += parseFloat(course.price);
         }
         this.total_price = total;
-      })
-    },
-
-    cart_total_price1() {
-      let token = this.check_user_login();
-      this.$axios.get(this.$settings.HOST + "cart/option/", {
-        headers: {
-          "Authorization": "jwt " + token,
-        }
-      }).then(res => {
-        this.cart_list = res.data;
-        this.cart_total_price()
-        if (res.data.length){
-          this.cart_total_price()
-        }else {
-          console.log(104,res.data.length)
-          this.total_price = 0.00
-        }
-
-
-      }).catch(error => {
-        console.log(error);
       })
     },
 
@@ -94,7 +73,6 @@ export default {
       }
       return token;
     },
-
     // 获取购物车数据
     get_cart_list() {
       let token = this.check_user_login();
@@ -104,16 +82,12 @@ export default {
         }
       }).then(res => {
         this.cart_list = res.data;
-        this.cart_total_price()
       }).catch(error => {
         console.log(error);
       })
     },
-
-
   },
   created() {
-    // this.cart_total_price()
     this.get_cart_list()
   },
   components: {

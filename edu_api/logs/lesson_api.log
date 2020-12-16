@@ -3756,3 +3756,825 @@ INFO 2020-12-10 13:41:24,193 basehttp 154 "GET /course/detail/29/ HTTP/1.1" 200 
 INFO 2020-12-13 07:19:19,446 autoreload 578 Watching for file changes with StatReloader
 INFO 2020-12-14 00:57:24,443 autoreload 578 Watching for file changes with StatReloader
 INFO 2020-12-14 06:04:24,383 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-12-14 11:47:01,748 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-12-14 11:47:06,899 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-14 11:47:06,900 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-14 11:47:06,900 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 292
+INFO 2020-12-14 11:47:07,028 basehttp 154 "GET /media/banner/02_T238PiS.png HTTP/1.1" 200 364808
+INFO 2020-12-14 11:47:07,034 basehttp 154 "GET /media/banner/01_CIUzAj5.png HTTP/1.1" 200 737783
+INFO 2020-12-14 11:47:07,036 basehttp 154 "GET /media/banner/03_aN6PIW4.png HTTP/1.1" 200 745382
+INFO 2020-12-14 11:47:23,143 basehttp 154 "GET /user/captcha/?username=apple HTTP/1.1" 200 140
+INFO 2020-12-14 11:47:30,489 basehttp 154 "OPTIONS /user/captcha/ HTTP/1.1" 200 0
+INFO 2020-12-14 11:47:31,657 basehttp 154 "POST /user/captcha/ HTTP/1.1" 200 20
+INFO 2020-12-14 11:47:31,660 basehttp 154 "OPTIONS /user/login/ HTTP/1.1" 200 0
+INFO 2020-12-14 11:47:31,740 basehttp 154 "POST /user/login/ HTTP/1.1" 200 227
+INFO 2020-12-14 11:47:31,768 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-14 11:47:31,769 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-14 11:47:31,769 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 292
+INFO 2020-12-14 11:47:35,092 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-14 11:47:35,096 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-14 11:47:35,103 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-14 11:47:35,105 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 1131
+INFO 2020-12-14 11:47:35,118 basehttp 154 "GET /media/course/python_t9P7nW9.jpg HTTP/1.1" 200 98963
+INFO 2020-12-14 11:47:35,118 basehttp 154 "GET /media/course/python_ef3nLdu.jpg HTTP/1.1" 200 98963
+INFO 2020-12-14 11:47:38,103 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-14 11:47:38,105 basehttp 154 "GET /course/detail/29/ HTTP/1.1" 200 430
+INFO 2020-12-14 11:47:38,107 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-14 11:47:38,118 basehttp 154 "GET /media/teacher/62684B2D-79E8-4CCA-890E-AB7F771CEEB9.jpeg HTTP/1.1" 200 70970
+INFO 2020-12-14 11:47:40,741 basehttp 154 "OPTIONS /cart/option/ HTTP/1.1" 200 0
+INFO 2020-12-14 11:47:40,749 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-14 11:47:40,750 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+ERROR 2020-12-14 11:47:40,787 log 222 Internal Server Error: /cart/option/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/apple/Desktop/中期项目_李浩/edu_api/edu_api/apps/cart/views.py", line 54, in list_cart
+    cart_list_bytes = redis_connection.hgetall('cart_%s' % user_id)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/client.py", line 3014, in hgetall
+    return self.execute_command('HGETALL', name)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to localhost:6379. Connection refused.
+ERROR 2020-12-14 11:47:40,789 basehttp 154 "GET /cart/option/ HTTP/1.1" 500 18958
+INFO 2020-12-14 11:47:47,135 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-14 11:47:47,136 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-14 11:47:47,138 basehttp 154 "GET /course/detail/29/ HTTP/1.1" 200 430
+ERROR 2020-12-14 11:47:50,561 views 42 购物储存数据失败
+ERROR 2020-12-14 11:47:50,562 log 222 Insufficient Storage: /cart/option/
+ERROR 2020-12-14 11:47:50,562 basehttp 154 "POST /cart/option/ HTTP/1.1" 507 48
+INFO 2020-12-14 11:48:05,398 basehttp 154 "GET /user/captcha/?username=apple HTTP/1.1" 200 140
+INFO 2020-12-14 11:48:11,992 basehttp 154 "POST /user/captcha/ HTTP/1.1" 200 20
+INFO 2020-12-14 11:48:12,090 basehttp 154 "POST /user/login/ HTTP/1.1" 200 227
+INFO 2020-12-14 11:48:12,113 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-14 11:48:12,118 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-14 11:48:12,119 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 292
+INFO 2020-12-14 11:48:14,252 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-14 11:48:14,253 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+ERROR 2020-12-14 11:48:14,268 log 222 Internal Server Error: /cart/option/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/apple/Desktop/中期项目_李浩/edu_api/edu_api/apps/cart/views.py", line 54, in list_cart
+    cart_list_bytes = redis_connection.hgetall('cart_%s' % user_id)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/client.py", line 3014, in hgetall
+    return self.execute_command('HGETALL', name)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to localhost:6379. Connection refused.
+ERROR 2020-12-14 11:48:14,269 basehttp 154 "GET /cart/option/ HTTP/1.1" 500 18958
+INFO 2020-12-14 11:48:17,317 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-14 11:48:17,323 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-14 11:48:17,324 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-14 11:48:17,327 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 1131
+INFO 2020-12-14 11:48:19,525 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-14 11:48:19,526 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-14 11:48:19,527 basehttp 154 "GET /course/detail/29/ HTTP/1.1" 200 430
+ERROR 2020-12-14 11:48:20,870 views 42 购物储存数据失败
+ERROR 2020-12-14 11:48:20,870 log 222 Insufficient Storage: /cart/option/
+ERROR 2020-12-14 11:48:20,871 basehttp 154 "POST /cart/option/ HTTP/1.1" 507 48
+INFO 2020-12-15 07:55:17,034 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-12-15 07:55:35,390 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 292
+INFO 2020-12-15 07:55:35,391 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-15 07:55:35,392 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-15 07:55:35,405 basehttp 154 "GET /media/banner/02_T238PiS.png HTTP/1.1" 304 0
+INFO 2020-12-15 07:55:35,406 basehttp 154 "GET /media/banner/01_CIUzAj5.png HTTP/1.1" 304 0
+INFO 2020-12-15 07:55:35,406 basehttp 154 "GET /media/banner/03_aN6PIW4.png HTTP/1.1" 304 0
+INFO 2020-12-15 07:55:37,910 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-15 07:55:37,913 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-15 07:55:37,914 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-15 07:55:37,927 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 1131
+INFO 2020-12-15 07:55:37,939 basehttp 154 "GET /media/course/python_t9P7nW9.jpg HTTP/1.1" 304 0
+INFO 2020-12-15 07:55:37,940 basehttp 154 "GET /media/course/python_ef3nLdu.jpg HTTP/1.1" 304 0
+INFO 2020-12-15 07:55:56,766 basehttp 154 "GET /user/captcha/?username=apple HTTP/1.1" 200 140
+INFO 2020-12-15 07:56:05,022 basehttp 154 "OPTIONS /user/captcha/ HTTP/1.1" 200 0
+INFO 2020-12-15 07:56:05,102 basehttp 154 "POST /user/captcha/ HTTP/1.1" 200 20
+INFO 2020-12-15 07:56:05,106 basehttp 154 "OPTIONS /user/login/ HTTP/1.1" 200 0
+INFO 2020-12-15 07:56:05,203 basehttp 154 "POST /user/login/ HTTP/1.1" 200 227
+INFO 2020-12-15 07:56:05,230 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-15 07:56:05,235 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 292
+INFO 2020-12-15 07:56:05,235 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-15 07:56:09,121 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-15 07:56:09,121 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-15 07:56:09,125 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-15 07:56:09,129 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 1131
+INFO 2020-12-15 07:56:11,651 basehttp 154 "OPTIONS /cart/option/ HTTP/1.1" 200 0
+INFO 2020-12-15 07:56:11,659 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-15 07:56:11,660 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+ERROR 2020-12-15 07:56:11,704 log 222 Internal Server Error: /cart/option/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/apple/Desktop/中期项目_李浩/edu_api/edu_api/apps/cart/views.py", line 54, in list_cart
+    cart_list_bytes = redis_connection.hgetall('cart_%s' % user_id)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/client.py", line 3014, in hgetall
+    return self.execute_command('HGETALL', name)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to localhost:6379. Connection refused.
+ERROR 2020-12-15 07:56:11,706 basehttp 154 "GET /cart/option/ HTTP/1.1" 500 18958
+INFO 2020-12-15 07:56:13,587 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-15 07:56:13,587 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-15 07:56:13,589 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-15 07:56:13,590 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 1131
+INFO 2020-12-15 07:56:15,510 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-15 07:56:15,511 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-15 07:56:15,512 basehttp 154 "GET /course/detail/29/ HTTP/1.1" 200 430
+INFO 2020-12-15 07:56:15,524 basehttp 154 "GET /media/teacher/62684B2D-79E8-4CCA-890E-AB7F771CEEB9.jpeg HTTP/1.1" 304 0
+ERROR 2020-12-15 07:56:19,428 views 42 购物储存数据失败
+ERROR 2020-12-15 07:56:19,429 log 222 Insufficient Storage: /cart/option/
+ERROR 2020-12-15 07:56:19,429 basehttp 154 "POST /cart/option/ HTTP/1.1" 507 48
+INFO 2020-12-15 07:58:24,793 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-15 07:58:24,798 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+ERROR 2020-12-15 07:58:24,812 log 222 Internal Server Error: /cart/option/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/apple/Desktop/中期项目_李浩/edu_api/edu_api/apps/cart/views.py", line 54, in list_cart
+    cart_list_bytes = redis_connection.hgetall('cart_%s' % user_id)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/client.py", line 3014, in hgetall
+    return self.execute_command('HGETALL', name)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to localhost:6379. Connection refused.
+ERROR 2020-12-15 07:58:24,813 basehttp 154 "GET /cart/option/ HTTP/1.1" 500 18958
+INFO 2020-12-15 07:58:33,422 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-15 07:58:33,424 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-15 07:58:33,425 basehttp 154 "GET /course/detail/29/ HTTP/1.1" 200 430
+ERROR 2020-12-15 07:58:35,611 views 42 购物储存数据失败
+ERROR 2020-12-15 07:58:35,611 log 222 Insufficient Storage: /cart/option/
+ERROR 2020-12-15 07:58:35,612 basehttp 154 "POST /cart/option/ HTTP/1.1" 507 48
+INFO 2020-12-15 08:00:19,074 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-15 08:00:19,077 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-15 08:00:19,086 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-15 08:00:19,088 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 1131
+INFO 2020-12-15 08:04:06,445 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-15 08:04:06,449 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-15 08:04:06,453 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-15 08:04:06,460 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 1131
+INFO 2020-12-15 08:04:12,090 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-15 08:04:12,093 basehttp 154 "GET /course/detail/29/ HTTP/1.1" 200 430
+INFO 2020-12-15 08:04:12,094 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+WARNING 2020-12-15 08:04:16,933 log 222 Unauthorized: /cart/option/
+WARNING 2020-12-15 08:04:16,934 basehttp 154 "POST /cart/option/ HTTP/1.1" 401 38
+INFO 2020-12-15 08:04:33,595 basehttp 154 "GET /user/captcha/?username=apple HTTP/1.1" 200 140
+INFO 2020-12-15 08:04:48,445 basehttp 154 "POST /user/captcha/ HTTP/1.1" 200 20
+INFO 2020-12-15 08:04:48,532 basehttp 154 "POST /user/login/ HTTP/1.1" 200 227
+INFO 2020-12-15 08:04:48,605 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-15 08:04:48,609 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-15 08:04:48,610 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 292
+INFO 2020-12-15 08:04:53,533 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-15 08:04:53,534 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-15 08:04:53,538 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-15 08:04:53,543 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 1131
+INFO 2020-12-15 08:04:56,616 basehttp 154 "GET /course/detail/29/ HTTP/1.1" 200 430
+INFO 2020-12-15 08:04:56,617 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-15 08:04:56,618 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+ERROR 2020-12-15 08:04:57,805 views 42 购物储存数据失败
+ERROR 2020-12-15 08:04:57,806 log 222 Insufficient Storage: /cart/option/
+ERROR 2020-12-15 08:04:57,806 basehttp 154 "POST /cart/option/ HTTP/1.1" 507 48
+INFO 2020-12-15 08:06:40,882 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-15 08:06:40,884 basehttp 154 "GET /course/detail/29/ HTTP/1.1" 200 430
+INFO 2020-12-15 08:06:40,885 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+ERROR 2020-12-15 08:06:50,729 views 42 购物储存数据失败
+ERROR 2020-12-15 08:06:50,730 log 222 Insufficient Storage: /cart/option/
+ERROR 2020-12-15 08:06:50,730 basehttp 154 "POST /cart/option/ HTTP/1.1" 507 48
+ERROR 2020-12-15 08:06:52,076 views 42 购物储存数据失败
+ERROR 2020-12-15 08:06:52,077 log 222 Insufficient Storage: /cart/option/
+ERROR 2020-12-15 08:06:52,077 basehttp 154 "POST /cart/option/ HTTP/1.1" 507 48
+ERROR 2020-12-15 08:06:52,339 views 42 购物储存数据失败
+ERROR 2020-12-15 08:06:52,340 log 222 Insufficient Storage: /cart/option/
+ERROR 2020-12-15 08:06:52,340 basehttp 154 "POST /cart/option/ HTTP/1.1" 507 48
+ERROR 2020-12-15 08:06:52,559 views 42 购物储存数据失败
+ERROR 2020-12-15 08:06:52,560 log 222 Insufficient Storage: /cart/option/
+ERROR 2020-12-15 08:06:52,561 basehttp 154 "POST /cart/option/ HTTP/1.1" 507 48
+ERROR 2020-12-15 08:06:52,752 views 42 购物储存数据失败
+ERROR 2020-12-15 08:06:52,753 log 222 Insufficient Storage: /cart/option/
+ERROR 2020-12-15 08:06:52,753 basehttp 154 "POST /cart/option/ HTTP/1.1" 507 48
+ERROR 2020-12-15 08:06:52,944 views 42 购物储存数据失败
+ERROR 2020-12-15 08:06:52,945 log 222 Insufficient Storage: /cart/option/
+ERROR 2020-12-15 08:06:52,945 basehttp 154 "POST /cart/option/ HTTP/1.1" 507 48
+ERROR 2020-12-15 08:06:53,134 views 42 购物储存数据失败
+ERROR 2020-12-15 08:06:53,135 log 222 Insufficient Storage: /cart/option/
+ERROR 2020-12-15 08:06:53,135 basehttp 154 "POST /cart/option/ HTTP/1.1" 507 48
+ERROR 2020-12-15 08:06:53,338 views 42 购物储存数据失败
+ERROR 2020-12-15 08:06:53,339 log 222 Insufficient Storage: /cart/option/
+ERROR 2020-12-15 08:06:53,339 basehttp 154 "POST /cart/option/ HTTP/1.1" 507 48
+INFO 2020-12-15 08:06:59,503 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-15 08:06:59,505 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-15 08:06:59,506 basehttp 154 "GET /course/detail/29/ HTTP/1.1" 200 430
+WARNING 2020-12-15 08:07:05,997 log 222 Unauthorized: /cart/option/
+WARNING 2020-12-15 08:07:05,998 basehttp 154 "POST /cart/option/ HTTP/1.1" 401 38
+INFO 2020-12-15 08:07:18,380 basehttp 154 "GET /user/captcha/?username=apple HTTP/1.1" 200 140
+INFO 2020-12-15 08:07:24,938 basehttp 154 "GET /user/captcha/?username=apple HTTP/1.1" 200 140
+INFO 2020-12-15 08:07:24,944 basehttp 154 "POST /user/captcha/ HTTP/1.1" 200 20
+INFO 2020-12-15 08:07:25,038 basehttp 154 "POST /user/login/ HTTP/1.1" 200 227
+INFO 2020-12-15 08:07:25,143 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-15 08:07:25,148 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-15 08:07:25,148 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 292
+INFO 2020-12-15 08:07:30,448 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-15 08:07:30,459 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-15 08:07:30,463 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-15 08:07:30,469 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 1131
+INFO 2020-12-15 08:07:32,484 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-15 08:07:32,485 basehttp 154 "GET /course/detail/29/ HTTP/1.1" 200 430
+INFO 2020-12-15 08:07:32,487 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+ERROR 2020-12-15 08:07:37,280 views 42 购物储存数据失败
+ERROR 2020-12-15 08:07:37,281 log 222 Insufficient Storage: /cart/option/
+ERROR 2020-12-15 08:07:37,281 basehttp 154 "POST /cart/option/ HTTP/1.1" 507 48
+ERROR 2020-12-15 08:07:37,885 views 42 购物储存数据失败
+ERROR 2020-12-15 08:07:37,886 log 222 Insufficient Storage: /cart/option/
+ERROR 2020-12-15 08:07:37,886 basehttp 154 "POST /cart/option/ HTTP/1.1" 507 48
+ERROR 2020-12-15 08:07:38,592 views 42 购物储存数据失败
+ERROR 2020-12-15 08:07:38,593 log 222 Insufficient Storage: /cart/option/
+ERROR 2020-12-15 08:07:38,593 basehttp 154 "POST /cart/option/ HTTP/1.1" 507 48
+ERROR 2020-12-15 08:07:38,751 views 42 购物储存数据失败
+ERROR 2020-12-15 08:07:38,752 log 222 Insufficient Storage: /cart/option/
+ERROR 2020-12-15 08:07:38,752 basehttp 154 "POST /cart/option/ HTTP/1.1" 507 48
+ERROR 2020-12-15 08:07:38,965 views 42 购物储存数据失败
+ERROR 2020-12-15 08:07:38,966 log 222 Insufficient Storage: /cart/option/
+ERROR 2020-12-15 08:07:38,966 basehttp 154 "POST /cart/option/ HTTP/1.1" 507 48
+ERROR 2020-12-15 08:07:39,134 views 42 购物储存数据失败
+ERROR 2020-12-15 08:07:39,135 log 222 Insufficient Storage: /cart/option/
+ERROR 2020-12-15 08:07:39,135 basehttp 154 "POST /cart/option/ HTTP/1.1" 507 48
+ERROR 2020-12-15 08:07:39,302 views 42 购物储存数据失败
+ERROR 2020-12-15 08:07:39,303 log 222 Insufficient Storage: /cart/option/
+ERROR 2020-12-15 08:07:39,303 basehttp 154 "POST /cart/option/ HTTP/1.1" 507 48
+ERROR 2020-12-15 08:07:39,473 views 42 购物储存数据失败
+ERROR 2020-12-15 08:07:39,473 log 222 Insufficient Storage: /cart/option/
+ERROR 2020-12-15 08:07:39,474 basehttp 154 "POST /cart/option/ HTTP/1.1" 507 48
+ERROR 2020-12-15 08:07:39,651 views 42 购物储存数据失败
+ERROR 2020-12-15 08:07:39,653 log 222 Insufficient Storage: /cart/option/
+ERROR 2020-12-15 08:07:39,653 basehttp 154 "POST /cart/option/ HTTP/1.1" 507 48
+ERROR 2020-12-15 08:07:39,890 views 42 购物储存数据失败
+ERROR 2020-12-15 08:07:39,891 log 222 Insufficient Storage: /cart/option/
+ERROR 2020-12-15 08:07:39,891 basehttp 154 "POST /cart/option/ HTTP/1.1" 507 48
+INFO 2020-12-15 08:07:40,925 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-15 08:07:40,926 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+ERROR 2020-12-15 08:07:40,940 log 222 Internal Server Error: /cart/option/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/apple/Desktop/中期项目_李浩/edu_api/edu_api/apps/cart/views.py", line 54, in list_cart
+    cart_list_bytes = redis_connection.hgetall('cart_%s' % user_id)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/client.py", line 3014, in hgetall
+    return self.execute_command('HGETALL', name)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to localhost:6379. Connection refused.
+ERROR 2020-12-15 08:07:40,941 basehttp 154 "GET /cart/option/ HTTP/1.1" 500 18958
+INFO 2020-12-15 08:07:43,643 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-15 08:07:43,644 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-15 08:07:43,646 basehttp 154 "GET /course/detail/29/ HTTP/1.1" 200 430
+ERROR 2020-12-15 08:07:44,949 views 42 购物储存数据失败
+ERROR 2020-12-15 08:07:44,950 log 222 Insufficient Storage: /cart/option/
+ERROR 2020-12-15 08:07:44,950 basehttp 154 "POST /cart/option/ HTTP/1.1" 507 48
+ERROR 2020-12-15 08:07:45,217 views 42 购物储存数据失败
+ERROR 2020-12-15 08:07:45,217 log 222 Insufficient Storage: /cart/option/
+ERROR 2020-12-15 08:07:45,218 basehttp 154 "POST /cart/option/ HTTP/1.1" 507 48
+ERROR 2020-12-15 08:07:45,398 views 42 购物储存数据失败
+ERROR 2020-12-15 08:07:45,399 log 222 Insufficient Storage: /cart/option/
+ERROR 2020-12-15 08:07:45,399 basehttp 154 "POST /cart/option/ HTTP/1.1" 507 48
+ERROR 2020-12-15 08:07:45,583 views 42 购物储存数据失败
+ERROR 2020-12-15 08:07:45,585 log 222 Insufficient Storage: /cart/option/
+ERROR 2020-12-15 08:07:45,585 basehttp 154 "POST /cart/option/ HTTP/1.1" 507 48
+ERROR 2020-12-15 08:07:45,749 views 42 购物储存数据失败
+ERROR 2020-12-15 08:07:45,749 log 222 Insufficient Storage: /cart/option/
+ERROR 2020-12-15 08:07:45,750 basehttp 154 "POST /cart/option/ HTTP/1.1" 507 48
+ERROR 2020-12-15 08:07:45,940 views 42 购物储存数据失败
+ERROR 2020-12-15 08:07:45,941 log 222 Insufficient Storage: /cart/option/
+ERROR 2020-12-15 08:07:45,942 basehttp 154 "POST /cart/option/ HTTP/1.1" 507 48
+INFO 2020-12-15 08:10:30,261 basehttp 154 "POST /cart/option/ HTTP/1.1" 200 48
+INFO 2020-12-15 08:10:37,295 basehttp 154 "GET /cart/option/ HTTP/1.1" 200 458
+INFO 2020-12-15 08:10:37,295 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-15 08:10:37,295 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-15 08:10:37,373 basehttp 154 "GET /media/course/java_lesson_V3fwScX.png HTTP/1.1" 200 338717
+INFO 2020-12-15 08:10:46,150 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-15 08:10:46,152 basehttp 154 "GET /course/detail/29/ HTTP/1.1" 200 430
+INFO 2020-12-15 08:10:46,152 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-15 08:10:48,751 basehttp 154 "POST /cart/option/ HTTP/1.1" 200 48
+INFO 2020-12-15 08:10:52,370 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-15 08:10:52,371 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-15 08:10:52,372 basehttp 154 "GET /cart/option/ HTTP/1.1" 200 458
+INFO 2020-12-15 08:13:03,486 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-12-15 08:13:25,684 basehttp 154 "GET /course/detail/29/ HTTP/1.1" 200 430
+INFO 2020-12-15 08:13:25,684 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-15 08:13:25,684 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-15 08:13:33,205 basehttp 154 "GET /course/detail/29/ HTTP/1.1" 200 430
+INFO 2020-12-15 08:13:33,206 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-15 08:13:33,207 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-15 08:15:20,560 autoreload 203 /Users/apple/Desktop/中期项目_李浩/edu_api/edu_api/apps/cart/urls.py changed, reloading.
+INFO 2020-12-15 08:15:21,479 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-12-15 08:23:49,629 basehttp 154 "GET /admin/ HTTP/1.1" 200 18437
+INFO 2020-12-15 08:23:49,671 basehttp 154 "GET /admin/ HTTP/1.1" 200 18437
+INFO 2020-12-15 08:23:49,754 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+INFO 2020-12-15 08:23:49,759 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 1888
+INFO 2020-12-15 08:23:49,770 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
+INFO 2020-12-15 08:23:49,771 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8376
+INFO 2020-12-15 08:23:49,771 basehttp 154 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 200 790
+INFO 2020-12-15 08:23:49,771 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+INFO 2020-12-15 08:23:49,771 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+INFO 2020-12-15 08:23:49,773 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240196
+INFO 2020-12-15 08:23:49,783 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+INFO 2020-12-15 08:23:49,783 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+INFO 2020-12-15 08:23:49,786 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+INFO 2020-12-15 08:23:49,789 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+INFO 2020-12-15 08:23:49,790 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-15 08:23:49,793 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+INFO 2020-12-15 08:23:49,794 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
+INFO 2020-12-15 08:23:49,795 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+INFO 2020-12-15 08:23:49,796 basehttp 154 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 200 3208
+INFO 2020-12-15 08:23:49,797 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 200 1000
+INFO 2020-12-15 08:23:49,797 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 200 31918
+INFO 2020-12-15 08:23:49,797 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 200 3489
+INFO 2020-12-15 08:23:49,879 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+WARNING 2020-12-15 08:23:49,959 log 222 Not Found: /favicon.ico
+WARNING 2020-12-15 08:23:49,959 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2528
+INFO 2020-12-15 08:23:50,642 basehttp 154 "GET /admin/ HTTP/1.1" 200 18437
+INFO 2020-12-15 08:23:51,000 basehttp 154 "GET /admin/ HTTP/1.1" 200 18437
+INFO 2020-12-15 08:24:08,539 basehttp 154 "GET /admin/course/courselesson/ HTTP/1.1" 200 34948
+INFO 2020-12-15 08:24:08,574 basehttp 154 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 200 3763
+INFO 2020-12-15 08:24:08,585 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 200 4198
+INFO 2020-12-15 08:24:08,586 basehttp 154 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 200 1105
+INFO 2020-12-15 08:24:08,586 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 200 1990
+INFO 2020-12-15 08:24:08,586 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 200 529
+INFO 2020-12-15 08:24:08,590 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-15 08:24:08,590 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 200 2319
+INFO 2020-12-15 08:24:08,591 basehttp 154 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 200 1948
+INFO 2020-12-15 08:24:10,337 basehttp 154 "GET /admin/course/coursechapter/ HTTP/1.1" 200 37000
+INFO 2020-12-15 08:24:10,359 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-15 08:24:12,178 basehttp 154 "GET /admin/course/teacher/ HTTP/1.1" 200 31023
+INFO 2020-12-15 08:24:12,199 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-15 08:24:13,942 basehttp 154 "GET /admin/course/course/ HTTP/1.1" 200 54624
+INFO 2020-12-15 08:24:13,964 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-15 08:24:15,569 basehttp 154 "GET /admin/course/coursecategory/ HTTP/1.1" 200 37361
+INFO 2020-12-15 08:24:15,589 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-15 08:24:25,378 basehttp 154 "GET /admin/reversion/revision/ HTTP/1.1" 200 33081
+INFO 2020-12-15 08:24:25,401 basehttp 154 "GET /static/xadmin/vendor/bootstrap-datepicker/css/datepicker.css HTTP/1.1" 200 10225
+INFO 2020-12-15 08:24:25,408 basehttp 154 "GET /static/xadmin/vendor/select2/select2.css HTTP/1.1" 200 19226
+INFO 2020-12-15 08:24:25,408 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-15 08:24:25,408 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.1" 200 8425
+INFO 2020-12-15 08:24:25,411 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.1" 200 10602
+INFO 2020-12-15 08:24:25,412 basehttp 154 "GET /static/xadmin/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js HTTP/1.1" 200 32656
+INFO 2020-12-15 08:24:25,415 basehttp 154 "GET /static/xadmin/js/xadmin.widget.datetime.js HTTP/1.1" 200 2979
+INFO 2020-12-15 08:24:25,416 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 200 98602
+INFO 2020-12-15 08:24:25,416 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-hans.js HTTP/1.1" 200 694
+INFO 2020-12-15 08:24:25,417 basehttp 154 "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.1" 200 1344
+INFO 2020-12-15 08:24:25,417 basehttp 154 "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 200 104906
+INFO 2020-12-15 08:24:27,959 basehttp 154 "GET /admin/user/userinfo/ HTTP/1.1" 200 38301
+INFO 2020-12-15 08:24:27,980 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-15 08:24:33,659 basehttp 154 "GET /admin/xadmin/log/ HTTP/1.1" 200 80190
+INFO 2020-12-15 08:24:33,682 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-15 08:24:45,520 basehttp 154 "GET /admin/course/course/ HTTP/1.1" 200 54624
+INFO 2020-12-15 08:24:45,549 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+ERROR 2020-12-15 08:24:47,683 log 222 Internal Server Error: /admin/course/course/29/update/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/templatetags/crispy_forms_tags.py", line 203, in render
+    c = self.get_render(context).flatten()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/templatetags/crispy_forms_tags.py", line 119, in get_render
+    actual_form.form_html = helper.render_layout(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/helper.py", line 301, in render_layout
+    html = self.layout.render(form, self.form_style, context, template_pack=template_pack)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 135, in render
+    return self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 96, in get_rendered_fields
+    return "".join(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 97, in <genexpr>
+    render_field(field, form, form_style, context, template_pack=template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/utils.py", line 66, in render_field
+    return field.render(form, form_style, context, template_pack=template_pack)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 367, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 96, in get_rendered_fields
+    return "".join(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 97, in <genexpr>
+    render_field(field, form, form_style, context, template_pack=template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/utils.py", line 66, in render_field
+    return field.render(form, form_style, context, template_pack=template_pack)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 367, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 96, in get_rendered_fields
+    return "".join(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 97, in <genexpr>
+    render_field(field, form, form_style, context, template_pack=template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/utils.py", line 66, in render_field
+    return field.render(form, form_style, context, template_pack=template_pack)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 289, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 96, in get_rendered_fields
+    return "".join(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 97, in <genexpr>
+    render_field(field, form, form_style, context, template_pack=template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/utils.py", line 139, in render_field
+    html = template.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/templatetags/crispy_forms_field.py", line 155, in render
+    return str(field)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/utils/html.py", line 388, in <lambda>
+    klass.__str__ = lambda self: mark_safe(klass_str(self))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/forms/boundfield.py", line 33, in __str__
+    return self.as_widget()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/forms/boundfield.py", line 89, in as_widget
+    return widget.render(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/ckeditor/widgets.py", line 117, in render
+    self._set_config()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/ckeditor_uploader/widgets.py", line 12, in _set_config
+    self.config.setdefault('filebrowserUploadUrl', reverse('ckeditor_upload'))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/urls/base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/urls/resolvers.py", line 660, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'ckeditor_upload' not found. 'ckeditor_upload' is not a valid view function or pattern name.
+ERROR 2020-12-15 08:24:47,686 basehttp 154 "GET /admin/course/course/29/update/ HTTP/1.1" 500 714635
+INFO 2020-12-15 08:24:49,985 basehttp 154 "GET /admin/course/course/ HTTP/1.1" 200 54624
+INFO 2020-12-15 08:24:51,492 basehttp 154 "GET /admin/course/coursecategory/ HTTP/1.1" 200 37361
+INFO 2020-12-15 08:24:51,519 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-15 08:24:53,598 basehttp 154 "GET /admin/course/coursecategory/8/update/ HTTP/1.1" 200 21453
+INFO 2020-12-15 08:24:53,619 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-12-15 08:24:56,567 basehttp 154 "GET /admin/course/course/ HTTP/1.1" 200 54624
+INFO 2020-12-15 08:24:56,589 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+ERROR 2020-12-15 08:24:59,243 log 222 Internal Server Error: /admin/course/course/29/update/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/templatetags/crispy_forms_tags.py", line 203, in render
+    c = self.get_render(context).flatten()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/templatetags/crispy_forms_tags.py", line 119, in get_render
+    actual_form.form_html = helper.render_layout(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/helper.py", line 301, in render_layout
+    html = self.layout.render(form, self.form_style, context, template_pack=template_pack)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 135, in render
+    return self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 96, in get_rendered_fields
+    return "".join(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 97, in <genexpr>
+    render_field(field, form, form_style, context, template_pack=template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/utils.py", line 66, in render_field
+    return field.render(form, form_style, context, template_pack=template_pack)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 367, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 96, in get_rendered_fields
+    return "".join(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 97, in <genexpr>
+    render_field(field, form, form_style, context, template_pack=template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/utils.py", line 66, in render_field
+    return field.render(form, form_style, context, template_pack=template_pack)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 367, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 96, in get_rendered_fields
+    return "".join(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 97, in <genexpr>
+    render_field(field, form, form_style, context, template_pack=template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/utils.py", line 66, in render_field
+    return field.render(form, form_style, context, template_pack=template_pack)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 289, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 96, in get_rendered_fields
+    return "".join(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/layout.py", line 97, in <genexpr>
+    render_field(field, form, form_style, context, template_pack=template_pack, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/utils.py", line 139, in render_field
+    html = template.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crispy_forms/templatetags/crispy_forms_field.py", line 155, in render
+    return str(field)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/utils/html.py", line 388, in <lambda>
+    klass.__str__ = lambda self: mark_safe(klass_str(self))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/forms/boundfield.py", line 33, in __str__
+    return self.as_widget()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/forms/boundfield.py", line 89, in as_widget
+    return widget.render(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/ckeditor/widgets.py", line 117, in render
+    self._set_config()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/ckeditor_uploader/widgets.py", line 12, in _set_config
+    self.config.setdefault('filebrowserUploadUrl', reverse('ckeditor_upload'))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/urls/base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/urls/resolvers.py", line 660, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'ckeditor_upload' not found. 'ckeditor_upload' is not a valid view function or pattern name.
+ERROR 2020-12-15 08:24:59,244 basehttp 154 "GET /admin/course/course/29/update/ HTTP/1.1" 500 714635
+INFO 2020-12-15 08:55:19,532 basehttp 154 "GET /admin/course/course/ HTTP/1.1" 200 54624
+INFO 2020-12-15 08:55:21,544 basehttp 154 "GET /admin/course/coursecategory/8/update/ HTTP/1.1" 200 21453
+INFO 2020-12-15 08:55:23,452 basehttp 154 "GET /admin/course/coursecategory/ HTTP/1.1" 200 37361
+INFO 2020-12-15 08:55:24,174 basehttp 154 "GET /admin/course/course/ HTTP/1.1" 200 54624
+INFO 2020-12-15 08:55:25,065 basehttp 154 "GET /admin/xadmin/log/ HTTP/1.1" 200 80190
+INFO 2020-12-15 08:55:26,065 basehttp 154 "GET /admin/user/userinfo/ HTTP/1.1" 200 38301
+INFO 2020-12-15 08:55:28,708 basehttp 154 "GET /admin/reversion/revision/ HTTP/1.1" 200 33081
+INFO 2020-12-15 08:55:30,007 basehttp 154 "GET /admin/course/coursecategory/ HTTP/1.1" 200 37361
+INFO 2020-12-15 08:55:34,952 basehttp 154 "POST /cart/option/ HTTP/1.1" 200 48
+INFO 2020-12-15 08:55:39,590 basehttp 154 "GET /cart/option/ HTTP/1.1" 200 458
+INFO 2020-12-15 08:55:39,594 basehttp 154 "GET /home/navHead/ HTTP/1.1" 200 196
+INFO 2020-12-15 08:55:39,594 basehttp 154 "GET /home/navFoot/ HTTP/1.1" 200 229
+INFO 2020-12-15 12:27:31,991 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-12-15 12:27:37,262 basehttp 154 "OPTIONS /cart/option/ HTTP/1.1" 200 0
+WARNING 2020-12-15 12:27:37,271 log 222 Unauthorized: /cart/option/
+WARNING 2020-12-15 12:27:37,272 basehttp 154 "GET /cart/option/ HTTP/1.1" 401 35
+INFO 2020-12-15 12:27:38,434 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-15 12:27:38,437 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 1131
+INFO 2020-12-15 12:27:46,042 basehttp 154 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-12-15 12:27:46,046 basehttp 154 "GET /course/courses/?page=1&size=2&ordering=-id HTTP/1.1" 200 1131
+WARNING 2020-12-15 12:29:07,765 log 222 Unauthorized: /cart/option/
+WARNING 2020-12-15 12:29:07,765 basehttp 154 "GET /cart/option/ HTTP/1.1" 401 35
